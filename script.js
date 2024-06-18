@@ -13,9 +13,11 @@ for (let i = 1; i <= count; i++) {
 }
 */
 
+/*
 while (rows.length < count) {
     rows.push(padRow(rows.length + 1, count))
 }
+*/
 
 let result = "";
 
