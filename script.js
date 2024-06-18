@@ -7,9 +7,11 @@ function padRow(rowNumber, rowCount) {
 }
 
 // building the pyramid
+/*
 for (let i = 1; i <= count; i++) {
     rows.push(padRow(i, count));
 }
+*/
 
 let result = "";
 
