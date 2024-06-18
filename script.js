@@ -5,6 +5,14 @@ const rows = [];
 function padRow(name) {
     return name;
 }
+
+function addTwoNumbers(param1, param2) {
+    return param1 + param2;
+}
+
+const sum = addTwoNumbers(5, 10);
+console.log(sum);
+
 const call = padRow("Legrand");
 console.log(call);
 
