@@ -9,19 +9,24 @@ function getAverage(scores) {
 function getGrade(score) {
     if (score === 100) {
         return "A++";
-    } else if (score <= 99 && score >= 90) {
+    } else if (score >= 90) {
         return "A";
-    } else if (score <= 89 && score >= 80) {
+    } else if (score >= 80) {
         return "B"
-    } else if (score <= 79 && score >= 70) {
+    } else if (score >= 70) {
         return "C"
-    } else if (score <= 69 && score >= 60) {
+    } else if (score >= 60) {
         return "D"
-    } else if (score <= 59 && score >= 0) {
+    } else {
         return "F"
     }
 }
 
-console.log(getGrade(96));
-console.log(getGrade(82));
-console.log(getGrade(56));
+function hasPassingGrade(score) {
+    return getGrade(score) !== "F";
+}
+
+
+console.log(hasPassingGrade(100));
+console.log(hasPassingGrade(53));
+console.log(hasPassingGrade(87));
