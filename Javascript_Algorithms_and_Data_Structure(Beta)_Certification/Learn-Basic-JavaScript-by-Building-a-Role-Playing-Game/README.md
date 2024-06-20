@@ -79,3 +79,10 @@ Now we need some quick styling. Start by giving the body a background-color set 
 
 ## Step 22
 Give the #text element a background-color of #0a0a23, a color of #ffffff, and 10px of padding on all sides.
+
+## Step 23
+Give your #game a maximum width of 500px and a maximum height of 400px. Set the background-color to #ffffff and the color to #ffffff.
+
+Use margins to center it by setting the top margin to 30px, bottom margin to 0px, and the left and right margin to auto.
+
+Finally, give it 10px of padding on all four sides.
