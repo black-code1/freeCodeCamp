@@ -17,5 +17,8 @@ Remove your console.log("Hello World"); line. Then give your now empty script el
 ## Step 5
 Add your console.log("Hello World"); line to this file, and see it appear in your console.
 
-## step 6
+## Step 6
 Use the let keyword to declare a variable called xp and assign it the value of 0, a number.
+
+## Step 7
+Initialize another variable called health with a value of 100, and a variable called gold with a value of 50.
