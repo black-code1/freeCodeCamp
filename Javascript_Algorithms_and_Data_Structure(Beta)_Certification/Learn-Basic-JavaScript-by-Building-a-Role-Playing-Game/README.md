@@ -52,3 +52,9 @@ JavaScript interacts with the HTML using the Document Object Model, or DOM. The 
 One method for finding specific elements in your HTML is using the querySelector() method. The querySelector() method takes a CSS selector as an argument and returns the first element that matches that selector
 
 Create a button1 variable and use querySelector() to assign it your element with the id of button1. Remember that CSS id selectors are prefixed with a #.
+
+## Step 16
+We have run into a slight problem. You are trying to query your page for a button element, but your script tag is in the head of your HTML. This means your code runs before the browser has finished reading the HTML, and your document.querySelector() will not see the button - because the browser hasn't processed it yet.
+
+To fix this, move your script element out of the head element, and place it at the end of your body element (just before the closing </body> tag.)
+
