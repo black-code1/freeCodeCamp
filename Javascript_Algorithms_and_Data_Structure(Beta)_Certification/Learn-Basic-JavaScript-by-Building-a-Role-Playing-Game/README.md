@@ -68,3 +68,8 @@ Use querySelector() to get the other two button elements using their ids: button
 
 ## Step 19
 Similar to your #stats element, your #monsterStats element needs two span elements. Give them the class stat and give the first element the text Monster Name: and the second the text Health: . After the text in each, add a strong element with an empty nested span element. Give the first inner span element an id of monsterName and the second inner span element an id of monsterHealth.
+
+## Step 20
+Give your #text element the following text:
+
+```Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.```
