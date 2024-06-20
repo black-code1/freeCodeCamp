@@ -25,3 +25,6 @@ Initialize another variable called health with a value of 100, and a variable ca
 
 ## Step 8
 Create another variable called currentWeaponIndex and set it to 0.
+
+## Step 9
+Declare a variable called fighting but do not initialize it with a value.
