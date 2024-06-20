@@ -26,7 +26,12 @@ function hasPassingGrade(score) {
     return getGrade(score) !== "F";
 }
 
+function studentMsg(totalScores, studentScore) {
+    if (hasPassingGrade(studentScore)) {
+        return "Class average: " + getAverage(totalScores) + "."+" "+ "Your grade: " + getGrade(studentScore) + ". " + "You passed the course.";
+    } else {
+        return "Class average: " + getAverage(totalScores) + "."+" "+ "Your grade: " + getGrade(studentScore) + ". " + "You failed the course.";
+    }
 
-console.log(hasPassingGrade(100));
-console.log(hasPassingGrade(53));
-console.log(hasPassingGrade(87));
+}
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
