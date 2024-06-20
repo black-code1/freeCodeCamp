@@ -33,3 +33,6 @@ Declare a variable called fighting but do not initialize it with a value.
 Declare two more variables named monsterHealth and inventory.
 
 For your inventory variable, assign it the value of an array containing the string "stick".
+
+## Step 11
+Create four div elements within your #game element. Give them the following respective id values, in order: stats, controls, monsterStats, and text.
