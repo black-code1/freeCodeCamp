@@ -28,3 +28,8 @@ Create another variable called currentWeaponIndex and set it to 0.
 
 ## Step 9
 Declare a variable called fighting but do not initialize it with a value.
+
+## Step 10
+Declare two more variables named monsterHealth and inventory.
+
+For your inventory variable, assign it the value of an array containing the string "stick".
