@@ -13,3 +13,6 @@ Add a console.log("Hello World"); line between your script tags. Then click the 
 
 ## Step 4
 Remove your console.log("Hello World"); line. Then give your now empty script element a src attribute set to ./script.js.
+
+## Step 5
+Add your console.log("Hello World"); line to this file, and see it appear in your console.
