@@ -9,3 +9,4 @@ Finally, create a div element with id set to game within your body.
 Now you can start writing your JavaScript. Begin by creating a script element. This element is used to load JavaScript into your HTML file.
 
 ## step 3
+Add a console.log("Hello World"); line between your script tags. Then click the "Console" button to open the console. You should see the text "Hello World".
