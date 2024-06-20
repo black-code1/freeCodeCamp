@@ -36,3 +36,6 @@ For your inventory variable, assign it the value of an array containing the stri
 
 ## Step 11
 Create four div elements within your #game element. Give them the following respective id values, in order: stats, controls, monsterStats, and text.
+
+## Step 12
+Create three span elements within your #stats element. Give each of them the class stat. Then give the first one the text XP: 0, the second one the text Health: 100, and the third one the text Gold: 50.
