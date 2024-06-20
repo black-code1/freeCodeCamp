@@ -10,3 +10,6 @@ Now you can start writing your JavaScript. Begin by creating a script element. T
 
 ## step 3
 Add a console.log("Hello World"); line between your script tags. Then click the "Console" button to open the console. You should see the text "Hello World".
+
+## Step 4
+Remove your console.log("Hello World"); line. Then give your now empty script element a src attribute set to ./script.js.
