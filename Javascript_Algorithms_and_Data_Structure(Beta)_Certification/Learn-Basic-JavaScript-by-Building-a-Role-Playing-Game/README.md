@@ -76,3 +76,6 @@ Give your #text element the following text:
 
 ## Step 21
 Now we need some quick styling. Start by giving the body a background-color set to #0a0a23.
+
+## Step 22
+Give the #text element a background-color of #0a0a23, a color of #ffffff, and 10px of padding on all sides.
