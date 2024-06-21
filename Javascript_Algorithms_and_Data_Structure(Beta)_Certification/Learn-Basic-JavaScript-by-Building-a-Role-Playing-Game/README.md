@@ -147,3 +147,6 @@ Now, add a line that updates the text of button2 to say "Buy weapon (30 gold)" a
 
 # Step 40
 In your goStore() function, update the onclick property for each button to run buyHealth, buyWeapon, and goTown, respectively.
+
+# Step 41
+Now you need to modify your display text. Change the innerText property of the text to be "You enter the store.".
