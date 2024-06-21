@@ -124,3 +124,6 @@ For now, make your goStore function output the message "Going to store." to the 
 
 # Step 33
 Now create a goCave function that prints "Going to cave." to the console.
+
+# Step 34
+Now create a fightDragon function that prints "Fighting dragon." to the console.
