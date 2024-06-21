@@ -86,3 +86,6 @@ Give your #game a maximum width of 500px and a maximum height of 400px. Set the 
 Use margins to center it by setting the top margin to 30px, bottom margin to 0px, and the left and right margin to auto.
 
 Finally, give it 10px of padding on all four sides.
+
+## Step 24
+Using a selector list (selector1, selector2) give both your #controls and #stats elements a border of 1px solid #0a0a23, a #0a0a23 text color, and 5px of padding.
