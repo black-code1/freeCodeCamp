@@ -92,3 +92,6 @@ Using a selector list (selector1, selector2) give both your #controls and #stats
 
 ## Step 25
 Give your #monsterStats element the same border and padding as your #stats element. Set its color to #ffffff and give it a #c70d0d background.
+
+## Step 26
+For now, hide your #monsterStats element with the display property. Do not change any of the other styling.
