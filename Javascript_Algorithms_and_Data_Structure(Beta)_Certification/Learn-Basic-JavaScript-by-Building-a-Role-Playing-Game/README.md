@@ -130,3 +130,6 @@ Now create a fightDragon function that prints "Fighting dragon." to the console.
 
 # Step 35
 In the previous project, you learned how to work with single line and multi-line comments like this:
+
+# Step 36
+Use dot notation to set the onclick property of your button1 to the function reference of goStore. Note that button1 is already declared, so you don't need to use let or const.
