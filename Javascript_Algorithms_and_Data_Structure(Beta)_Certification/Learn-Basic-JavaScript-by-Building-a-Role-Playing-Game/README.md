@@ -103,3 +103,10 @@ Next, give your .stat elements a padding-right of 10px.
 Finally, you will need to add some styles for your buttons. Start by setting the cursor property to pointer. Then set the text color to #0a0a23 and the background-color to #feac32.
 
 Then set the background-image property to linear-gradient(#fecc4c, #ffac33). Lastly, set the border to 3px solid #feac32.
+
+## Step 29
+Just like you did with the buttons, create variables for the following ids and use querySelector() to give them the element as a value:
+
+text, xpText, healthText, goldText, monsterStats, and monsterName.
+
+Remember to declare these with the const keyword, and name the variables to match the ids.
