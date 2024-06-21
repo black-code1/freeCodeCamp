@@ -150,3 +150,6 @@ In your goStore() function, update the onclick property for each button to run b
 
 # Step 41
 Now you need to modify your display text. Change the innerText property of the text to be "You enter the store.".
+
+# Step 42
+Create three new empty functions called buyHealth, buyWeapon, and goTown.
