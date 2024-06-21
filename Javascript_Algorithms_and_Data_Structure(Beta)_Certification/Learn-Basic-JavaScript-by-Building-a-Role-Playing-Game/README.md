@@ -115,3 +115,7 @@ Remember to declare these with the const keyword, and name the variables to matc
 Finally, use querySelector() to get the #monsterHealth element. Because you have already declared a monsterHealth variable earlier, you need to use a different variable name for this element.
 
 Declare a new variable with the const keyword and name it monsterHealthText.
+
+## Step 31
+Create an empty function named goStore.
+
