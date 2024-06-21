@@ -127,3 +127,6 @@ Now create a goCave function that prints "Going to cave." to the console.
 
 # Step 34
 Now create a fightDragon function that prints "Fighting dragon." to the console.
+
+# Step 35
+In the previous project, you learned how to work with single line and multi-line comments like this:
