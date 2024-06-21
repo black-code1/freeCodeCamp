@@ -133,3 +133,8 @@ In the previous project, you learned how to work with single line and multi-line
 
 # Step 36
 Use dot notation to set the onclick property of your button1 to the function reference of goStore. Note that button1 is already declared, so you don't need to use let or const.
+
+# Step 37
+Using the same syntax, set the onclick properties of button2 and button3 to goCave and fightDragon respectively.
+
+Once you have done that, open your console and try clicking the buttons on your project.
