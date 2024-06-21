@@ -121,3 +121,6 @@ Create an empty function named goStore.
 
 # Step 32
 For now, make your goStore function output the message "Going to store." to the console.
+
+# Step 33
+Now create a goCave function that prints "Going to cave." to the console.
