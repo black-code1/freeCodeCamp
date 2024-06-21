@@ -161,3 +161,6 @@ Move your goTown function above your goStore function. Then copy and paste the c
 In your goTown function, change your button elements' innerText properties to be "Go to store", "Go to cave", and "Fight dragon". Update your onclick properties to be goStore, goCave, and fightDragon, respectively.
 
 Finally, update innerText property of your text to be "You are in the town square. You see a sign that says Store.".
+
+# Step 45
+Wrap the text Store in double quotes within your text.innerText line.
