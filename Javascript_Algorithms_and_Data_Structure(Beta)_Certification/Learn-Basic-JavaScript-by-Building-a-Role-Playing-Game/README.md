@@ -138,3 +138,6 @@ Use dot notation to set the onclick property of your button1 to the function ref
 Using the same syntax, set the onclick properties of button2 and button3 to goCave and fightDragon respectively.
 
 Once you have done that, open your console and try clicking the buttons on your project.
+
+# Step 38
+When a player clicks your Go to store button, you want to change the buttons and text. Remove the code inside the goStore function and add a line that updates the text of button1 to say "Buy 10 health (10 gold)".
