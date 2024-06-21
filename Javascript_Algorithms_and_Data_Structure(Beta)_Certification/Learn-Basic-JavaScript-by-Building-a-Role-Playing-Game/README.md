@@ -110,3 +110,8 @@ Just like you did with the buttons, create variables for the following ids and u
 text, xpText, healthText, goldText, monsterStats, and monsterName.
 
 Remember to declare these with the const keyword, and name the variables to match the ids.
+
+## Step 30
+Finally, use querySelector() to get the #monsterHealth element. Because you have already declared a monsterHealth variable earlier, you need to use a different variable name for this element.
+
+Declare a new variable with the const keyword and name it monsterHealthText.
