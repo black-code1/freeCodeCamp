@@ -119,3 +119,5 @@ Declare a new variable with the const keyword and name it monsterHealthText.
 ## Step 31
 Create an empty function named goStore.
 
+# Step 32
+For now, make your goStore function output the message "Going to store." to the console.
