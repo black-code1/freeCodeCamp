@@ -144,3 +144,6 @@ When a player clicks your Go to store button, you want to change the buttons and
 
 # Step 39
 Now, add a line that updates the text of button2 to say "Buy weapon (30 gold)" and update the text of button3 to say "Go to town square".
+
+# Step 40
+In your goStore() function, update the onclick property for each button to run buyHealth, buyWeapon, and goTown, respectively.
