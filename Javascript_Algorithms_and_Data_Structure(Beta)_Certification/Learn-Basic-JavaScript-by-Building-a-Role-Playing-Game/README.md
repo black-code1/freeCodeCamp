@@ -234,3 +234,8 @@ You pass arguments by including them within the parentheses of the function call
 The locations array contains two locations: the "town square" and the "store". Currently you are passing that entire array into the update function.
 
 Pass in only the first element of the locations array by adding [0] at the end of the variable. 
+
+# Step 64
+Now your update function needs to use the argument you pass into it.
+
+Inside the update function, change the value of the button1.innerText assignment to be location["button text"]. That way, you use bracket notation to get the "button text" property of the location object passed into the function.
