@@ -185,3 +185,6 @@ Inside your cat object, add a new property. The key should be name and the value
 
 # Step 50
 Add a new property with a key of "Number of legs" and value of 4 to the cat object.
+
+# Step 51
+Update your console statement to access the name property of the cat object using dot notation.
