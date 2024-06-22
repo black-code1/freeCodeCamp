@@ -229,3 +229,8 @@ Inside the goTown function, call the update function.
 Now it is time to use your update function. Pass in your locations array into the update function call.
 
 You pass arguments by including them within the parentheses of the function call. 
+
+# Step 63
+The locations array contains two locations: the "town square" and the "store". Currently you are passing that entire array into the update function.
+
+Pass in only the first element of the locations array by adding [0] at the end of the variable. 
