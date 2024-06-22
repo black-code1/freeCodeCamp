@@ -204,3 +204,6 @@ Inside your locations array, add an object. Inside that object add a key called 
 
 # Step 55
 Just like array values, object properties are separated by a comma. Add a comma after your name property and add a button text property with the value of an empty array.
+
+# Step 56
+Give your empty button text array three string elements. Use the three strings being assigned to the button innerText properties in the goTown function. Remember that array values are separated by commas.
