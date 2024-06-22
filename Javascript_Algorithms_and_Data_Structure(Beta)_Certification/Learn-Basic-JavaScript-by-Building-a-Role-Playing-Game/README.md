@@ -167,3 +167,8 @@ Wrap the text Store in double quotes within your text.innerText line.
 
 # Step 46
 Create an empty update function that takes a parameter called location.
+
+# Step 47
+In your role playing game, you will be able to visit different locations like the store, the cave, and the town square. You will need to create a data structure that will hold the different locations.
+
+Use const to create a variable called locations and assign it an empty array.
