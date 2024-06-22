@@ -248,3 +248,6 @@ Now update button2.innerText and button3.innerText to be assigned the second and
 
 # Step 67
 Following the same pattern as you did for the button text, update the three buttons' onclick assignments to be the first, second, and third values of the "button functions" array.
+
+# Step 68
+Finally, update the text.innerText assignment to equal the text from the location object. However, instead of using bracket notation, use dot notation.
