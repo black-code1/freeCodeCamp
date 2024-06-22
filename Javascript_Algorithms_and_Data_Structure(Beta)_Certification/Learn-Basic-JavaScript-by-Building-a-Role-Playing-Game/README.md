@@ -172,3 +172,10 @@ Create an empty update function that takes a parameter called location.
 In your role playing game, you will be able to visit different locations like the store, the cave, and the town square. You will need to create a data structure that will hold the different locations.
 
 Use const to create a variable called locations and assign it an empty array.
+
+# Step 48
+Objects are non primitive data types that store key-value pairs. Non primitive data types are mutable data types that are not undefined, null, boolean, number, string, or symbol. Mutable means that the data can be changed after it is created.
+
+For now, create a const variable called cat and assign it an empty object {}.
+
+Below that cat variable, add a console.log(cat) statement to see the object in the console.
