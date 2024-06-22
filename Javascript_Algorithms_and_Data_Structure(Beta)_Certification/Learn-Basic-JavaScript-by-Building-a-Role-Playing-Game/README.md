@@ -242,3 +242,6 @@ Inside the update function, change the value of the button1.innerText assignment
 
 # Step 65
 location["button text"] is an array with three elements. Change the button1.innerText assignment to be location["button text"][0] which represents the first element of the array.
+
+# Step 66
+Now update button2.innerText and button3.innerText to be assigned the second and third values of the "button text" array, respectively.
