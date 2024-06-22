@@ -269,3 +269,7 @@ Set name to cave. Set button text to an array with the strings "Fight slime", "F
 Now that you have a "cave" location object, update your goCave function to call update and pass that new "cave" location. Remember that this is the third element in your locations array.
 
 Don't forget to remove your console.log call!
+
+# Step 73
+Now that your "store" and "cave" locations are complete, you can code the actions the player takes at those locations. Inside the buyHealth function, set gold equal to gold minus 10.
+
