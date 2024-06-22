@@ -188,3 +188,6 @@ Add a new property with a key of "Number of legs" and value of 4 to the cat obje
 
 # Step 51
 Update your console statement to access the name property of the cat object using dot notation.
+
+# Step 52
+Update your console statement to use bracket notation to access the property "Number of legs" of the cat object.
