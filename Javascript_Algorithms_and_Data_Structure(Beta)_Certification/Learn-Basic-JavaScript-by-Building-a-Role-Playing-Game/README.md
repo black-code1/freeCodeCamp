@@ -251,3 +251,8 @@ Following the same pattern as you did for the button text, update the three butt
 
 # Step 68
 Finally, update the text.innerText assignment to equal the text from the location object. However, instead of using bracket notation, use dot notation.
+
+# Step 69
+Now update your goStore function to call the update function. Pass the second element of the locations array as your argument.
+
+To make sure your refactoring is correct, try clicking your first button again. You should see the same changes to your webpage that you saw earlier.
