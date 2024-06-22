@@ -182,3 +182,6 @@ Below that cat variable, add a console.log(cat) statement to see the object in t
 
 # Step 49
 Inside your cat object, add a new property. The key should be name and the value should be the string "Whiskers".
+
+# Step 50
+Add a new property with a key of "Number of legs" and value of 4 to the cat object.
