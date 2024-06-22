@@ -219,3 +219,8 @@ Add a second object to your locations array (remember to separate them with a co
 
 # Step 60
 Now you can consolidate some of your code. Start by copying the code from inside the goTown function and paste it into your update function. Then, remove all the code from inside the goTown and goStore functions.
+
+# Step 61
+Instead of assigning the innerText and onclick properties to specific strings and functions, the update function will use data from the location that is passed into it. First, that data needs to be passed.
+
+Inside the goTown function, call the update function. 
