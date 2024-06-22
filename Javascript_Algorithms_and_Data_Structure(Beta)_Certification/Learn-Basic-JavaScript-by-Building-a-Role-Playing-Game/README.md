@@ -191,3 +191,8 @@ Update your console statement to access the name property of the cat object usin
 
 # Step 52
 Update your console statement to use bracket notation to access the property "Number of legs" of the cat object.
+
+# Step 53
+Later on in the curriculum, you will dive deeper into objects. But for now, it is time to apply what you have learned to your role playing game.
+
+Start by deleting your cat object and console statement.
