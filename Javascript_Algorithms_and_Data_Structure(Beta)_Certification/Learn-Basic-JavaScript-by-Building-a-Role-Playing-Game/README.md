@@ -196,3 +196,8 @@ Update your console statement to use bracket notation to access the property "Nu
 Later on in the curriculum, you will dive deeper into objects. But for now, it is time to apply what you have learned to your role playing game.
 
 Start by deleting your cat object and console statement.
+
+# Step 54
+Your locations array will hold different locations like the store, the cave, and the town square. Each location will be represented as an object.
+
+Inside your locations array, add an object. Inside that object add a key called name with a value of "town square".
