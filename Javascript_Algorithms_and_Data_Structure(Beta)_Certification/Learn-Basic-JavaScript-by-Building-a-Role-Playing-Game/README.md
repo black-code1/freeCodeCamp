@@ -273,3 +273,5 @@ Don't forget to remove your console.log call!
 # Step 73
 Now that your "store" and "cave" locations are complete, you can code the actions the player takes at those locations. Inside the buyHealth function, set gold equal to gold minus 10.
 
+# Step 74
+After the gold is updated, add a line to set health equal to health plus 10.
