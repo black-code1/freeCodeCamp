@@ -179,3 +179,6 @@ Objects are non primitive data types that store key-value pairs. Non primitive d
 For now, create a const variable called cat and assign it an empty object {}.
 
 Below that cat variable, add a console.log(cat) statement to see the object in the console.
+
+# Step 49
+Inside your cat object, add a new property. The key should be name and the value should be the string "Whiskers".
