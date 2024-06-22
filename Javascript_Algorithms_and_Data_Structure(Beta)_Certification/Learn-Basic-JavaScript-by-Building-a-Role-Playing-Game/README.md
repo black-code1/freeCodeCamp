@@ -245,3 +245,6 @@ location["button text"] is an array with three elements. Change the button1.inne
 
 # Step 66
 Now update button2.innerText and button3.innerText to be assigned the second and third values of the "button text" array, respectively.
+
+# Step 67
+Following the same pattern as you did for the button text, update the three buttons' onclick assignments to be the first, second, and third values of the "button functions" array.
