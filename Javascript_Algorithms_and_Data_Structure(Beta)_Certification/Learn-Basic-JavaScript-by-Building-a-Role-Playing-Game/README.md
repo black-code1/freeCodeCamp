@@ -280,3 +280,12 @@ After the gold is updated, add a line to set health equal to health plus 10.
 There is a shorthand way to add or subtract from a variable called compound assignment. For example, changing num = num + 5 to compound assignment would look like num += 5.
 
 Update both lines inside your buyHealth function to use compound assignment.
+
+# Step 76
+Now that you are updating the gold and health variables, you need to display those new values on the game screen. You have retrieved the healthText and goldText elements in a prior step.
+
+After your assignment lines, assign the innerText property of goldText to be the variable gold. Use the same pattern to update healthText with the health variable.
+
+You can test this by clicking your "Go to store" button, followed by your "Buy Health" button.
+
+Note: Your answer should only be two lines of code.
