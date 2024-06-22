@@ -201,3 +201,6 @@ Start by deleting your cat object and console statement.
 Your locations array will hold different locations like the store, the cave, and the town square. Each location will be represented as an object.
 
 Inside your locations array, add an object. Inside that object add a key called name with a value of "town square".
+
+# Step 55
+Just like array values, object properties are separated by a comma. Add a comma after your name property and add a button text property with the value of an empty array.
