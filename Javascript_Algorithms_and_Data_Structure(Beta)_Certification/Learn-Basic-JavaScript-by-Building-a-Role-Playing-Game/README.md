@@ -164,3 +164,6 @@ Finally, update innerText property of your text to be "You are in the town squar
 
 # Step 45
 Wrap the text Store in double quotes within your text.innerText line.
+
+# Step 46
+Create an empty update function that takes a parameter called location.
