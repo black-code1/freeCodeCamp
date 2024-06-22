@@ -239,3 +239,6 @@ Pass in only the first element of the locations array by adding [0] at the end o
 Now your update function needs to use the argument you pass into it.
 
 Inside the update function, change the value of the button1.innerText assignment to be location["button text"]. That way, you use bracket notation to get the "button text" property of the location object passed into the function.
+
+# Step 65
+location["button text"] is an array with three elements. Change the button1.innerText assignment to be location["button text"][0] which represents the first element of the array.
