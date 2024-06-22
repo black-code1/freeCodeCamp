@@ -216,3 +216,6 @@ Add one final property to the object named text. Give this property the same str
 
 # Step 59
 Add a second object to your locations array (remember to separate them with a comma). Following the pattern you used in the first object, create the same properties but use the values from the goStore function. Set the name property to store.
+
+# Step 60
+Now you can consolidate some of your code. Start by copying the code from inside the goTown function and paste it into your update function. Then, remove all the code from inside the goTown and goStore functions.
