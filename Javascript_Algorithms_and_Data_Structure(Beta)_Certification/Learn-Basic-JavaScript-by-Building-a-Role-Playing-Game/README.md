@@ -318,3 +318,6 @@ In the buyWeapon function, use compound assignment to add 1 to currentWeaponInde
 
 # Step 85
 Change your currentWeaponIndex assignment to use the increment operator.
+
+# Step 86
+Now update the goldText element to display the new value of gold, and update the text element to display "You now have a new weapon.".
