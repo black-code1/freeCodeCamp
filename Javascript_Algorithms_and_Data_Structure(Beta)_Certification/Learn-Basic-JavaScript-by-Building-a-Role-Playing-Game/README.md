@@ -349,3 +349,6 @@ At the end of the second text.innerText string you just added, use the concatena
 
 # Step 94
 Add an else statement to your buyWeapon function. In that statement, set text.innerText to equal "You do not have enough gold to buy a weapon.".
+
+# Step 95
+Once a player has the best weapon, they cannot buy another one. Wrap all of the code in your buyWeapon function inside another if statement. The condition should check if currentWeaponIndex is less than 3 - the index of the last weapon.
