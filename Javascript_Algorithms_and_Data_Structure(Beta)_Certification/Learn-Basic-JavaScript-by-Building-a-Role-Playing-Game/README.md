@@ -357,3 +357,12 @@ Once a player has the best weapon, they cannot buy another one. Wrap all of the 
 Arrays have a length property that returns the number of items in the array. You may want to add new values to the weapons array in the future.
 
 Change your if condition to check if currentWeaponIndex is less than the length of the weapons array. An example of checking the length of an array myArray would look like myArray.length.
+
+# Step 97
+Now it is time to test your buyWeapon function. Right now, the gold amount is set to 50. But to properly see the results of your buyWeapon function, the amount should be set to something higher.
+
+Update the gold amount to 250.
+
+NOTE: The HTML has already been updated to reflect this change.
+
+To test your buyWeapon function, open up the console. Then click on the "Go to store" button followed by the "Buy weapon (30 gold)" button four times.
