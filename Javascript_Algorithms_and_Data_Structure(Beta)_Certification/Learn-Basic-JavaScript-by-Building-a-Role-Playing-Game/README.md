@@ -307,3 +307,6 @@ Just like your locations array, your weapons array will hold objects. Add four o
 
 # Step 82
 Inside your buyWeapon function, add an if statement to check if gold is greater than or equal to 30.
+
+# Step 83
+Similar to your buyHealth function, set gold equal to 30 less than its current value. Make sure this is inside your if statement.
