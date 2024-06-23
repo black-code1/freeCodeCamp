@@ -289,3 +289,6 @@ After your assignment lines, assign the innerText property of goldText to be the
 You can test this by clicking your "Go to store" button, followed by your "Buy Health" button.
 
 Note: Your answer should only be two lines of code.
+
+# Step 77
+Start by placing all of the code in your buyHealth function inside an if statement. For the if statement condition, check if gold is greater than or equal to 10.
