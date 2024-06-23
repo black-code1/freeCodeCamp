@@ -329,3 +329,6 @@ You should tell the player what weapon they bought. In between the two lines you
 Use bracket notation to access an object within the weapons array and assign it to your newWeapon variable. Place the variable currentWeaponIndex within the brackets.
 
 When you use a variable in bracket notation, you are accessing the property or index by the value of that variable.
+
+# Step 89
+weapons[currentWeaponIndex] is an object. Use dot notation to get the name property of that object.
