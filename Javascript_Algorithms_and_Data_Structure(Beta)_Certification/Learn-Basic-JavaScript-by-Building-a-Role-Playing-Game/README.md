@@ -346,3 +346,6 @@ Add the string " In your inventory you have: " - include the spaces at the begin
 
 # Step 93
 At the end of the second text.innerText string you just added, use the concatenation operator to add the contents of inventory to the string.
+
+# Step 94
+Add an else statement to your buyWeapon function. In that statement, set text.innerText to equal "You do not have enough gold to buy a weapon.".
