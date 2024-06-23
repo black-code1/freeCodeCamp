@@ -298,3 +298,6 @@ Now when a player tries to buy health, it will only work if they have enough mon
 
 # Step 79
 Inside the else statement, set text.innerText to equal "You do not have enough gold to buy health.".
+
+# Step 80
+Use const to create a weapons variable above your locations array. Assign it an empty array.
