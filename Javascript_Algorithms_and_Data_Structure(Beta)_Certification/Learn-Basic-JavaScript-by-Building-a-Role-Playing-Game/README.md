@@ -352,3 +352,8 @@ Add an else statement to your buyWeapon function. In that statement, set text.in
 
 # Step 95
 Once a player has the best weapon, they cannot buy another one. Wrap all of the code in your buyWeapon function inside another if statement. The condition should check if currentWeaponIndex is less than 3 - the index of the last weapon.
+
+# Step 96
+Arrays have a length property that returns the number of items in the array. You may want to add new values to the weapons array in the future.
+
+Change your if condition to check if currentWeaponIndex is less than the length of the weapons array. An example of checking the length of an array myArray would look like myArray.length.
