@@ -387,3 +387,8 @@ Test your buyWeapon function again to make sure the message is displayed when th
 Now that you are finished testing that portion of the buyWeapon function, you can set your gold variable back to 50.
 
 Note: The HTML has already been updated to reflect the original value of gold.
+
+# Step 101
+Once a player has the most powerful weapon, you can give them the ability to sell their old weapons.
+
+In the outer else statement, set button2.innerText to "Sell weapon for 15 gold". Also set button2.onclick to the function name sellWeapon.
