@@ -382,3 +382,8 @@ If the player has purchased all of the weapons in the inventory, the player shou
 Add an else statement for your outer if statement. Inside this new else statement, set text.innerText to "You already have the most powerful weapon!".
 
 Test your buyWeapon function again to make sure the message is displayed when the player has the most powerful weapon.
+
+# Step 100
+Now that you are finished testing that portion of the buyWeapon function, you can set your gold variable back to 50.
+
+Note: The HTML has already been updated to reflect the original value of gold.
