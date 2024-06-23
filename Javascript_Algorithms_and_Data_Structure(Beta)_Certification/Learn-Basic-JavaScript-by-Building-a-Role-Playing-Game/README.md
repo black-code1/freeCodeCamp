@@ -395,3 +395,6 @@ In the outer else statement, set button2.innerText to "Sell weapon for 15 gold".
 
 # Step 102
 Create an empty sellWeapon function.
+
+# Step 103
+Players should not be able to sell their only weapon. Inside the sellWeapon function, add an if statement with a condition that checks if the length of the inventory array is greater than 1.
