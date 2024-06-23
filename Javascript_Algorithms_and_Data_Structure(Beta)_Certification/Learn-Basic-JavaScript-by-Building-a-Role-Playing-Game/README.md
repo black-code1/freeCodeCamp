@@ -335,3 +335,6 @@ weapons[currentWeaponIndex] is an object. Use dot notation to get the name prope
 
 # Step 90
 Update the string "You now have a new weapon." to "You now have a " followed by the name of the new weapon, and remember to end the sentence with a period.
+
+# Step 91
+Back at the beginning of this project, you created the inventory array. Add the newWeapon to the end of the inventory array using the push() method.
