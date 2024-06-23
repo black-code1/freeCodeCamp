@@ -338,3 +338,8 @@ Update the string "You now have a new weapon." to "You now have a " followed by 
 
 # Step 91
 Back at the beginning of this project, you created the inventory array. Add the newWeapon to the end of the inventory array using the push() method.
+
+# Step 92
+Up until now, any time text.innerText was updated, the old text was erased. This time, use the += operator to add text to the end of text.innerText.
+
+Add the string " In your inventory you have: " - include the spaces at the beginning and the end.
