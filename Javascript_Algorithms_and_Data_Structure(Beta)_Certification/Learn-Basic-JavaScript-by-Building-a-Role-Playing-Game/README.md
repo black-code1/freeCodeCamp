@@ -295,3 +295,6 @@ Start by placing all of the code in your buyHealth function inside an if stateme
 
 # Step 78
 Now when a player tries to buy health, it will only work if they have enough money. If they do not, nothing will happen. Add an else statement where you can put code to run if a player does not have enough money.
+
+# Step 79
+Inside the else statement, set text.innerText to equal "You do not have enough gold to buy health.".
