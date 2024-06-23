@@ -304,3 +304,6 @@ Use const to create a weapons variable above your locations array. Assign it an 
 
 # Step 81
 Just like your locations array, your weapons array will hold objects. Add four objects to the weapons array, each with two properties: name and power. The first should have the name set to "stick" and the power set to 5. The second should be "dagger" and 30. The third, "claw hammer" and 50. The fourth, "sword" and 100.
+
+# Step 82
+Inside your buyWeapon function, add an if statement to check if gold is greater than or equal to 30.
