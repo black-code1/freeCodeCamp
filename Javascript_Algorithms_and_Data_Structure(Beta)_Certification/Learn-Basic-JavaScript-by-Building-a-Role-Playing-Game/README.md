@@ -375,3 +375,10 @@ The currentWeaponIndex variable is the index of the weapons array, but array ind
 Change the if condition to check weapons.length - 1, instead of weapons.length.
 
 Test out your buyWeapon function again to see the error message disappear.
+
+# Step 99
+If the player has purchased all of the weapons in the inventory, the player should not be able to purchase any more and a message should be displayed.
+
+Add an else statement for your outer if statement. Inside this new else statement, set text.innerText to "You already have the most powerful weapon!".
+
+Test your buyWeapon function again to make sure the message is displayed when the player has the most powerful weapon.
