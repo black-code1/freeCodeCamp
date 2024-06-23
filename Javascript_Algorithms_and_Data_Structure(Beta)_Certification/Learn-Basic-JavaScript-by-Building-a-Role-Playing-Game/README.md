@@ -332,3 +332,6 @@ When you use a variable in bracket notation, you are accessing the property or i
 
 # Step 89
 weapons[currentWeaponIndex] is an object. Use dot notation to get the name property of that object.
+
+# Step 90
+Update the string "You now have a new weapon." to "You now have a " followed by the name of the new weapon, and remember to end the sentence with a period.
