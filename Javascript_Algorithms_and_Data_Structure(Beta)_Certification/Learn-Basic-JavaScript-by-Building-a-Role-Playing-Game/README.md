@@ -432,3 +432,6 @@ On the next line, call the goFight function.
 
 # Step 113
 Following the same pattern as the fightSlime function, use that code in the fightBeast and fightDragon functions. Remember that beast is at index 1 and dragon is at index 2. Also, remove the console.log call from your fightDragon function.
+
+# Step 114
+At the end of your code, create two empty functions named attack and dodge.
