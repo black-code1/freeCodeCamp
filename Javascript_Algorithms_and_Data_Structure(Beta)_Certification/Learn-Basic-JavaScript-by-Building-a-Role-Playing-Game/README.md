@@ -413,3 +413,6 @@ After your currentWeapon, use the concatenation operator to set text.innerText t
 
 # Step 108 
 Now use the += operator to add the string " In your inventory you have: " and the contents of inventory to the text.innerText. Make sure to include the space at the beginning and end of the " In your inventory you have: " string.
+
+# Step 109
+Use an else statement to run when the inventory length is not more than one. Set the text.innerText to say "Don't sell your only weapon!".
