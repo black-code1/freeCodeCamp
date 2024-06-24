@@ -438,3 +438,6 @@ At the end of your code, create two empty functions named attack and dodge.
 
 # Step 115
 Add a new object to the end of the locations array, following the same properties as the rest of the objects. Set name to "fight", "button text" to an array with "Attack", "Dodge", and "Run", "button functions" to an array with attack, dodge, and goTown, and text to "You are fighting a monster.".
+
+# Step 116
+In the goFight function, call your update function with the fourth object in locations as an argument.
