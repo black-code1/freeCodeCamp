@@ -408,5 +408,8 @@ Use the let keyword to create a variable named currentWeapon. Don't assign it a 
 # Step 106
 In the previous project, you learned how to work with the shift() method to remove the first element from an array like this:
 
- # Step 107
+# Step 107
 After your currentWeapon, use the concatenation operator to set text.innerText to the string "You sold a ", then currentWeapon, then the string ".".
+
+# Step 108 
+Now use the += operator to add the string " In your inventory you have: " and the contents of inventory to the text.innerText. Make sure to include the space at the beginning and end of the " In your inventory you have: " string.
