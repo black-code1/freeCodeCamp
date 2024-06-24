@@ -401,3 +401,6 @@ Players should not be able to sell their only weapon. Inside the sellWeapon func
 
 # Step 104
 Inside the if statement, set gold equal to 15 more than its current value. Also update goldText.innerText to the new value.
+
+# Step 105
+Use the let keyword to create a variable named currentWeapon. Don't assign it a value yet.
