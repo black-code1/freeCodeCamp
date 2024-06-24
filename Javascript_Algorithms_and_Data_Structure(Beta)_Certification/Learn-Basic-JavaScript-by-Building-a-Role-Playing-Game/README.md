@@ -444,3 +444,10 @@ In the goFight function, call your update function with the fourth object in loc
 
 # Step 117
 Below your update call, set the monsterHealth to be the health of the current monster. You can get this value by accessing the health property of monsters[fighting] with dot notation.
+
+# Step 118
+By default, the HTML element that shows the monster's stats has been hidden with CSS. When the player clicks the "Fight dragon" button, the monster's stats should be displayed. You can accomplish this by using the style and display properties on the monsterStats element.
+
+The style property is used to access the inline style of an element and the display property is used to set the visibility of an element.
+
+Display the monsterStats element by updating the display property of the style property to block.
