@@ -404,3 +404,6 @@ Inside the if statement, set gold equal to 15 more than its current value. Also 
 
 # Step 105
 Use the let keyword to create a variable named currentWeapon. Don't assign it a value yet.
+
+# Step 106
+In the previous project, you learned how to work with the shift() method to remove the first element from an array like this:
