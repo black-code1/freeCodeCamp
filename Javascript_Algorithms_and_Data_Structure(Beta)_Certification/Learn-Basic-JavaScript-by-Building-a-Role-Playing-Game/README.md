@@ -416,3 +416,8 @@ Now use the += operator to add the string " In your inventory you have: " and th
 
 # Step 109
 Use an else statement to run when the inventory length is not more than one. Set the text.innerText to say "Don't sell your only weapon!".
+
+# Step 110
+Now you can start the code to fight monsters. To keep your code organized, your fightDragon function has been moved for you to be near the other fight functions.
+
+Below your weapons array, define a monsters variable and assign it an array. Set that array to have three objects, each with a name, level, and health properties. The first object's values should be "slime", 2, and 15, in order. The second should be "fanged beast", 8, and 60. The third should be "dragon", 20, and 300.
