@@ -451,3 +451,8 @@ By default, the HTML element that shows the monster's stats has been hidden with
 The style property is used to access the inline style of an element and the display property is used to set the visibility of an element.
 
 Display the monsterStats element by updating the display property of the style property to block.
+
+# Step 119
+Now, you will need to update the text for the current monster's name and health.
+
+Start by assigning monsters[fighting].name to the innerText property of monsterName. Then, assign monsterHealth to the innerText property of monsterHealthText.
