@@ -143,7 +143,10 @@ function sellWeapon(){
         text.innerText = "Don't sell your only weapon!";
     }
 }
-function fightSlime(){}
+function fightSlime(){
+    fighting = 0 ;
+    goFight();
+}
 
 function fightBeast(){}
 
