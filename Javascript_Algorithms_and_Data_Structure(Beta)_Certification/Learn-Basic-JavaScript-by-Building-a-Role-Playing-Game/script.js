@@ -270,7 +270,9 @@ function easterEgg() {
 
 function pick(guess) {
     const numbers = [];
-    while (numbers.length < 10) {}
+    while (numbers.length < 10) {
+        numbers.push(Math.floor(Math.random() * 11));
+    }
 }
 
 function pickTwo() {
