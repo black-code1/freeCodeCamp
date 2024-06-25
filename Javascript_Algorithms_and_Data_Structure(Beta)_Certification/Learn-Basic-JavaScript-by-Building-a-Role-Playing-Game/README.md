@@ -465,3 +465,8 @@ On a new line, use the addition assignment operator(+=), to add the string " You
 
 # Step 122
 Next, set health to equal health minus the monster's level. Remember you can get this from the monsters[fighting].level property.
+
+# Step 123
+Set monsterHealth to monsterHealth minus the power of the player's current weapon.
+
+Remember that you can access the power of the player's current weapon using weapons[currentWeaponIndex].power.
