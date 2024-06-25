@@ -568,3 +568,6 @@ This will set the monster's attack to five times their level minus a random numb
 
 # Step 147
 Log the value of hit to the console to use in debugging. Remember that you can do this with console.log().
+
+# Step 148
+Use the return keyword to return the value of hit at the end of the function.
