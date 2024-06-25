@@ -179,6 +179,9 @@ function attack() {
     monsterHealth -= weapons[currentWeaponIndex].power + Math.floor(Math.random() * xp);
     healthText.innerText = health;
     monsterHealthText.innerText = monsterHealth;
+    if (health <= 0) {
+        lose();
+    }
 }
 
 function dodge() {}
