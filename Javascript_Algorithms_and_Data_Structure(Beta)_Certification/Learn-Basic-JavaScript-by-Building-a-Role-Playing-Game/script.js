@@ -190,6 +190,7 @@ function dodge() {
     text.innerText = "You dodge the attack from the " + monsters[fighting].name;
 }
 function defeatMonster() {
-    gold += Math.floor(monsters[fighting].level * 6.7)
+    gold += Math.floor(monsters[fighting].level * 6.7);
+    xp += monsters[fighting].level;
 }
 function lose() {}
