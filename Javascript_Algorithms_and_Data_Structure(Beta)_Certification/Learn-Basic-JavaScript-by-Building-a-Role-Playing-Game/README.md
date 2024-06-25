@@ -629,3 +629,6 @@ Add another object to your locations array. Set name to "easter egg", set "butto
 
 # Step 162
 Inside pick, use const to initialize a variable named numbers and set it to an empty array.
+
+# Step 163
+After your numbers array, create a while loop that runs as long as numbers.length is less than 10.
