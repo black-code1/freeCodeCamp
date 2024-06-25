@@ -500,3 +500,6 @@ Here is an example of setting num to num plus 5 * 8: num += 5 * 8. Use Math.floo
 
 # Step 131
 Set xp to xp plus the monster's level.
+
+# Step 132
+Now update goldText and xpText to display the updated values.
