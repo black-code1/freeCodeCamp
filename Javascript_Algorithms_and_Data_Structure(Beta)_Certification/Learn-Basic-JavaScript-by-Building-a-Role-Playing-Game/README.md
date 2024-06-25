@@ -483,3 +483,6 @@ Update healthText.innerText and monsterHealthText.innerText to equal health and 
 
 # Step 126
 Add an if statement to check if health is less than or equal to 0. If it is, call the lose function.
+
+# Step 127
+At the end of your if statement, add an else if statement to check if monsterHealth is less than or equal to 0. In your else if, call the defeatMonster function.
