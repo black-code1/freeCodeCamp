@@ -619,3 +619,8 @@ Create a new function called easterEgg which calls the update function with loca
 # Step 159
 Create an empty pick function with a parameter named guess.
 
+# Step 160
+Create two new functions named pickTwo and pickEight.
+
+Inside each of those, call the pick() function and pass either 2 or 8 as the argument depending on the function name.
+
