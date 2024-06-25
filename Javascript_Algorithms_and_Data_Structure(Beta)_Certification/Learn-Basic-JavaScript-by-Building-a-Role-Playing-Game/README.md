@@ -616,3 +616,6 @@ Now you can add a small easter egg (hidden feature) to your game.
 
 Create a new function called easterEgg which calls the update function with locations[7] as the argument.
 
+# Step 159
+Create an empty pick function with a parameter named guess.
+
