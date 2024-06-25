@@ -611,3 +611,8 @@ We don't want a player's only weapon to break. The logical AND operator checks i
 
 Use the logical AND operator && to add a second condition to your if statement. The player's weapon should only break if inventory.length does not equal (!==) one.
 
+# Step 158
+Now you can add a small easter egg (hidden feature) to your game.
+
+Create a new function called easterEgg which calls the update function with locations[7] as the argument.
+
