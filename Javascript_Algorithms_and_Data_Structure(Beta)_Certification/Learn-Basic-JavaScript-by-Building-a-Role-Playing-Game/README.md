@@ -565,3 +565,6 @@ Below your attack function, create an empty function named getMonsterAttackValue
 The attack of the monster will be based on the monster's level and the player's xp. In the getMonsterAttackValue function, use const to create a variable called hit. Assign it the equation (level * 5) - (Math.floor(Math.random() * xp));.
 
 This will set the monster's attack to five times their level minus a random number between 0 and the player's xp.
+
+# Step 147
+Log the value of hit to the console to use in debugging. Remember that you can do this with console.log().
