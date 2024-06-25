@@ -549,3 +549,6 @@ The innerHTML property allows you to access or modify the content inside an HTML
 
 # Step 142
 After the lose function, create a function called winGame. Inside the winGame function, call the update function and pass in locations[6].
+
+# Step 143
+Add another object in the locations array. Everything should be the same as the lose object, except the name should be "win" and the text should be "You defeat the dragon! YOU WIN THE GAME! &#x1F389;".
