@@ -524,3 +524,10 @@ On the first line of the update function, use monsterStats.style.display to chan
 
 # Step 137
 In the lose function, call the update function and pass in the sixth object of your locations array. Note that you haven't created this object just yet.
+
+# Step 138
+At the end of your code, create a restart function. Inside this function, set xp to 0, health to 100, gold to 50, currentWeaponIndex to 0, and set inventory to an array with the string stick.
+
+Also update the innerText properties of goldText, healthText, and xpText to their current values.
+
+Finally, call the goTown() function.
