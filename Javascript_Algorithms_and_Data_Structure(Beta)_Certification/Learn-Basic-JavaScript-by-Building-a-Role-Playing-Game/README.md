@@ -605,3 +605,9 @@ Use the += operator to add " Your <weapon> breaks.", with a space in front of Yo
 
 # Step 156
 Decrement the value of currentWeaponIndex in your if statement, after you update the text.
+
+# Step 157
+We don't want a player's only weapon to break. The logical AND operator checks if two statements are true.
+
+Use the logical AND operator && to add a second condition to your if statement. The player's weapon should only break if inventory.length does not equal (!==) one.
+
