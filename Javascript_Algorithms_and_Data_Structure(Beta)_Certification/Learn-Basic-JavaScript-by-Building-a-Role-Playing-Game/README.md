@@ -596,3 +596,6 @@ At the end of your return statement, use the logical OR operator || and check if
 The logical OR operator will use the first value if it is truthy – that is, anything apart from NaN, null, undefined, 0, -0, 0n, "", and false. Otherwise, it will use the second value.
 
 For example: num < 10 || num > 20.
+
+# Step 154
+On every attack, there should be a chance that the player's weapon breaks. At the end of the attack function, add an empty if statement with the condition Math.random() <= .1.
