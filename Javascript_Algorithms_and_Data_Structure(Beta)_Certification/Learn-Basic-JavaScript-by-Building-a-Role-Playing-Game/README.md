@@ -602,3 +602,6 @@ On every attack, there should be a chance that the player's weapon breaks. At th
 
 # Step 155
 Use the += operator to add " Your <weapon> breaks.", with a space in front of Your, to the end of text.innerText. Replace <weapon> with the last item in the inventory array using inventory.pop(), which will remove the last item in the array AND return it so it appears in your string.
+
+# Step 156
+Decrement the value of currentWeaponIndex in your if statement, after you update the text.
