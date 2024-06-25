@@ -503,3 +503,6 @@ Set xp to xp plus the monster's level.
 
 # Step 132
 Now update goldText and xpText to display the updated values.
+
+# Step 133
+Finish the defeatMonster function by calling the update function with locations[4] as the argument.
