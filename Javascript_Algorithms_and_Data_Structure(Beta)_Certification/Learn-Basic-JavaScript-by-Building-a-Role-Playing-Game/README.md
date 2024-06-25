@@ -581,3 +581,6 @@ In getMonsterAttackValue, change return hit to a ternary operator that returns h
 
 # Step 150
 In your attack function, find the line of code that updates the monsterHealth variable and place it within an if block with a condition that calls the isMonsterHit function.
+
+# Step 151
+Add an else statement to the first if statement inside your attack() function. In the else statement, use the += operator to add the text " You miss." to the end of text.innerText.
