@@ -541,3 +541,8 @@ In a later step, you will update the code for the &#x2620; emoticon text to prop
 Back to your attack function - inside the else if block, create another if and else statement. If the player is fighting the dragon (fighting would be 2), call the winGame function. Move the defeatMonster() call to the else block.
 
 For this step, you will need to use the strict equality (===) operator to check if fighting is equal to 2.
+
+# Step 141
+In order for the &#x2620; emoticon text to properly display on the page, you will need to use the innerHTML property.
+
+The innerHTML property allows you to access or modify the content inside an HTML element using JavaScript.
