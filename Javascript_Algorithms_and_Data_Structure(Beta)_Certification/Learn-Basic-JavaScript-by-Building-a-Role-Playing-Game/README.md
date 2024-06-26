@@ -659,3 +659,6 @@ Inside the if statement, add the string "Right! You win 20 gold!" to the end of 
 
 # Step 171
 Now add an else statement. Inside, add "Wrong! You lose 10 health!" to the end of text.innerText. Subtract 10 from health and update healthText.innerText.
+
+# Step 172
+Since you subtracted health from the player, you need to check if the player's health is less than or equal to 0. If it is, call the lose function.
