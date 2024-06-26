@@ -635,3 +635,6 @@ After your numbers array, create a while loop that runs as long as numbers.lengt
 
 # Step 164
 Inside your while loop, push a random number between 0 and 10 to the end of the numbers array. You can create this random number with Math.floor(Math.random() * 11).
+
+# Step 165
+After the while loop, set text.innerText to equal "You picked <someGuess>. Here are the random numbers:". Replace <someGuess> with the guess function parameter.
