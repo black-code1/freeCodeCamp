@@ -653,3 +653,6 @@ Now you can write the logic to run in the loop. Inside your for loop, use the +=
 # Step 169
 The .includes() method determines if an array contains an element and will return either true or false.
 After your for loop, add an if statement to check if the guess is in the numbers array. You can use the .includes() method to check if the array contains the guess.
+
+# Step 170
+Inside the if statement, add the string "Right! You win 20 gold!" to the end of text.innerText. Also, add 20 to the value of gold and update the goldText.innerText.
