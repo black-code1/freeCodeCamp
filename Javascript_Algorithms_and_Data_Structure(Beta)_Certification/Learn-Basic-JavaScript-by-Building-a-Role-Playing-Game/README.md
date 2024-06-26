@@ -641,3 +641,8 @@ After the while loop, set text.innerText to equal "You picked <someGuess>. Here 
 
 # Step 166
 At the end of the string, before the final quote, insert the new line escape character \n. This will cause the next part you add to text.innerText to appear on a new line.
+
+# Step 167
+for loops are declared with three expressions separated by semicolons: for (a; b; c), where a is the initialization expression, b is the condition, and c is the final expression.
+
+In this step, create a for loop where i is initialized to 0, the loop runs as long as i is less than 10, and i is incremented by 1 after each iteration using the increment operator ++.
