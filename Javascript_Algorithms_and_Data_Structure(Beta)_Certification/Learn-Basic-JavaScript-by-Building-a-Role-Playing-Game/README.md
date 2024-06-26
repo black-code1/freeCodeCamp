@@ -662,3 +662,8 @@ Now add an else statement. Inside, add "Wrong! You lose 10 health!" to the end o
 
 # Step 172
 Since you subtracted health from the player, you need to check if the player's health is less than or equal to 0. If it is, call the lose function.
+
+# Step 173
+Looking at your "kill monster" object, "button functions" currently has three goTown variables. Replace the third one with easterEgg - this is how a player will access the hidden feature of the game. Do not change the "button text".
+
+With this, your RPG game is complete! You can now play around - can you defeat the dragon?
