@@ -114,3 +114,10 @@ To tell the pattern to match each of these characters individually, you need to 
 Example Code
 `const regex = /[helo]/;`
 Turn your +-\s pattern into a character class. Note that you no longer need to escape the + character, because you are using a character class.
+
+# Step 23
+Regex can also take specific flags to alter the pattern matching behavior. Flags are added after the closing /. The g flag, which stands for "global", will tell the pattern to continue looking after it has found a match. Here is an example:
+
+Example Code
+`const helloRegex = /hello/g;`
+Add the g flag to your regex pattern.
