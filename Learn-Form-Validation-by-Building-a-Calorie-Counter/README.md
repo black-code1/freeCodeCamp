@@ -105,3 +105,12 @@ Note that you need to use the backslash \ character to escape the + symbol becau
 
 # Step 21
 In regex, shorthand character classes allow you to match specific characters without having to write those characters in your pattern. Shorthand character classes are preceded with a backslash (\). The character class \s will match any whitespace character. Add this to your regex pattern.
+
+# Step 22
+Your current pattern won't work just yet. /+-\s/ looks for +, -, and a space in order. This would match +- hello but would not match +hello.
+
+To tell the pattern to match each of these characters individually, you need to turn them into a character class. This is done by wrapping the characters you want to match in brackets. For example, this pattern will match the characters h, e, l, or o:
+
+Example Code
+`const regex = /[helo]/;`
+Turn your +-\s pattern into a character class. Note that you no longer need to escape the + character, because you are using a character class.
