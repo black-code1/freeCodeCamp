@@ -52,3 +52,8 @@ Give your button element a type attribute set to button to prevent automatic for
 Your select menu needs options for each of the food and exercise fieldset elements you created in the previous steps. Use the option element to create a new option for each fieldset. The value attribute of each option should be the id of the fieldset, and the text of each option should be the text of the legend.
 
 Set the Breakfast option as the selected option.
+
+# Step 11
+Create another div element. Within it, nest a button to submit the form. This button should have the text Calculate Remaining Calories.
+
+Then add a button with the id set to clear to clear the form (don't forget to give it a type attribute that prevents it from submitting the form). This button needs the text Clear.
