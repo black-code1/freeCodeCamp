@@ -75,3 +75,9 @@ Get your #budget element and assign it to budgetNumberInput, and your #entry-dro
 
 # Step 16
 Following the same pattern, assign your #add-entry element to addEntryButton, your #clear element to clearButton, and your #output element to output.
+
+# Step 17
+In programming, prefixing a variable with is or has is a common practice to signify that the variable represents a boolean value.
+Declare a variable named isError using let and initialize it with false, allowing for its reassignment later.
+
+Later on in the project, you will update the value of isError if the user provides an invalid input.
