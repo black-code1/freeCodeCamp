@@ -88,3 +88,12 @@ When the user inputs their daily calorie budget, the input field will only accep
 Start by declaring a cleanInputString function that takes a str parameter.
 
 NOTE: Values from an HTML input field are received as strings in JavaScript. You'll need to convert these strings into numbers before performing any calculations. Converting string values into numbers will be covered in a future step.
+
+# Step 19
+To match specific characters in a string, you can use Regular Expressions or "regex" for short.
+
+Regex in JavaScript is indicated by a pattern wrapped in forward slashes. The following example will match the string literal "hello":
+
+Example Code
+`const regex = /hello/;`
+Declare a regex variable and assign it the value from the example above. In future steps, you will update this regex pattern to match specific characters needed for the calorie counter.
