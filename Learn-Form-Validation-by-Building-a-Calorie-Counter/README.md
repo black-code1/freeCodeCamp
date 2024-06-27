@@ -42,3 +42,8 @@ You need two more of these fieldset code blocks – one for snacks and one for e
 When users want to select a meal type to input their calorie counts, they should be presented with a dropdown menu and a button to add the meal type.
 
 Start by creating a div element and assign it a class attribute with the value controls. Then, nest a span element inside this div.
+
+# Step 9
+In your span element, create a label element for an entry-dropdown and give it the text Add food or exercise:. Then create a select element with the id set to entry-dropdown and a name set to options. Below that, add a button element with the id set to add-entry and the text Add Entry.
+
+Give your button element a type attribute set to button to prevent automatic form submission.
