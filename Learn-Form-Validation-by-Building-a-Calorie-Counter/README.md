@@ -34,3 +34,6 @@ Within that element, create a legend element with the text Lunch, and an empty d
 
 # Step 6
 Continuing the pattern, create a fieldset for dinner with the same nested elements.
+
+# Step 7
+You need two more of these fieldset code blocks – one for snacks and one for exercise.
