@@ -26,3 +26,11 @@ In your form, users should have the capability to add various meal types along w
 Create a fieldset element with the id set to breakfast.
 
 Within that element, create a legend with the text Breakfast, and an empty div with the class set to input-container.
+
+# Step 5
+Next, create a fieldset element with the id set to lunch.
+
+Within that element, create a legend element with the text Lunch, and an empty div with the class set to input-container.
+
+# Step 6
+Continuing the pattern, create a fieldset for dinner with the same nested elements.
