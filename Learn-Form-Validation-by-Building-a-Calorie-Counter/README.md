@@ -63,3 +63,9 @@ Your form needs somewhere to display the results. Add an empty div element and g
 
 # Step 13
 Finally, you need to link your JavaScript file to your HTML. Create a script element to do so.
+
+# Step 14
+It is time to start writing the script that makes your form work.
+
+To access an HTML element with a given id name, you can use the getElementById() method
+Begin by getting the form element (using the id) and storing it in a variable called calorieCounter.
