@@ -153,3 +153,12 @@ Start by creating a function called isInvalidInput – it should take a single s
 
 # Step 29
 Declare a regex variable, and assign it a regex that matches the character e.
+
+# Step 30
+The e in a number input can also be an uppercase E. Regex has a flag for this, however – the i flag, which stands for "insensitive".
+
+Example Code
+`/Hello/i`
+The following regex would match hello, Hello, HELLO, and even hElLo because of the i flag. This flag makes your pattern case-insensitive.
+
+Add the i flag to your regex pattern.
