@@ -150,3 +150,6 @@ Once you have finished testing your cleanInputString function, you can remove bo
 In HTML, number inputs allow for exponential notation (such as 1e10). You need to filter those out.
 
 Start by creating a function called isInvalidInput – it should take a single str parameter.
+
+# Step 29
+Declare a regex variable, and assign it a regex that matches the character e.
