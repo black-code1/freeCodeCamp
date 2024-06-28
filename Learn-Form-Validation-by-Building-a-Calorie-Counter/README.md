@@ -239,3 +239,6 @@ console.log(templateLiteral);`
 The console will show the string "Hello, my name is Naomi~!".
 
 Replace your concatenated string in the querySelector with a template literal – be sure to keep the space between your targetId variable and .input-container.
+
+# Step 42
+Thanks to template literals, you actually don't need the targetId variable at all. Remove that variable, and update your template literal to replace targetId with entryDropdown.value – remember to add # before that, in the string.
