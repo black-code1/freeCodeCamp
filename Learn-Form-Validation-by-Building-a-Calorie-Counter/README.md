@@ -145,3 +145,8 @@ Open up the console and you should see the original string followed by the clean
 
 # Step 27
 Once you have finished testing your cleanInputString function, you can remove both of your console statements.
+
+# Step 28
+In HTML, number inputs allow for exponential notation (such as 1e10). You need to filter those out.
+
+Start by creating a function called isInvalidInput – it should take a single str parameter.
