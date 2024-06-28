@@ -167,3 +167,6 @@ Add the i flag to your regex pattern.
 Number inputs only allow the e to occur between two digits. To match any number, you can use the character class [0-9]. This will match any digit between 0 and 9.
 
 Add this character class before and after e in your pattern.
+
+# Step 32
+The + modifier in a regex allows you to match a pattern that occurs one or more times. To match your digit pattern one or more times, add a plus after each of the digit character classes. For example: [0-9]+.
