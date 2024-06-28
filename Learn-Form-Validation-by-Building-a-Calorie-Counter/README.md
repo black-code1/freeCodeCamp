@@ -137,3 +137,8 @@ Use your regex to replace all instances of +, -, and a space in str with an empt
 Now it is time to test out your cleanInputString function.
 
 Inside your cleanInputString function, add a console.log() statement with two arguments. The first argument should be the string "original string: " and the second argument should be the str parameter.
+
+# Step 26
+To see the results from the cleanInputString function, you will need to add a console.log() statement. Inside that console statement, call the cleanInputString function with the string value of "+-99" as an argument.
+
+Open up the console and you should see the original string followed by the cleaned string value with the +- removed.
