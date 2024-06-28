@@ -213,3 +213,6 @@ When you open the console, you should see the result of null. The match method r
 null in JavaScript is a special primitive that represents the intentional absence of a value. In a boolean context, null is considered falsy which evaluates to false in a conditional statement.
 
 Now that you have finished testing your isInvalidInput function, you can remove the console.log statement.
+
+# Step 38
+Your next step is to allow users to add entries to the calorie counter. Declare an empty function addEntry. This function should not take any parameters.
