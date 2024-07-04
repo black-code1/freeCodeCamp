@@ -194,3 +194,8 @@ const doubledNumbers = numbers.map((number) => number * 2); // doubledNumbers wi
 Notice that the map() method takes a function as an argument. This is called a callback function, which is a function that is passed to another function as an argument. In the example above, the callback function is (number) => number * 2, and it's run on each element in the numbers array. The map() method then returns a new array with the results.
 
 Pass in a callback function to the map() method. The callback function should take song as a parameter, use the arrow function syntax, and have an empty body.
+
+# Step 20
+Inside the map(), add a return statement with backticks where you will interpolate all the elements responsible to displaying the song details.
+
+Inside the backticks, create an li element with an id attribute of song-${song.id} and a class attribute of playlist-song.
