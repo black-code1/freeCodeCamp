@@ -392,3 +392,8 @@ Right now the song order has not changed. That is because the updates you made u
 Change your renderSongs function to call the sortSongs function.
 
 Now you should see the songs in alphabetical order.
+
+# Step 35
+It's time to begin implementing the functionality for playing the displayed songs.
+
+Define a playSong function using const. The function should take an id parameter which will represent the unique identifier of the song you want to play.
