@@ -415,3 +415,6 @@ Example Code
 Number('10'); // returns the number 10
 Number('abc'); // returns NaN
 ```
+
+# Step 66
+After your for loop has completed, return the calories value.
