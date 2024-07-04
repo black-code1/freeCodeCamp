@@ -259,3 +259,6 @@ This will return a NodeList of all the text inputs in the form. You can then acc
 
 # Step 45
 Now you need to build your dynamic HTML string to add to the webpage. Declare a new HTMLString variable, and assign it an empty template literal string.
+
+# Step 46
+Inside your template literal, create a label element and give it the text Entry # Name. Using your template literal syntax, replace # with the value of entryNumber.
