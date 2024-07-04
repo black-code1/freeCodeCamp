@@ -62,3 +62,8 @@ We've added the rest of the songs to the allSongs array for you.
 Next, you'll learn about the Web Audio API and how to use it to play songs. All modern browsers support the Web Audio API, which lets you generate and process audio in web applications.
 
 Use const to create a variable named audio and set it equal to new Audio(). This will create a new HTML5 audio element.
+
+# Step 8
+Your music player should keep track of the songs, the current song playing, and the time of the current song. To do this, you will need to create an object to store this information.
+
+Start by using the let keyword to declare a new variable called userData and assign it an empty object.
