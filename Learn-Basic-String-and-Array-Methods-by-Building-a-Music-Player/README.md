@@ -199,3 +199,6 @@ Pass in a callback function to the map() method. The callback function should ta
 Inside the map(), add a return statement with backticks where you will interpolate all the elements responsible to displaying the song details.
 
 Inside the backticks, create an li element with an id attribute of song-${song.id} and a class attribute of playlist-song.
+
+# Step 21
+Create a button element with class playlist-song-info. Inside the button, add a span element with the class playlist-song-title, then interpolate song.title as the text.
