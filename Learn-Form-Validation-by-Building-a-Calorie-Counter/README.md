@@ -484,3 +484,6 @@ console.log(firstName.toLowerCase()); // Output: jessica
 Your output.innerHTML string will need a span element. Create that, and give it a class attribute set to the surplusOrDeficit variable. Your surplusOrDeficit variable should be converted to lower case using the toLowerCase() method.
 
 Do not give your span any text yet.
+
+# Step 82
+Give your span the text remainingCalories Calorie surplusOrDeficit, using interpolation to replace remainingCalories and surplusOrDeficit with the appropriate variables.
