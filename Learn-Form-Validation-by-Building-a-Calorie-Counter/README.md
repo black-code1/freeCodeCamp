@@ -395,3 +395,8 @@ Add an if statement that checks if invalidInputMatch is truthy.
 Browsers have a built in alert() function, which you can use to display a pop-up message to the user. The message to display is passed as the argument to the alert() function.
 
 Using a template literal, in your if block, call the alert() function to tell the user "Invalid Input: ", followed by the first value in the invalidInputMatch array.
+
+# Step 64
+In programming, null is meant to represent the absence of a value. In this case, if the user enters an invalid input, you want to alert them and then return null to indicate that the function has failed.
+
+Still within your if block, set isError to true and return null.
