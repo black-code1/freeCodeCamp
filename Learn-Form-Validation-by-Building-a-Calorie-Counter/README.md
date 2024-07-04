@@ -527,3 +527,6 @@ Use the .remove() method of the output variable's classList property to remove t
 If you click on your Calculate Remaining Calories button, you'll see that nothing happens. You still need to mount the event listener.
 
 Add an event listener to your calorieCounter element. The event type should be submit, and the callback function should be calculateCalories.
+
+# Step 89
+Your final feature to add is the ability for a user to clear the form. Start by declaring an empty function called clearForm – it should not take any arguments.
