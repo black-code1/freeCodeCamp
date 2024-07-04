@@ -119,5 +119,5 @@ const renderSongs = (array) => {
                 </button>
             </li>      
             `
-    })
+    }).join("")
 }
