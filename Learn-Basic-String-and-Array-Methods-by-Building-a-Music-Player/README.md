@@ -67,3 +67,18 @@ Use const to create a variable named audio and set it equal to new Audio(). This
 Your music player should keep track of the songs, the current song playing, and the time of the current song. To do this, you will need to create an object to store this information.
 
 Start by using the let keyword to declare a new variable called userData and assign it an empty object.
+
+# Step 9
+Since users will be able to shuffle and delete songs from the playlist, you will need to create a copy of the allSongs array without mutating the original. This is where the spread operator comes in handy.
+
+The spread operator (...) allows you to copy all elements from one array into another. It can also be used to concatenate multiple arrays into one. In the example below, both arr1 and arr2 have been spread into combinedArr:
+
+Example Code
+```
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const combinedArr = [...arr1, ...arr2];
+console.log(combinedArr); // Output: [1, 2, 3, 4, 5, 6]
+```
+Inside the userData object create a songs property. For the value, spread allSongs into an array.
