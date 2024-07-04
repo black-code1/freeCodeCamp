@@ -372,3 +372,6 @@ Assign item.value to a const variable called currVal.
 Remember that you wrote a function earlier to clean the user's input? You'll need to use that function here.
 
 Update your currVal declaration to be the result of calling cleanInputString with item.value.
+
+# Step 61
+You also need to confirm the input is valid. Declare an invalidInputMatch variable, and assign it the result of calling your isInvalidInput function with currVal as the argument.
