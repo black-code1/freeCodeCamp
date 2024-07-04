@@ -123,6 +123,8 @@ const renderSongs = (array) => {
     playlistSongs.innerHTML = songsHTML
 }
 
-const sortSongs = () => {}
+const sortSongs = () => {
+    userData?.songs.sort()
+}
 
 renderSongs(userData?.songs)
