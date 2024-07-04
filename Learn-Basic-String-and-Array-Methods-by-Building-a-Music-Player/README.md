@@ -209,3 +209,208 @@ Inside the button element, create two more span elements.
 The first span element should have a class of playlist-song-artist. In between the span tags, add ${song.artist}.
 
 The second span element should have a class of playlist-song-duration. In between the span tags, add ${song.duration}.
+
+# Step 23
+Create another button element with the class playlist-song-delete and the aria-label attribute set to Delete interpolated with song.title. For the content of the delete icon, paste in the following SVG:
+
+Example Code
+<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#4d4d62"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5.32587 5.18571C5.7107 4.90301 6.28333 4.94814 6.60485 5.28651L8 6.75478L9.39515 5.28651C9.71667 4.94814 10.2893 4.90301 10.6741 5.18571C11.059 5.4684 11.1103 5.97188 10.7888 6.31026L9.1832 7.99999L10.7888 9.68974C11.1103 10.0281 11.059 10.5316 10.6741 10.8143C10.2893 11.097 9.71667 11.0519 9.39515 10.7135L8 9.24521L6.60485 10.7135C6.28333 11.0519 5.7107 11.097 5.32587 10.8143C4.94102 10.5316 4.88969 10.0281 5.21121 9.68974L6.8168 7.99999L5.21122 6.31026C4.8897 5.97188 4.94102 5.4684 5.32587 5.18571Z" fill="white"/></svg>
+
+Right now the songsHTML is an array. If you tried to display this as is, you would see the songs separated by commas. This is not the desired outcome because you want to display the songs as a list. To fix this, you will need to join the array into a single string by using the join() method.
+
+The join() method is used to concatenate all the elements of an array into a single string. It takes an optional parameter called a separator which is used to separate each element of the array. For example:
+
+Example Code
+`const exampleArr = ["This", "is", "a", "sentence"];
+const sentence = exampleArr.join(" "); // Separator takes a space character
+console.log(sentence); // Output: "This is a sentence"`
+Chain the join() method to your map() method and pass in an empty string for the separator.
+
+To chain multiple methods together, you can call the join() method on the result of the map() method. For example:
+
+Example Code
+`array.map().join();`
+
+# Step 25
+Next, you will need to update the playlist in your HTML document to display the songs.
+
+Assign songsHTML to the innerHTML property of the playlistSongs element. This will insert the li element you just created into the ul element in the already provided HTML file.
+
+# Step 26
+Now you need to call the renderSongs function and pass in userData?.songs in order to finally display the songs in the UI.
+
+Optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined. For example:
+
+Example Code
+```
+const user = {
+name: "Quincy",
+address: {
+city: "San Francisco",
+state: "CA",
+country: "USA",
+},
+};
+
+// Accessing nested properties without optional chaining
+const state = user.address.state; // CA
+
+// Accessing a non-existent nested property with optional chaining
+const zipCode = user.address?.zipCode; // Returns undefined instead of throwing an error
+```
+Call the renderSongs function with the songs property of userData. This will render the songs in the playlist.
+
+# Step 27
+Now that you have the list of songs displayed on the screen, it would be nice to sort them in alphabetical order by title.
+
+Start by creating an arrow function called sortSongs.
+
+# Step 28
+Now that you have the list of songs displayed on the screen, it would be nice to sort them in alphabetical order by title. You could manually update the allSongs array, but JavaScript has an array method you can use called sort().
+
+The sort() method converts elements of an array into strings and sorts them in place based on their values in the UTF-16 encoding.
+
+Example Code
+`const names = ["Tom", "Jessica", "Quincy", "Naomi"];
+names.sort() // ["Jessica", "Naomi", "Quincy", "Tom"]`
+Inside your sortSongs function, add the sort() method to userData?.songs.
+
+# Step 29
+To sort the songs in alphabetical order by title, you will need to pass in a compare callback function into your sort() method.
+
+Here is an example of sorting a list of fruits by name.
+
+Example Code
+```
+const fruits = [
+{ name: "Apples", price: 0.99 },
+{ name: "Blueberries", price: 1.49 },
+{ name: "Grapes", price: 2.99 },
+];
+
+fruits.sort((a, b) => {
+if (a.name < b.name) {
+return -1;
+}
+
+if (a.name > b.name) {
+return 1;
+}
+
+return 0;
+});
+```
+In the next few steps, you will learn what each of those if statements is doing inside that callback function. But for now, add an empty callback function to your sort() method and use a and b for the parameter names.
+
+# Step 30
+The sort() method accepts a compare callback function that defines the sort order.
+
+In this example, the first condition (a.name < b.name) checks if the name of the first fruit is less than the name of the second fruit. If so, the first fruit is sorted before the second fruit.
+
+Strings are compared lexicographically which means they are compared character by character. For example, "Apples" is less than "Bananas" because "A" comes before "B" in the alphabet.
+
+The reason why this example is returning numbers is because the sort() method is expecting a number to be returned. If you return a negative number, the first item is sorted before the second item.
+
+Example Code
+```
+const fruits = [
+{ name: "Apples", price: 0.99 },
+{ name: "Blueberries", price: 1.49 },
+{ name: "Grapes", price: 2.99 },
+];
+
+fruits.sort((a, b) => {
+if (a.name < b.name) {
+return -1;
+}
+
+if (a.name > b.name) {
+return 1;
+}
+
+return 0;
+});
+```
+Inside your callback function, add an if statement to check if a.title is less than b.title. If so, return -1.
+
+# Step 31
+The second condition in this example checks if a.name > b.name. If so, the function returns 1, which sorts the first fruit after the second fruit.
+
+Example Code
+```
+const fruits = [
+{ name: "Apples", price: 0.99 },
+{ name: "Blueberries", price: 1.49 },
+{ name: "Grapes", price: 2.99 },
+];
+
+fruits.sort((a, b) => {
+if (a.name < b.name) {
+return -1;
+}
+
+if (a.name > b.name) {
+return 1;
+}
+
+return 0;
+});
+```
+Inside your callback function, add another if statement to check if a.title is greater than b.title. If so, return the number 1.
+
+# Step 32
+In the example, if a.name is equal to b.name, then the function returns 0. This means that nothing changes and the order of a and b remains the same.
+
+Example Code
+```
+const fruits = [
+{ name: "Apples", price: 0.99 },
+{ name: "Blueberries", price: 1.49 },
+{ name: "Grapes", price: 2.99 },
+];
+
+fruits.sort((a, b) => {
+if (a.name < b.name) {
+return -1;
+}
+
+if (a.name > b.name) {
+return 1;
+}
+
+return 0;
+});
+```
+Below your if statements, return the number 0 to leave the order of the two elements unchanged.
+
+# Step 33
+The last step for the sortSongs function is to return userData?.songs.
+
+# Step 34
+Right now the song order has not changed. That is because the updates you made using the sort method will not happen until the sortSongs function is called.
+
+Change your renderSongs function to call the sortSongs function.
+
+Now you should see the songs in alphabetical order.
+
+# Step 35
+It's time to begin implementing the functionality for playing the displayed songs.
+
+Define a playSong function using const. The function should take an id parameter which will represent the unique identifier of the song you want to play.
+
+# Step 36
+The find() method retrieves the first element within an array that fulfills the conditions specified in the provided callback function. If no element satisfies the condition, the method returns undefined.
+
+In the example below, the find() method is used to find the first number greater than 25:
+
+Example Code
+
+const numbers = [10, 20, 30, 40, 50];
+`
+// Find the first number greater than 25
+const foundNumber = numbers.find((number) => number > 25);
+console.log(foundNumber); // Output: 30
+`
+Use const to create a variable named song and assign it result of the find() method call on the userData?.songs array. Use song as the parameter of the find() callback and check if song.id is strictly equal to id.
+
+This will iterate through the userData?.songs array, searching for a song that corresponds to the id passed into the playSong function.
