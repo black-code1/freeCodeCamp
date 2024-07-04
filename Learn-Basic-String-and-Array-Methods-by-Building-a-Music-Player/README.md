@@ -14,3 +14,8 @@ Start by accessing the #playlist-songs, #play, and #pause elements with the getE
 Access the #next, #previous and #shuffle elements from the HTML file.
 
 Assign them to variables named nextButton, previousButton, and shuffleButton, respectively.
+
+# Step 3
+Next, create an array to store all the songs.
+
+Create an empty allSongs array.
