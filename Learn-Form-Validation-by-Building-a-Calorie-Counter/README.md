@@ -461,3 +461,6 @@ Your getCaloriesFromInputs function will set the global error flag to true if an
 
 # Step 77
 It is time to start preparing your calculations. Start by declaring a consumedCalories variable, and assign it the sum of breakfastCalories, lunchCalories, dinnerCalories, and snacksCalories (note that order matters for the tests). Be sure to do this after your if statement.
+
+# Step 78
+Now declare a remainingCalories variable, and give it the value of subtracting consumedCalories from budgetCalories and adding exerciseCalories.
