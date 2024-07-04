@@ -442,3 +442,6 @@ Following the same pattern, query for your number inputs in the #dinner, #snacks
 Now that you have your lists of elements, you can pass them to your getCaloriesFromInputs function to extract the calorie total.
 
 Declare a breakfastCalories variable, and assign it the result of calling getCaloriesFromInputs with breakfastNumberInputs as the argument.
+
+# Step 73
+Now declare a lunchCalories variable, and give it the value of calling getCaloriesFromInputs with your lunchNumberInputs.
