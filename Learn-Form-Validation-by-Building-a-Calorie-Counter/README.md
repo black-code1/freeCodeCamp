@@ -572,3 +572,8 @@ The difference between innerText and innerHTML is that innerText will not render
 To finish off this function, you need to restore the hide class to the output element. The classList property has an .add() method which is the opposite of the .remove() method. It accepts a string representing the class to add to the element.
 
 Add the hide class to your output.
+
+# Step 96
+To complete this project, add an event listener to the clearButton button. When the button is clicked, it should call the clearForm function.
+
+Congratulations! Your project is complete.
