@@ -509,3 +509,6 @@ To keep your code clean and readable, you should add this on a new line in the t
 Now create a p element with the text budgetCalories Calories Budgeted, using interpolation to replace budgetCalories with the appropriate variable.
 
 This should come after your hr element.
+
+# Step 86
+Using the same interpolation syntax, add a second p element with the text consumedCalories Calories Consumed and a third with the text exerciseCalories Calories Burned. Remember to replace your consumedCalories and exerciseCalories variables with the appropriate values.
