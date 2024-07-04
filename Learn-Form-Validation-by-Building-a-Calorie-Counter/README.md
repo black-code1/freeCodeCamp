@@ -445,3 +445,6 @@ Declare a breakfastCalories variable, and assign it the result of calling getCal
 
 # Step 73
 Now declare a lunchCalories variable, and give it the value of calling getCaloriesFromInputs with your lunchNumberInputs.
+
+# Step 74
+Following this same pattern, declare variables for the number inputs in the #dinner, #snacks, and #exercise elements. Assign them the appropriate getCaloriesFromInputs calls.
