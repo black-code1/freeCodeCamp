@@ -150,3 +150,20 @@ Create a new variable called addTwoNumbers and assign it an arrow function. This
 Below the addTwoNumbers function, add a console statement. Inside that console statement, call the addTwoNumbers function and pass in the numbers 3 and 4 as arguments.
 
 Open up the console to see the output.
+
+# Step 15
+If the arrow function is returning a simple expression, you can omit the return keyword and the curly braces {}. This is called an implicit return.
+
+Example Code
+`const multiplyTwoNumbers = (num1, num2) => num1 * num2;`
+If your arrow function has multiple lines of code in the function body, then you need to use the return keyword and the curly braces {}.
+
+Example Code
+`const getTax = (price) => {
+const taxRate = 0.08;
+const tax = price * taxRate;
+return tax;
+};`
+Refactor, or update, your addTwoNumbers function to remove the return keyword and the curly braces {}. Your addTwoNumbers function should instead use an implicit return.
+
+Open up the console to make sure that you are still getting the correct output.
