@@ -172,3 +172,8 @@ Open up the console to make sure that you are still getting the correct output.
 Now it is time to apply what you have learned about arrow functions to your music player project.
 
 Start by removing the printGreeting, printMessage, and addTwoNumbers functions. Also, remove all of the console statements and function calls.
+
+# Step 17
+To display the songs in the UI (User Interface), you'll need to create a function.
+
+Use the arrow function syntax to create a renderSongs function that takes in array as its parameter.
