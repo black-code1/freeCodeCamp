@@ -375,3 +375,18 @@ Update your currVal declaration to be the result of calling cleanInputString wit
 
 # Step 61
 You also need to confirm the input is valid. Declare an invalidInputMatch variable, and assign it the result of calling your isInvalidInput function with currVal as the argument.
+
+# Step 62
+Remember that your isInvalidInput function returns String.match, which is an array of matches or null if no matches are found.
+
+In JavaScript, values can either be truthy or falsy. A value is truthy if it evaluates to true when converted to a Boolean. A value is falsy if it evaluates to false when converted to a Boolean. null is an example of a falsy value.
+
+You need to check if invalidInputMatch is truthy – you can do this by passing the variable directly to your if condition (without a comparison operator). Here's an example of checking the truthiness of helloWorld.
+
+Example Code
+```
+if (helloWorld) {
+
+}
+```
+Add an if statement that checks if invalidInputMatch is truthy.
