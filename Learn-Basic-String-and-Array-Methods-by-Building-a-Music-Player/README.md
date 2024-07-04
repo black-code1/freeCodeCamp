@@ -167,3 +167,8 @@ return tax;
 Refactor, or update, your addTwoNumbers function to remove the return keyword and the curly braces {}. Your addTwoNumbers function should instead use an implicit return.
 
 Open up the console to make sure that you are still getting the correct output.
+
+# Step 16
+Now it is time to apply what you have learned about arrow functions to your music player project.
+
+Start by removing the printGreeting, printMessage, and addTwoNumbers functions. Also, remove all of the console statements and function calls.
