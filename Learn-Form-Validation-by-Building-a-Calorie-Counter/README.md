@@ -344,3 +344,6 @@ Great! Now you can add entries without losing your previous inputs.
 Your next step is to write a function that will get the calorie counts from the user's entries.
 
 Declare a getCaloriesFromInputs function, and give it a parameter called list.
+
+# Step 57
+In your new function, declare a calories variable and assign it the value 0. Use let to declare it, since you will be reassigning it later.
