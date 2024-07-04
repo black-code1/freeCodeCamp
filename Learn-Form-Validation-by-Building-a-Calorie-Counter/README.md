@@ -487,3 +487,15 @@ Do not give your span any text yet.
 
 # Step 82
 Give your span the text remainingCalories Calorie surplusOrDeficit, using interpolation to replace remainingCalories and surplusOrDeficit with the appropriate variables.
+
+# Step 83
+When the user has a calorie surplus, the remainingCalories value will be negative. You don't want to display a negative number in the result string.
+
+Math.abs() is a built-in JavaScript method that will return the absolute value of a number.
+
+Example Code
+```
+const num = -5;
+Math.abs(num); // 5
+```
+In your span text, wrap your remainingCalories reference in Math.abs() to ensure that the value is positive.
