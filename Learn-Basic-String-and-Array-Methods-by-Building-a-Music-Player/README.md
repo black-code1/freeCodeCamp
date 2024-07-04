@@ -102,3 +102,10 @@ Example Code
 // code goes here
 }`
 Create a new named arrow function called printGreeting. Inside the body of that function use the console.log() method to print the string "Hello there!".
+
+# Step 12
+To call a named arrow function expression, you can reference the function by its name.
+
+Example Code
+`exampleArrowFunction();`
+Below your printGreeting function definition, call the function. Open up the console to see the output.
