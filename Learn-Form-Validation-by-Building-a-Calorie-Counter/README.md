@@ -522,3 +522,8 @@ const paragraphElement = document.getElementById('paragraph');
 paragraphElement.classList.remove('hide');
 ```
 Use the .remove() method of the output variable's classList property to remove the hide class. Don't forget to place the word hide inside quotes.
+
+# Step 88
+If you click on your Calculate Remaining Calories button, you'll see that nothing happens. You still need to mount the event listener.
+
+Add an event listener to your calorieCounter element. The event type should be submit, and the callback function should be calculateCalories.
