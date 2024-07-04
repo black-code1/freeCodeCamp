@@ -512,3 +512,13 @@ This should come after your hr element.
 
 # Step 86
 Using the same interpolation syntax, add a second p element with the text consumedCalories Calories Consumed and a third with the text exerciseCalories Calories Burned. Remember to replace your consumedCalories and exerciseCalories variables with the appropriate values.
+
+# Step 87
+Finally, you need to make the #output element visible so the user can see your text. Your output variable is an Element, which has a classList property. This property has a .remove() method, which accepts a string representing the class to remove from the element.
+
+Example Code
+```
+const paragraphElement = document.getElementById('paragraph');
+paragraphElement.classList.remove('hide');
+```
+Use the .remove() method of the output variable's classList property to remove the hide class. Don't forget to place the word hide inside quotes.
