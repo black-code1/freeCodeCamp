@@ -337,3 +337,10 @@ The insertAdjacentHtml method takes two arguments. The first argument is a strin
 For the first argument, pass the string "beforeend" to insert the new element as the last child of targetInputContainer.
 
 For the second argument, pass your HTMLString variable.
+
+# Step 56
+Great! Now you can add entries without losing your previous inputs.
+
+Your next step is to write a function that will get the calorie counts from the user's entries.
+
+Declare a getCaloriesFromInputs function, and give it a parameter called list.
