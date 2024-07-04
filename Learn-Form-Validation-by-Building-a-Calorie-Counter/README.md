@@ -320,3 +320,8 @@ The addEventListener method takes two arguments. The first is the event to liste
 Call the .addEventListener() method on the addEntryButton. Pass in the string "click" for the first argument and the addEntry function for the second argument.
 
 Note that you should not call addEntry, but pass the variable (or function reference) directly.
+
+# Step 53
+Try adding a couple of entries to the Breakfast category, and you may notice some bugs! The first thing we need to fix is the entry counts – the first entry should have a count of 1, not 0.
+
+This bug occurs because you are querying for input[type="text"] elements before adding the new entry to the page. To fix this, update your entryNumber variable to be the value of the length of the query plus 1. Add this on your declaration line, not in your template strings.
