@@ -400,3 +400,18 @@ Using a template literal, in your if block, call the alert() function to tell th
 In programming, null is meant to represent the absence of a value. In this case, if the user enters an invalid input, you want to alert them and then return null to indicate that the function has failed.
 
 Still within your if block, set isError to true and return null.
+
+# Step 65
+Remember that return ends the execution of a function. After your if block, you need to handle the logic for when the input is valid. Because your if statement returns a value, you do not need an else statement.
+
+Use the addition assignment operator to add currVal to your calories total. You'll need to use the Number constructor to convert currVal to a number.
+
+The Number constructor is a function that converts a value to a number. If the value cannot be converted, it returns NaN which stands for "Not a Number".
+
+Here is an example:
+
+Example Code
+```
+Number('10'); // returns the number 10
+Number('abc'); // returns NaN
+```
