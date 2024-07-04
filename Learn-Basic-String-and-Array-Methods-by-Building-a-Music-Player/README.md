@@ -82,3 +82,6 @@ const combinedArr = [...arr1, ...arr2];
 console.log(combinedArr); // Output: [1, 2, 3, 4, 5, 6]
 ```
 Inside the userData object create a songs property. For the value, spread allSongs into an array.
+
+# Step 10
+To handle the current song's information and track its playback time, create a currentSong and songCurrentTime properties. Set the values to null and 0 respectively.
