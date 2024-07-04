@@ -4,9 +4,6 @@ function getRandomComputerResult() {
     return options[randomIndex];
 }
 
-let playerScore = 0;
-let computerScore = 0;
-
 function hasPlayerWonTheRound(player, computer) {
     return (
         (player === "Rock" && computer === "Scissors") ||
@@ -15,22 +12,30 @@ function hasPlayerWonTheRound(player, computer) {
     );
 }
 
+let playerScore = 0;
+let computerScore = 0;
+
 function getRoundResults(userOption) {
     const computerResult = getRandomComputerResult();
     if (hasPlayerWonTheRound(userOption, computerResult)) {
-        playerScore += 1;
+        playerScore ++;
         return `Player wins! ${userOption} beats ${computerResult}`
-    }
-
-    if (computerResult === userOption) {
+    } else if (computerResult === userOption) {
         return `It's a tie! Both chose ${userOption}`
-    }
-
-    if (hasPlayerWonTheRound(computerResult, userOption)) {
-        computerScore += 1;
+    } else {
+        computerScore ++;
         return `Computer wins! ${computerResult} beats ${userOption}`
     }
 }
 
-console.log(getRoundResults("Rock"));
-console.log("Player Score: ", playerScore, "Computer Score: ", computerScore);
+const playerScoreSpanElement = document.getElementById("player-score");
+const computerScoreSpanElement = document.getElementById("computer-score");
+const roundResultsMsg = document.getElementById("results-msg");
+
+function showResults(userOption) {
+    roundResultsMsg.innerText = getRoundResults(userOption);
+    computerScoreSpanElement.innerText = computerScore;
+    playerScoreSpanElement.innerText = playerScore;
+}
+
+showResults("Rock");
