@@ -434,3 +434,6 @@ Declare a breakfastNumberInputs variable, and give it the value of calling docum
 
 # Step 70
 Using that same syntax, query your number inputs in the #lunch element and assign them to lunchNumberInputs.
+
+# Step 71
+Following the same pattern, query for your number inputs in the #dinner, #snacks, and #exercise elements. Assign them to variables following the naming scheme of the previous two.
