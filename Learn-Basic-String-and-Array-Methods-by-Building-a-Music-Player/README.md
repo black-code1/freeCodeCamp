@@ -385,3 +385,10 @@ Below your if statements, return the number 0 to leave the order of the two elem
 
 # Step 33
 The last step for the sortSongs function is to return userData?.songs.
+
+# Step 34
+Right now the song order has not changed. That is because the updates you made using the sort method will not happen until the sortSongs function is called.
+
+Change your renderSongs function to call the sortSongs function.
+
+Now you should see the songs in alphabetical order.
