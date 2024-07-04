@@ -562,3 +562,8 @@ Inside the loop, set the innerHTML property of the container to an empty string.
 
 # Step 93
 After your loop completes, you need to clear the budgetNumberInput. Set the value property of budgetNumberInput to an empty string.
+
+# Step 94
+You also need to clear the output element's text. You can do this by setting the innerText property to an empty string.
+
+The difference between innerText and innerHTML is that innerText will not render HTML elements, but will display the tags and content as raw text.
