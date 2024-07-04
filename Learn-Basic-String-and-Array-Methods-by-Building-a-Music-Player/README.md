@@ -202,3 +202,10 @@ Inside the backticks, create an li element with an id attribute of song-${song.i
 
 # Step 21
 Create a button element with class playlist-song-info. Inside the button, add a span element with the class playlist-song-title, then interpolate song.title as the text.
+
+# Step 22
+Inside the button element, create two more span elements.
+
+The first span element should have a class of playlist-song-artist. In between the span tags, add ${song.artist}.
+
+The second span element should have a class of playlist-song-duration. In between the span tags, add ${song.duration}.
