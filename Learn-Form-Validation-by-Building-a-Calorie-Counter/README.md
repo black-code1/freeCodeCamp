@@ -530,3 +530,6 @@ Add an event listener to your calorieCounter element. The event type should be s
 
 # Step 89
 Your final feature to add is the ability for a user to clear the form. Start by declaring an empty function called clearForm – it should not take any arguments.
+
+# Step 90
+You need to get all of the input containers. Declare an inputContainers variable, and assign it to the value of querying the document for all elements with the class input-container.
