@@ -437,3 +437,8 @@ Using that same syntax, query your number inputs in the #lunch element and assig
 
 # Step 71
 Following the same pattern, query for your number inputs in the #dinner, #snacks, and #exercise elements. Assign them to variables following the naming scheme of the previous two.
+
+# Step 72
+Now that you have your lists of elements, you can pass them to your getCaloriesFromInputs function to extract the calorie total.
+
+Declare a breakfastCalories variable, and assign it the result of calling getCaloriesFromInputs with breakfastNumberInputs as the argument.
