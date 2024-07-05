@@ -426,3 +426,8 @@ Before playing the song, you need to make sure it starts from the beginning. Thi
 Add an if statement to check whether the userData?.currentSong is falsy OR if userData?.currentSong.id is strictly not equal song.id. This condition will check if no current song is playing or if the current song is different from the one that is about to be played.
 
 Inside if block, set the currentTime property of the audio object to 0.
+
+# Step 39
+Add an else block to handle the current song's position in the playlist.
+
+Within the else block, set the currentTime property of the audio object to the value stored in userData?.songCurrentTime.
