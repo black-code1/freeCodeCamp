@@ -763,3 +763,8 @@ Use appendChild() to attach resetText to resetButton element, and resetButton to
 Now, it's time to add the reset functionality to the resetButton. This will bring back the songs in the playlist when clicked.
 
 Add a click event listener to the resetButton variable. Pass in a callback using arrow syntax and leave it empty for now.
+
+# Step 93
+To reset the playlist to its original state, spread allSongs into an array and assign it to userData.songs.
+
+Note: You should not use optional chaining for the userData.songs because the song will not be null or undefined at this point.
