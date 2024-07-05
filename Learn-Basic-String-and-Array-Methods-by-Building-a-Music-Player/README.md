@@ -431,3 +431,10 @@ Inside if block, set the currentTime property of the audio object to 0.
 Add an else block to handle the current song's position in the playlist.
 
 Within the else block, set the currentTime property of the audio object to the value stored in userData?.songCurrentTime.
+
+# Step 40
+You need to update the current song being played as well as the appearance of the playButton element.
+
+Assign song to the currentSong property on the userData object.
+
+Note: You should not use the optional chaining operator ?. in this step because userData.currentSong will not be null or undefined at this point.
