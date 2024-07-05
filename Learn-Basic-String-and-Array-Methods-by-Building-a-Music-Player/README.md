@@ -736,3 +736,10 @@ You can also assign it to a variable:
 Example Code
 `const myText = document.createTextNode("your text")`
 Use the createTextNode() method to create a "Reset Playlist" text, then assign it to a resetText constant.
+
+# Step 90
+Now that you've created the resetButton, you need to assign it an id and aria-label attributes. JavaScript provides the id and ariaLabel properties you need to use for this.
+
+For example, element.id would set an id attribute, and element.ariaLabel would set an aria-label attribute. Both of them accept their values as a string.
+
+Set the id attribute of resetButton to "reset" and its "aria-label" attribute to "Reset playlist".
