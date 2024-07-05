@@ -743,3 +743,18 @@ Now that you've created the resetButton, you need to assign it an id and aria-la
 For example, element.id would set an id attribute, and element.ariaLabel would set an aria-label attribute. Both of them accept their values as a string.
 
 Set the id attribute of resetButton to "reset" and its "aria-label" attribute to "Reset playlist".
+
+# Step 91
+You need to add the resetText to the resetButton element as a child, and also the resetButton to the playlistSongs element as a child. For this, there is an appendChild() method to use.
+
+appendChild() lets you add a node or an element as the child of another element. In the example below, the text "Click me" would be attached to the button:
+
+Example Code
+```
+const parentElement = document.createElement("button")
+const parentElementText = document.createTextNode("Click me")
+
+// attach the text "Click me" to the button
+parentElement.appendChild(parentElementText)
+```
+Use appendChild() to attach resetText to resetButton element, and resetButton to the playlistSongs element.
