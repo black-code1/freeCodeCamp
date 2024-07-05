@@ -691,3 +691,8 @@ After that, call the highlightCurrentSong function to highlight the current song
 Before deleting a song, you need to check if the song is currently playing. If it is, you need to pause the song and play the next song in the playlist.
 
 Use an if statement to check if the userData?.currentSong?.id is equal to the id of the song you want to delete.
+
+# Step 85
+If there is a match then set userData.currentSong to null and userData.songCurrentTime to 0.
+
+After that, call the pauseSong() function to stop the playback and the setPlayerDisplay() function to update the player display.
