@@ -699,3 +699,8 @@ After that, call the pauseSong() function to stop the playback and the setPlayer
 
 # Step 86
 Within the button element in the renderSongs function, add an onclick attribute. For the value, call the deleteSong function and interpolate song.id.
+
+# Step 87
+Next, you need to check if the playlist is empty. If it is, you should reset the userData object to its original state.
+
+Use an if statement to check if the userData?.songs has a length of 0.
