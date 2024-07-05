@@ -458,3 +458,8 @@ Inside the if block, call the playSong() function with the id of the first song 
 Add an else block. Inside the else block, call the playSong function with the id of the currently playing song as an argument.
 
 This ensures that the currently playing song will continue to play when the play button is clicked.
+
+# Step 45
+To play the song anytime the user clicks on it, add an onclick attribute to the first button element. Inside the onclick, call the playSong function with song.id.
+
+Don't forget you need to interpolate with the dollar sign here.
