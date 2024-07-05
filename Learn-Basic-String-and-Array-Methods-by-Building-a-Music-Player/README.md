@@ -601,3 +601,8 @@ console.log(element.textContent); // Output: This is some text content`
 Use a ternary operator to check if currentTitle evaluates to a truthy value. If it does, set playingSong.textContent to currentTitle. Otherwise, set it to an empty string.
 
 Then below that, use a ternary operator to check if currentArtist is truthy. If so, set songArtist.textContent to currentArtist. Otherwise, set it to empty string.
+
+# Step 71
+To ensure the player's display updates whenever a new song begins playing, call the setPlayerDisplay() function within the playSong() function.
+
+Now you should see the song title and the artist show up in the display.
