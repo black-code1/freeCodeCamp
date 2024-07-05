@@ -658,3 +658,8 @@ Call the renderSongs function and pass in userData?.songs as an argument. Also, 
 Add a "click" event listener to the shuffleButton element. For the function to run, pass in the shuffle function.
 
 Note: You don't need a callback inside this particular event listener. You also don't need to call the shuffle function, just pass in its identifier.
+
+# Step 81
+It's time to implement a delete functionality for the playlist. This would manage the removal of a song from the playlist, handle other related actions when a song is deleted, and create a Reset Playlist button.
+
+Use const and arrow syntax to create an empty deleteSong function and pass in id as a parameter.
