@@ -549,3 +549,19 @@ Using an arrow syntax, create a highlightCurrentSong function. Inside the functi
 You need to get the id of the currently playing song. For this, you can use userData?.currentSong?.id.
 
 Use getElementById() to get the id of the currently playing song, then use template literals to prefix it with song-. Assign it to the constant songToHighlight.
+
+# Step 63
+Loop through the playlistSongElements with a forEach method.
+
+The forEach method is used to loop through an array and perform a function on each element of the array. For example, suppose you have an array of numbers and you want to log each number to the console.
+
+Example Code
+```
+const numbers = [1, 2, 3, 4, 5];
+
+// Using forEach to iterate through the array
+numbers.forEach((number) => {
+console.log(number); // 1, 2, 3, 4, 5
+});
+```
+Use the forEach method on playlistSongElements. Pass in songEl as the parameter and use arrow syntax to add in an empty callback.
