@@ -686,3 +686,8 @@ You need to re-render the songs, highlight it and set the play button's accessib
 Call the renderSongs function and pass in the userData?.songs array as an argument, this displays the modified playlist.
 
 After that, call the highlightCurrentSong function to highlight the current song if there is any also and the setPlayButtonAccessibleText function to update the play button's accessible text.
+
+# Step 84
+Before deleting a song, you need to check if the song is currently playing. If it is, you need to pause the song and play the next song in the playlist.
+
+Use an if statement to check if the userData?.currentSong?.id is equal to the id of the song you want to delete.
