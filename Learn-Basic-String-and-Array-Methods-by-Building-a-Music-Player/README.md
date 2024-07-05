@@ -443,3 +443,8 @@ Note: You should not use the optional chaining operator ?. in this step because 
 Next, use the classList property and the add() method to add the "playing" class to the playButton element. This will look for the class "playing" in the CSS file and add it to the playButton element.
 
 To finally play the song, use the play() method on the audio variable. play() is a method from the web audio API for playing an mp3 file.
+
+# Step 42
+In previous steps you built out the functionality for playing a song. Now you need to add the functionality to the play button so that it will play the current song when it is clicked on.
+
+Use the addEventListener() method and pass in a "click" event for the first argument and an empty callback function with arrow syntax for the second argument, e.g., () => {}.
