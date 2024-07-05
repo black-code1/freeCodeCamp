@@ -448,3 +448,8 @@ To finally play the song, use the play() method on the audio variable. play() is
 In previous steps you built out the functionality for playing a song. Now you need to add the functionality to the play button so that it will play the current song when it is clicked on.
 
 Use the addEventListener() method and pass in a "click" event for the first argument and an empty callback function with arrow syntax for the second argument, e.g., () => {}.
+
+# Step 43
+Within the arrow function of the event listener, add an if to check if userData?.currentSong is falsey.
+
+Inside the if block, call the playSong() function with the id of the first song in the userData?.songs array. This will ensure the first song in the playlist is played first.
