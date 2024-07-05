@@ -704,3 +704,22 @@ Within the button element in the renderSongs function, add an onclick attribute.
 Next, you need to check if the playlist is empty. If it is, you should reset the userData object to its original state.
 
 Use an if statement to check if the userData?.songs has a length of 0.
+
+# Step 88
+If the playlist is empty, you need to create a resetButton element and a text for it. This button will only show up if the playlist is empty.
+
+createElement() is a DOM method you can use to dynamically create an element using JavaScript. To use createElement(), you call it, then pass in the tag name as a string:
+
+Example Code
+```
+// syntax
+document.createElement(tagName)
+
+// example
+document.createElement('div')
+```
+You can also assign it to a variable:
+
+Example Code
+`const divElement = document.createElement('div')`
+Inside your if statement, declare a resetButton constant, then use createElement() to create a "button".
