@@ -586,3 +586,6 @@ Next, you need to display the current song title and artist in the player displa
 Inside the function, obtain references to the HTML elements responsible for displaying the song title and artist.
 
 Access the #player-song-title and #player-song-artist elements with the getElementById() method. Assign them to variables playingSong and songArtist respectively.
+
+# Step 69
+Access the userData?.currentSong?.title and userData?.currentSong?.artist properties and assign them to a currentTitle and currentArtist variables respectively.
