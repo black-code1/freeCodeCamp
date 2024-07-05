@@ -768,3 +768,14 @@ Add a click event listener to the resetButton variable. Pass in a callback using
 To reset the playlist to its original state, spread allSongs into an array and assign it to userData.songs.
 
 Note: You should not use optional chaining for the userData.songs because the song will not be null or undefined at this point.
+
+# Step 94
+Finally, you should render the songs again, update the play button's accessible text, and remove the reset button from the playlist. You also need to remove the resetButton from the DOM.
+
+Call the renderSongs() function with sortSongs() as an argument to render the songs again in alphabetical order.
+
+Call the setPlayButtonAccessibleText() function to update the play button's accessible text.
+
+Remove the reset button from the playlist by calling the remove() method on the resetButton variable.
+
+Note: Now you can try removing all the songs to see what happens.
