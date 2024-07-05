@@ -533,3 +533,6 @@ Use const and arrow syntax to create an empty playPreviousSong function.
 Within the playPreviousSong function, add an if statement with a condition of userData?.currentSong === null. This will check if there is currently no song playing. If there isn't any, exit the function using a return.
 
 Inside the else block, create a constant named currentSongIndex and assign it getCurrentSongIndex().
+
+# Step 59
+To get the previous song, subtract 1 from the currentSongIndex of userData?.songs and assign it to the constant previousSong. After that, call the playSong function and pass previousSong.id as an argument.
