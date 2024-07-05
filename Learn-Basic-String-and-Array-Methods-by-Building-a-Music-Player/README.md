@@ -606,3 +606,8 @@ Then below that, use a ternary operator to check if currentArtist is truthy. If 
 To ensure the player's display updates whenever a new song begins playing, call the setPlayerDisplay() function within the playSong() function.
 
 Now you should see the song title and the artist show up in the display.
+
+# Step 72
+To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+
+Start by creating an empty arrow function called setPlayButtonAccessibleText.
