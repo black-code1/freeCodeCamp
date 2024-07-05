@@ -573,3 +573,8 @@ Within the callback function, use the removeAttribute() method to remove the "ar
 Now you need to add the attribute back to the currently playing song.
 
 Create an if statement with the condition songToHighlight. For the statement, use setAttribute on songToHighlight to pass in "aria-current" and "true" as the first and second arguments.
+
+# Step 66
+Inside the playSong function, call the highlightCurrentSong function.
+
+After that, play around with the control buttons to see how the highlightCurrentSong function works.
