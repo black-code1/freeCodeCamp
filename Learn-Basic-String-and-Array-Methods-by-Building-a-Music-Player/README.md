@@ -503,3 +503,8 @@ Inside your getCurrentSongIndex function, return userData?.songs.indexOf(). For 
 You need to work on playing the next song and the previous song. For this, you will need a playNextSong and playPreviousSong function.
 
 Use const and arrow syntax to create an empty playNextSong function.
+
+# Step 53
+Inside the playNextSong function, create an if statement to check if the currentSong of userData is strictly equal to null. This will check if there's no current song playing in the userData object.
+
+If the condition is true, call the playSong function with the id of the first song in the userData?.songs array as an argument.
