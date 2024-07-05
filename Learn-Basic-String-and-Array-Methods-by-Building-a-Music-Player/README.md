@@ -616,3 +616,10 @@ Start by creating an empty arrow function called setPlayButtonAccessibleText.
 You need to get the currently playing song or the first song in the playlist. To do that, create a song constant and use the OR operator (||) to set it to the current song of userData, or the first song in the userData?.songs array.
 
 Don't forget to use optional chaining.
+
+# Step 74
+The setPlayButtonAccessibleText function will set the aria-label attribute to the current song, or to the first song in the playlist. And if the playlist is empty, it sets the aria-label to "Play".
+
+Use the setAttribute method on the playButton element to set an attribute named "aria-label". Using a ternary, set the attribute value to Play ${song.title} or "Play" if song?.title is not available.
+
+Don't forget you need template interpolation here, so you need to use backticks.
