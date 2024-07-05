@@ -453,3 +453,8 @@ Use the addEventListener() method and pass in a "click" event for the first argu
 Within the arrow function of the event listener, add an if to check if userData?.currentSong is falsey.
 
 Inside the if block, call the playSong() function with the id of the first song in the userData?.songs array. This will ensure the first song in the playlist is played first.
+
+# Step 44
+Add an else block. Inside the else block, call the playSong function with the id of the currently playing song as an argument.
+
+This ensures that the currently playing song will continue to play when the play button is clicked.
