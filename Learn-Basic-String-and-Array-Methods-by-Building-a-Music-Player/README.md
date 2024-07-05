@@ -578,3 +578,6 @@ Create an if statement with the condition songToHighlight. For the statement, us
 Inside the playSong function, call the highlightCurrentSong function.
 
 After that, play around with the control buttons to see how the highlightCurrentSong function works.
+
+# Step 67
+Next, you need to display the current song title and artist in the player display. Use const and arrow syntax to create an empty setPlayerDisplay function.
