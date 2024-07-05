@@ -565,3 +565,6 @@ console.log(number); // 1, 2, 3, 4, 5
 });
 ```
 Use the forEach method on playlistSongElements. Pass in songEl as the parameter and use arrow syntax to add in an empty callback.
+
+# Step 64
+Within the callback function, use the removeAttribute() method to remove the "aria-current" attribute. This will remove the attribute for each of the songs.
