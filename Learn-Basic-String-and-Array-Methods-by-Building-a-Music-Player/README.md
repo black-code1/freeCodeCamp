@@ -478,3 +478,10 @@ Note: You should not use optional chaining for this step because userData.songCu
 Use classList and remove() method to remove the .playing class from the playButton, since the song will be paused at this point.
 
 To finally pause the song, use the pause() method on the audio variable. pause() is a method of the Web Audio API for pausing music files.
+
+# Step 49
+Now it is time to test out the pause button.
+
+Add a "click" event listener to the pauseButton element, then pass in pauseSong as the second argument of the event listener. This is the function the event listener will run.
+
+Test out your app by first clicking on the play button followed by the pause button. You should see that everything is working as expected.
