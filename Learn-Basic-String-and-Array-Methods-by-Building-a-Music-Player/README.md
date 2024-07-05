@@ -581,3 +581,8 @@ After that, play around with the control buttons to see how the highlightCurrent
 
 # Step 67
 Next, you need to display the current song title and artist in the player display. Use const and arrow syntax to create an empty setPlayerDisplay function.
+
+# Step 68
+Inside the function, obtain references to the HTML elements responsible for displaying the song title and artist.
+
+Access the #player-song-title and #player-song-artist elements with the getElementById() method. Assign them to variables playingSong and songArtist respectively.
