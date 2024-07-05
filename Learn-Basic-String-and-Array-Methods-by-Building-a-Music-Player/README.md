@@ -518,3 +518,10 @@ Next, you will need to retrieve the next song in the playlist. For that, you wil
 Create a constant called nextSong and assign userData?.songs[currentSongIndex + 1] to it.
 
 Lastly, call the playSong function and pass in nextSong.id as the argument.
+
+# Step 56
+Now it is time to test out the playNextSong function.
+
+Add a "click" event listener to the nextButton element, then pass in playNextSong as the second argument of your event listener. This is the function the event listener will run.
+
+Test out your app by first clicking on the play button followed by the next button. You should see that everything is working as expected.

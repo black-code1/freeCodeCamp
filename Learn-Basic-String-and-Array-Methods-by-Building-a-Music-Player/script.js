@@ -166,6 +166,7 @@ playButton.addEventListener('click', () => {
 })
 
 pauseButton.addEventListener('click', pauseSong)
+nextButton.addEventListener('click', playNextSong)
 
 const sortSongs = () => {
     userData?.songs.sort((a, b) => {
