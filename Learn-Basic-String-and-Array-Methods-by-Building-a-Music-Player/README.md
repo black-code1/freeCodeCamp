@@ -463,3 +463,8 @@ This ensures that the currently playing song will continue to play when the play
 To play the song anytime the user clicks on it, add an onclick attribute to the first button element. Inside the onclick, call the playSong function with song.id.
 
 Don't forget you need to interpolate with the dollar sign here.
+
+# Step 46
+Now you need to work on pausing the currently playing song.
+
+Define a pauseSong function using the const keyword and arrow function syntax. The function should take no parameters.
