@@ -679,3 +679,10 @@ console.log(numsGreaterThanThree) // Output: [10, 8, 4, 5]
 Use the filter() method on userData?.songs. Pass in song as the parameter of the arrow function callback and use implicit return to check if song.id is strictly not equal to id. Assign all of that to the userData.songs.
 
 Note: You should not use optional chaining when you assign the result of userData?.songs.filter to userData.songs because the allSongs array will not be undefined or null at that point.
+
+# Step 83
+You need to re-render the songs, highlight it and set the play button's accessible text since the song list will change.
+
+Call the renderSongs function and pass in the userData?.songs array as an argument, this displays the modified playlist.
+
+After that, call the highlightCurrentSong function to highlight the current song if there is any also and the setPlayButtonAccessibleText function to update the play button's accessible text.
