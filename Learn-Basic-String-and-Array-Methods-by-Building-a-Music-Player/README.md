@@ -473,3 +473,8 @@ Define a pauseSong function using the const keyword and arrow function syntax. T
 To store the current time of the song when it is paused, set the songCurrentTime of the userData object to the currentTime of the audio variable.
 
 Note: You should not use optional chaining for this step because userData.songCurrentTime will not be null or undefined at this point.
+
+# Step 48
+Use classList and remove() method to remove the .playing class from the playButton, since the song will be paused at this point.
+
+To finally pause the song, use the pause() method on the audio variable. pause() is a method of the Web Audio API for pausing music files.
