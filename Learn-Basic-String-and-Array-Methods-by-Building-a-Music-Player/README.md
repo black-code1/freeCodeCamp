@@ -696,3 +696,6 @@ Use an if statement to check if the userData?.currentSong?.id is equal to the id
 If there is a match then set userData.currentSong to null and userData.songCurrentTime to 0.
 
 After that, call the pauseSong() function to stop the playback and the setPlayerDisplay() function to update the player display.
+
+# Step 86
+Within the button element in the renderSongs function, add an onclick attribute. For the value, call the deleteSong function and interpolate song.id.

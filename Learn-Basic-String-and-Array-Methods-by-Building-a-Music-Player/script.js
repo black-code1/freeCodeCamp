@@ -186,6 +186,7 @@ const renderSongs = (array) => {
                     <span class="playlist-song-duration">${song.duration}</span>
                 </button>
                 <button 
+                    onclick="deleteSong(${song.id})"
                     class="playlist-song-delete" 
                     aria-label="Delete ${song.title}">
                     <svg 
