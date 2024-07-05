@@ -490,3 +490,11 @@ Test out your app by first clicking on the play button followed by the pause but
 Before you start working on playing the next and previous song, you need to get the index of each song in the songs property of userData.
 
 Start by creating an arrow function called getCurrentSongIndex.
+
+# Step 51
+To get the index for the current song, you can use the indexOf() method. The indexOf() array method returns the first index at which a given element can be found in the array, or -1 if the element is not present.
+
+Example Code
+const animals = ["dog", "cat", "horse"];
+animals.indexOf("cat") // 1
+Inside your getCurrentSongIndex function, return userData?.songs.indexOf(). For the indexOf() argument, set it to userData?.currentSong.
