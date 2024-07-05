@@ -544,3 +544,8 @@ Add a "click" event listener to the previousButton element, then pass in playPre
 If you check closely, you'd see the currently playing song is not highlighted in the playlist, so you don't really know which song is playing. You can fix this by creating a function to highlight any song that is being played.
 
 Using an arrow syntax, create a highlightCurrentSong function. Inside the function, use querySelectorAll to get the .playlist-song element and assign to a playlistSongElements constant.
+
+# Step 62
+You need to get the id of the currently playing song. For this, you can use userData?.currentSong?.id.
+
+Use getElementById() to get the id of the currently playing song, then use template literals to prefix it with song-. Assign it to the constant songToHighlight.
