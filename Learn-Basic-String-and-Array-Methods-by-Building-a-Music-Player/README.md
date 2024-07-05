@@ -589,3 +589,15 @@ Access the #player-song-title and #player-song-artist elements with the getEleme
 
 # Step 69
 Access the userData?.currentSong?.title and userData?.currentSong?.artist properties and assign them to a currentTitle and currentArtist variables respectively.
+
+# Step 70
+textContent sets the text of a node and allows you to set or retrieve the text content of an HTML element.
+
+Example Code
+`<div id="example">This is some text content</div>`
+Example Code
+`const element = document.getElementById('example');
+console.log(element.textContent); // Output: This is some text content`
+Use a ternary operator to check if currentTitle evaluates to a truthy value. If it does, set playingSong.textContent to currentTitle. Otherwise, set it to an empty string.
+
+Then below that, use a ternary operator to check if currentArtist is truthy. If so, set songArtist.textContent to currentArtist. Otherwise, set it to empty string.
