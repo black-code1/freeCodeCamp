@@ -40,3 +40,6 @@ Below the year property, add a new property with a key named isWorldCupWinner an
 
 # Step 10
 Below the isWorldCupWinner property, add a new key called headCoach with a value of an empty object. Inside that object, add a property with a key of coachName and a string value of "Carlos Bilardo". Below that property, add another key called matches with a number value of 7.
+
+# Step 11
+Below the headCoach property, create a new property with a key named players with the value of an empty array.
