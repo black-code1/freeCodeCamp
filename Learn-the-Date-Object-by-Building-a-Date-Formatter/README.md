@@ -209,3 +209,8 @@ case 'case123':
 break; // Terminates the switch statement
 }`
 Add a break statement to the end of your case block.
+
+# Step 27
+Add another case with the value "mm-dd-yyyy-h-mm". Inside that case, set the text content of currentDateParagraph to empty template literals.
+
+Also, make sure to include a break statement to terminate the switch statement.
