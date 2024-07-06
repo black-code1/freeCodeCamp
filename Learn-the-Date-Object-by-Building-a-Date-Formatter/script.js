@@ -15,5 +15,6 @@ dateOptionsSelectElement.addEventListener("change", () => {
         case 'yyyy-mm-dd':
             currentDateParagraph.textContent = formattedDate;
             currentDateParagraph.textContent = formattedDate.split("-").reverse().join("-");
+            break;
     }
 });
