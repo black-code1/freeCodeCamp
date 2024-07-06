@@ -414,3 +414,393 @@ console.log(foundNumber); // Output: 30
 Use const to create a variable named song and assign it result of the find() method call on the userData?.songs array. Use song as the parameter of the find() callback and check if song.id is strictly equal to id.
 
 This will iterate through the userData?.songs array, searching for a song that corresponds to the id passed into the playSong function.
+
+# Step 37
+Inside the playSong function, set the audio.src property equal to song.src. This tells the audio element where to find the audio data for the selected song.
+
+Also, set the audio.title property equal to song.title. This tells the audio element what to display as the title of the song.
+
+# Step 38
+Before playing the song, you need to make sure it starts from the beginning. This can be achieved by the use of the currentTime property on the audio object.
+
+Add an if statement to check whether the userData?.currentSong is falsy OR if userData?.currentSong.id is strictly not equal song.id. This condition will check if no current song is playing or if the current song is different from the one that is about to be played.
+
+Inside if block, set the currentTime property of the audio object to 0.
+
+# Step 39
+Add an else block to handle the current song's position in the playlist.
+
+Within the else block, set the currentTime property of the audio object to the value stored in userData?.songCurrentTime.
+
+# Step 40
+You need to update the current song being played as well as the appearance of the playButton element.
+
+Assign song to the currentSong property on the userData object.
+
+Note: You should not use the optional chaining operator ?. in this step because userData.currentSong will not be null or undefined at this point.
+
+# Step 41
+Next, use the classList property and the add() method to add the "playing" class to the playButton element. This will look for the class "playing" in the CSS file and add it to the playButton element.
+
+To finally play the song, use the play() method on the audio variable. play() is a method from the web audio API for playing an mp3 file.
+
+# Step 42
+In previous steps you built out the functionality for playing a song. Now you need to add the functionality to the play button so that it will play the current song when it is clicked on.
+
+Use the addEventListener() method and pass in a "click" event for the first argument and an empty callback function with arrow syntax for the second argument, e.g., () => {}.
+
+# Step 43
+Within the arrow function of the event listener, add an if to check if userData?.currentSong is falsey.
+
+Inside the if block, call the playSong() function with the id of the first song in the userData?.songs array. This will ensure the first song in the playlist is played first.
+
+# Step 44
+Add an else block. Inside the else block, call the playSong function with the id of the currently playing song as an argument.
+
+This ensures that the currently playing song will continue to play when the play button is clicked.
+
+# Step 45
+To play the song anytime the user clicks on it, add an onclick attribute to the first button element. Inside the onclick, call the playSong function with song.id.
+
+Don't forget you need to interpolate with the dollar sign here.
+
+# Step 46
+Now you need to work on pausing the currently playing song.
+
+Define a pauseSong function using the const keyword and arrow function syntax. The function should take no parameters.
+
+# Step 47
+To store the current time of the song when it is paused, set the songCurrentTime of the userData object to the currentTime of the audio variable.
+
+Note: You should not use optional chaining for this step because userData.songCurrentTime will not be null or undefined at this point.
+
+# Step 48
+Use classList and remove() method to remove the .playing class from the playButton, since the song will be paused at this point.
+
+To finally pause the song, use the pause() method on the audio variable. pause() is a method of the Web Audio API for pausing music files.
+
+# Step 49
+Now it is time to test out the pause button.
+
+Add a "click" event listener to the pauseButton element, then pass in pauseSong as the second argument of the event listener. This is the function the event listener will run.
+
+Test out your app by first clicking on the play button followed by the pause button. You should see that everything is working as expected.
+
+# Step 50
+Before you start working on playing the next and previous song, you need to get the index of each song in the songs property of userData.
+
+Start by creating an arrow function called getCurrentSongIndex.
+
+# Step 51
+To get the index for the current song, you can use the indexOf() method. The indexOf() array method returns the first index at which a given element can be found in the array, or -1 if the element is not present.
+
+Example Code
+const animals = ["dog", "cat", "horse"];
+animals.indexOf("cat") // 1
+Inside your getCurrentSongIndex function, return userData?.songs.indexOf(). For the indexOf() argument, set it to userData?.currentSong.
+
+# Step 52
+You need to work on playing the next song and the previous song. For this, you will need a playNextSong and playPreviousSong function.
+
+Use const and arrow syntax to create an empty playNextSong function.
+
+# Step 53
+Inside the playNextSong function, create an if statement to check if the currentSong of userData is strictly equal to null. This will check if there's no current song playing in the userData object.
+
+If the condition is true, call the playSong function with the id of the first song in the userData?.songs array as an argument.
+
+# Step 54
+Add an else block to the if statement. Inside the else block, call the getCurrentSongIndex() function and assign it to a constant named currentSongIndex.
+
+# Step 55
+Next, you will need to retrieve the next song in the playlist. For that, you will need to get the index of the current song and then add 1 to it.
+
+Create a constant called nextSong and assign userData?.songs[currentSongIndex + 1] to it.
+
+Lastly, call the playSong function and pass in nextSong.id as the argument.
+
+# Step 56
+Now it is time to test out the playNextSong function.
+
+Add a "click" event listener to the nextButton element, then pass in playNextSong as the second argument of your event listener. This is the function the event listener will run.
+
+Test out your app by first clicking on the play button followed by the next button. You should see that everything is working as expected.
+
+# Step 57
+Use const and arrow syntax to create an empty playPreviousSong function.
+
+# Step 58
+Within the playPreviousSong function, add an if statement with a condition of userData?.currentSong === null. This will check if there is currently no song playing. If there isn't any, exit the function using a return.
+
+Inside the else block, create a constant named currentSongIndex and assign it getCurrentSongIndex().
+
+# Step 59
+To get the previous song, subtract 1 from the currentSongIndex of userData?.songs and assign it to the constant previousSong. After that, call the playSong function and pass previousSong.id as an argument.
+
+# Step 60
+Add a "click" event listener to the previousButton element, then pass in playPreviousSong as the second argument.
+
+# Step 61
+If you check closely, you'd see the currently playing song is not highlighted in the playlist, so you don't really know which song is playing. You can fix this by creating a function to highlight any song that is being played.
+
+Using an arrow syntax, create a highlightCurrentSong function. Inside the function, use querySelectorAll to get the .playlist-song element and assign to a playlistSongElements constant.
+
+# Step 62
+You need to get the id of the currently playing song. For this, you can use userData?.currentSong?.id.
+
+Use getElementById() to get the id of the currently playing song, then use template literals to prefix it with song-. Assign it to the constant songToHighlight.
+
+# Step 63
+Loop through the playlistSongElements with a forEach method.
+
+The forEach method is used to loop through an array and perform a function on each element of the array. For example, suppose you have an array of numbers and you want to log each number to the console.
+
+Example Code
+```
+const numbers = [1, 2, 3, 4, 5];
+
+// Using forEach to iterate through the array
+numbers.forEach((number) => {
+console.log(number); // 1, 2, 3, 4, 5
+});
+```
+Use the forEach method on playlistSongElements. Pass in songEl as the parameter and use arrow syntax to add in an empty callback.
+
+# Step 64
+Within the callback function, use the removeAttribute() method to remove the "aria-current" attribute. This will remove the attribute for each of the songs.
+
+# Step 65
+Now you need to add the attribute back to the currently playing song.
+
+Create an if statement with the condition songToHighlight. For the statement, use setAttribute on songToHighlight to pass in "aria-current" and "true" as the first and second arguments.
+
+# Step 66
+Inside the playSong function, call the highlightCurrentSong function.
+
+After that, play around with the control buttons to see how the highlightCurrentSong function works.
+
+# Step 67
+Next, you need to display the current song title and artist in the player display. Use const and arrow syntax to create an empty setPlayerDisplay function.
+
+# Step 68
+Inside the function, obtain references to the HTML elements responsible for displaying the song title and artist.
+
+Access the #player-song-title and #player-song-artist elements with the getElementById() method. Assign them to variables playingSong and songArtist respectively.
+
+# Step 69
+Access the userData?.currentSong?.title and userData?.currentSong?.artist properties and assign them to a currentTitle and currentArtist variables respectively.
+
+# Step 70
+textContent sets the text of a node and allows you to set or retrieve the text content of an HTML element.
+
+Example Code
+`<div id="example">This is some text content</div>`
+Example Code
+`const element = document.getElementById('example');
+console.log(element.textContent); // Output: This is some text content`
+Use a ternary operator to check if currentTitle evaluates to a truthy value. If it does, set playingSong.textContent to currentTitle. Otherwise, set it to an empty string.
+
+Then below that, use a ternary operator to check if currentArtist is truthy. If so, set songArtist.textContent to currentArtist. Otherwise, set it to empty string.
+
+# Step 71
+To ensure the player's display updates whenever a new song begins playing, call the setPlayerDisplay() function within the playSong() function.
+
+Now you should see the song title and the artist show up in the display.
+
+# Step 72
+To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+
+Start by creating an empty arrow function called setPlayButtonAccessibleText.
+
+# Step 73
+You need to get the currently playing song or the first song in the playlist. To do that, create a song constant and use the OR operator (||) to set it to the current song of userData, or the first song in the userData?.songs array.
+
+Don't forget to use optional chaining.
+
+# Step 74
+The setPlayButtonAccessibleText function will set the aria-label attribute to the current song, or to the first song in the playlist. And if the playlist is empty, it sets the aria-label to "Play".
+
+Use the setAttribute method on the playButton element to set an attribute named "aria-label". Using a ternary, set the attribute value to Play ${song.title} or "Play" if song?.title is not available.
+
+Don't forget you need template interpolation here, so you need to use backticks.
+
+# Step 75
+Now, call the setPlayButtonAccessibleText function inside the playSong function.
+
+# Step 76
+Using const and arrow syntax to create an empty function called shuffle.
+
+This function is responsible for shuffling the songs in the playlist and performing necessary state management updates after the shuffling.
+
+# Step 77
+In earlier steps, you learned how to work with the sort() method to sort the songs in alphabetical order. Another use case for the callback function is to randomize an array.
+
+One way to randomize an array of items would be to subtract 0.5 from Math.random() which produces random values that are either positive or negative. This makes the comparison result a mix of positive and negative values, leading to a random ordering of elements.
+
+Example Code
+`const names = ["Tom", "Jessica", "Quincy", "Naomi"];
+names.sort(() => Math.random() - 0.5);`
+Use the sort() method on the userData?.songs array. Pass a callback to the method, and return the result of Math.random() - 0.5.
+
+# Step 78
+When the shuffle button is pressed, you want to set the currentSong to nothing and the songCurrentTime to 0.
+
+Set userData.currentSong to null and userData.songCurrentTime to 0.
+
+Note: You should not use optional chaining for this step because you are explicitly setting the currentSong and songCurrentTime properties to be null and 0 respectively.
+
+# Step 79
+You should also re-render the songs, pause the currently playing song, set the player display, and set the play button accessible text again.
+
+Call the renderSongs function and pass in userData?.songs as an argument. Also, call the pauseSong, setPlayerDisplay, and setPlayButtonAccessibleText functions.
+
+# Step 80
+Add a "click" event listener to the shuffleButton element. For the function to run, pass in the shuffle function.
+
+Note: You don't need a callback inside this particular event listener. You also don't need to call the shuffle function, just pass in its identifier.
+
+# Step 81
+It's time to implement a delete functionality for the playlist. This would manage the removal of a song from the playlist, handle other related actions when a song is deleted, and create a Reset Playlist button.
+
+Use const and arrow syntax to create an empty deleteSong function and pass in id as a parameter.
+
+# Step 82
+Use the filter() method to remove the song object that matches the id parameter from the userData?.songs array.
+
+The filter method keeps only the elements of an array that satisfy the callback function passed to it:
+
+Example Code
+```
+const numArr = [1, 10, 8, 3, 4, 5]
+const numsGreaterThanThree = numArr.filter((num) => num > 3);
+
+console.log(numsGreaterThanThree) // Output: [10, 8, 4, 5]
+```
+Use the filter() method on userData?.songs. Pass in song as the parameter of the arrow function callback and use implicit return to check if song.id is strictly not equal to id. Assign all of that to the userData.songs.
+
+Note: You should not use optional chaining when you assign the result of userData?.songs.filter to userData.songs because the allSongs array will not be undefined or null at that point.
+
+# Step 83
+You need to re-render the songs, highlight it and set the play button's accessible text since the song list will change.
+
+Call the renderSongs function and pass in the userData?.songs array as an argument, this displays the modified playlist.
+
+After that, call the highlightCurrentSong function to highlight the current song if there is any also and the setPlayButtonAccessibleText function to update the play button's accessible text.
+
+# Step 84
+Before deleting a song, you need to check if the song is currently playing. If it is, you need to pause the song and play the next song in the playlist.
+
+Use an if statement to check if the userData?.currentSong?.id is equal to the id of the song you want to delete.
+
+# Step 85
+If there is a match then set userData.currentSong to null and userData.songCurrentTime to 0.
+
+After that, call the pauseSong() function to stop the playback and the setPlayerDisplay() function to update the player display.
+
+# Step 86
+Within the button element in the renderSongs function, add an onclick attribute. For the value, call the deleteSong function and interpolate song.id.
+
+# Step 87
+Next, you need to check if the playlist is empty. If it is, you should reset the userData object to its original state.
+
+Use an if statement to check if the userData?.songs has a length of 0.
+
+# Step 88
+If the playlist is empty, you need to create a resetButton element and a text for it. This button will only show up if the playlist is empty.
+
+createElement() is a DOM method you can use to dynamically create an element using JavaScript. To use createElement(), you call it, then pass in the tag name as a string:
+
+Example Code
+```
+// syntax
+document.createElement(tagName)
+
+// example
+document.createElement('div')
+```
+You can also assign it to a variable:
+
+Example Code
+`const divElement = document.createElement('div')`
+Inside your if statement, declare a resetButton constant, then use createElement() to create a "button".
+
+# Step 89
+Now that you've created the button, you need to assign it a text. To do this, you need to use the createTextNode() method of DOM.
+
+The createTextNode() method is used to create a text node. To use it, you call it and pass in the text as a string:
+
+Example Code
+`document.createTextNode("your text")`
+You can also assign it to a variable:
+
+Example Code
+`const myText = document.createTextNode("your text")`
+Use the createTextNode() method to create a "Reset Playlist" text, then assign it to a resetText constant.
+
+# Step 90
+Now that you've created the resetButton, you need to assign it an id and aria-label attributes. JavaScript provides the id and ariaLabel properties you need to use for this.
+
+For example, element.id would set an id attribute, and element.ariaLabel would set an aria-label attribute. Both of them accept their values as a string.
+
+Set the id attribute of resetButton to "reset" and its "aria-label" attribute to "Reset playlist".
+
+# Step 91
+You need to add the resetText to the resetButton element as a child, and also the resetButton to the playlistSongs element as a child. For this, there is an appendChild() method to use.
+
+appendChild() lets you add a node or an element as the child of another element. In the example below, the text "Click me" would be attached to the button:
+
+Example Code
+```
+const parentElement = document.createElement("button")
+const parentElementText = document.createTextNode("Click me")
+
+// attach the text "Click me" to the button
+parentElement.appendChild(parentElementText)
+```
+Use appendChild() to attach resetText to resetButton element, and resetButton to the playlistSongs element.
+
+# Step 92
+Now, it's time to add the reset functionality to the resetButton. This will bring back the songs in the playlist when clicked.
+
+Add a click event listener to the resetButton variable. Pass in a callback using arrow syntax and leave it empty for now.
+
+# Step 93
+To reset the playlist to its original state, spread allSongs into an array and assign it to userData.songs.
+
+Note: You should not use optional chaining for the userData.songs because the song will not be null or undefined at this point.
+
+# Step 94
+Finally, you should render the songs again, update the play button's accessible text, and remove the reset button from the playlist. You also need to remove the resetButton from the DOM.
+
+Call the renderSongs() function with sortSongs() as an argument to render the songs again in alphabetical order.
+
+Call the setPlayButtonAccessibleText() function to update the play button's accessible text.
+
+Remove the reset button from the playlist by calling the remove() method on the resetButton variable.
+
+Note: Now you can try removing all the songs to see what happens.
+
+# Step 95
+All the core functionalities are now in place. The only issue now is that the next song does not automatically play when the currently playing song ends.
+
+To fix that, you can set up an event listener which will detect when the currently playing song ends. The "ended" event listener is appropriate for this. It is fired when the playback of a media reaches the end.
+
+Add an event listener to the audio element which listens for the "ended" event. Pass in a callback using arrow syntax with empty curly braces.
+
+# Step 96
+Notice that the album art in the HTML and songs in the userData.songs array have changed. We've swapped out the original songs for shorter ones that you can use to test your app in the upcoming steps.
+
+Next, you need to check if there is a next song to play. Retrieve the current song index by calling the getCurrentSongIndex() function, and save it in a currentSongIndex constant.
+
+After that, create a nextSongExists constant that contains the boolean value true or false depending on if the next song exists.
+
+# Step 97
+Use an if statement to check if nextSongExists exists, then call the playNextSong() function in the if block. This will automatically play the next song when the current song ends.
+
+# Step 98
+If there is no next song in the playlist, use the else block to reset the currentSong key of userData to null, and its songCurrentTime property to 0.
+
+# Step 99
+With everything set in place, call the pauseSong(), setPlayerDisplay(), highlightCurrentSong(), and setPlayButtonAccessibleText() functions to correctly update the player.
+
+Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
