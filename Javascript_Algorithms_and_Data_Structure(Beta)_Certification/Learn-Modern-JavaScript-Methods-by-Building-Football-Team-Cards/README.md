@@ -14,3 +14,6 @@ NOTE: The numbers for the team are organized alphabetically by last name. This d
 
 # Step 2
 Next, access the id called "sport" from the HTML document and store it in a const variable called typeOfSport. Below that variable, assign the id of "year" to a const variable called worldCupYear.
+
+# Step 3
+Next, access the id called "head-coach" from the HTML document and store it in a const variable called headCoach. Below that variable, assign the id of "player-cards" to a const variable called playerCards.
