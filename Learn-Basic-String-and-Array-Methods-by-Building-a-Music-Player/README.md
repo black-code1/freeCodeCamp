@@ -786,3 +786,10 @@ All the core functionalities are now in place. The only issue now is that the ne
 To fix that, you can set up an event listener which will detect when the currently playing song ends. The "ended" event listener is appropriate for this. It is fired when the playback of a media reaches the end.
 
 Add an event listener to the audio element which listens for the "ended" event. Pass in a callback using arrow syntax with empty curly braces.
+
+# Step 96
+Notice that the album art in the HTML and songs in the userData.songs array have changed. We've swapped out the original songs for shorter ones that you can use to test your app in the upcoming steps.
+
+Next, you need to check if there is a next song to play. Retrieve the current song index by calling the getCurrentSongIndex() function, and save it in a currentSongIndex constant.
+
+After that, create a nextSongExists constant that contains the boolean value true or false depending on if the next song exists.
