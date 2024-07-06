@@ -28,3 +28,6 @@ Below the variables you just created, create a new const variable called myFavor
 
 # Step 6
 Inside the myFavoriteFootballTeam object, add a new property with a key named team and a string value of "Argentina".
+
+# Step 7
+Below the team property, add a new property with a key named sport and a string value of "Football".
