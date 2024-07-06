@@ -68,3 +68,6 @@ Inside the template literal, add an embedded expression that contains the day va
 
 # Step 11
 After the day variable, add a dash (-) followed by another embedded expression that contains the month variable.
+
+# Step 12
+After the month variable, add a dash followed by another embedded expression that contains the year variable.
