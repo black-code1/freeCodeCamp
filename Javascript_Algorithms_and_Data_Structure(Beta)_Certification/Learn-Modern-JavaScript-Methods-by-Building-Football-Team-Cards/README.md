@@ -80,3 +80,6 @@ Use the Object.freeze() method to freeze the myFavoriteFootballTeam object.
 The next step is to access the key called sport from the myFavoriteFootballTeam object and assign it to a new const variable called sport.
 
 Remember you can use dot notation for this.
+
+# Step 16
+Below the sport variable, access the key called team from the myFavoriteFootballTeam object and assign it to a new const variable called team.
