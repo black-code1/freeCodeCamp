@@ -162,3 +162,8 @@ function myExampleFunction({ name, age, job, city }) {
 }
 ```
 Inside the parameter list in the callback function for the map method, unpack all 5 object properties from objects in arr using object destructuring.
+
+# Step 27
+Inside the body of the callback function, you will need to add template literals `` which will contain the HTML content for the player cards.
+
+Inside the template literals, add an empty div with a class of "player-card".
