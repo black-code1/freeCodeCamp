@@ -44,3 +44,8 @@ The .getMonth() method returns a number between 0 and 11. This represents the mo
 Using const, create a variable named month and assign it the month from date with the .getMonth() method.
 
 Remember to add 1 to the number returned by .getMonth().
+
+# Step 6
+The .getFullYear() method returns a number which represents the year for the provided date.
+
+Using const, create a variable named year and assign it the year from date with the .getFullYear() method.
