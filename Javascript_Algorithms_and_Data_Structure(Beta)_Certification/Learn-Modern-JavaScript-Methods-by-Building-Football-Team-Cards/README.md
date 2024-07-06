@@ -20,3 +20,11 @@ Next, access the id called "head-coach" from the HTML document and store it in a
 
 # Step 4
 Create one more const variable called playersDropdownList and assign it the id of "players" using the getElementById method.
+
+# Step 5
+Now it is time to build out the data structure that will hold all of the information for your football team.
+
+Below the variables you just created, create a new const variable called myFavoriteFootballTeam and assign it an empty object.
+
+# Step 6
+Inside the myFavoriteFootballTeam object, add a new property with a key named team and a string value of "Argentina".
