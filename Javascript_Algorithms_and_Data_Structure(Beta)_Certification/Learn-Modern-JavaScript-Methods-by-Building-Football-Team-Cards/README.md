@@ -37,3 +37,6 @@ Below the sport property, add a new property with a key named year and a number 
 
 # Step 9
 Below the year property, add a new property with a key named isWorldCupWinner and a boolean value set to true.
+
+# Step 10
+Below the isWorldCupWinner property, add a new key called headCoach with a value of an empty object. Inside that object, add a property with a key of coachName and a string value of "Carlos Bilardo". Below that property, add another key called matches with a number value of 7.
