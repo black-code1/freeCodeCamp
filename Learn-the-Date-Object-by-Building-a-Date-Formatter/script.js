@@ -7,4 +7,4 @@ const year = date.getFullYear();
 const hours = date.getHours();
 const minutes = date.getMinutes();
 
-const formattedDate = `${day}`;
+const formattedDate = `${day}-${month}`;
