@@ -81,3 +81,14 @@ Open up the console and you should see the date printed out.
 Use the textContent property on currentDateParagraph to set its text content to the value of the formattedDate variable.
 
 Also, make sure to remove your console.log(formattedDate); line.
+
+# Step 15
+In JavaScript, the change event is used to detect when the value of an HTML element has changed:
+
+Example Code
+```
+element.addEventListener("change", () => {
+
+});
+```
+Attach the addEventListener method to the dateOptionsSelectElement. The first argument of the event listener should be the string "change" and the second argument should be an empty arrow function.
