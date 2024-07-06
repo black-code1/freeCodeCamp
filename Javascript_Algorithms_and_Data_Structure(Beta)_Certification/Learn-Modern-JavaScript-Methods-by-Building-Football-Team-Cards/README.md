@@ -142,3 +142,10 @@ console.log(greeting("John")); // Hello John
 console.log(greeting()); // Hello Anonymous
 ```
 Add a new parameter to your setPlayerCards function called arr and assign it a default value of players. Remember that you destructured the players variable from the myFavoriteFootballTeam object on line 175.
+
+# Step 25
+The next step is to create a new array that will be responsible for adding the player card information to the page.
+
+Inside the setPlayerCards function, start by adding the map method to arr that will take in an empty callback function. Then, use the addition assignment += operator to assign the new array to playerCards.innerHTML.
+
+Remember that the innerHTML property gets, or in this case, sets the HTML markup for the playerCards element.
