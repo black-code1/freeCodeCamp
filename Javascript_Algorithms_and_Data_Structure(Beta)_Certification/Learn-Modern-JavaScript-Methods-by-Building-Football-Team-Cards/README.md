@@ -56,3 +56,15 @@ isCaptain: false
 nickname: null
 ```
 NOTE: The numbers for the team are organized alphabetically by last name. This differs from conventional numbering where the numbers correspond with what is on the player's jerseys.
+
+# Step 13
+Below that object, create a new object with the following properties:
+
+Example Code
+```
+name: "Sergio Batista"
+position: "midfielder"
+number: 2
+isCaptain: false
+nickname: null     
+```
