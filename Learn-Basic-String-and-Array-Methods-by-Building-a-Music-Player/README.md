@@ -793,3 +793,6 @@ Notice that the album art in the HTML and songs in the userData.songs array have
 Next, you need to check if there is a next song to play. Retrieve the current song index by calling the getCurrentSongIndex() function, and save it in a currentSongIndex constant.
 
 After that, create a nextSongExists constant that contains the boolean value true or false depending on if the next song exists.
+
+# Step 97
+Use an if statement to check if nextSongExists exists, then call the playNextSong() function in the if block. This will automatically play the next song when the current song ends.
