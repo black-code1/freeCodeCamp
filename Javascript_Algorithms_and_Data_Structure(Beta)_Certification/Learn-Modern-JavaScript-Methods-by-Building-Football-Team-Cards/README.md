@@ -100,3 +100,6 @@ isDeveloper: true
 const { name, isDeveloper } = developerObj;
 ```
 Rewrite the two lines of code below using the new destructuring syntax. Your answer should be one line of code.
+
+# Step 18
+Next, add the year and players to your destructuring assignment.
