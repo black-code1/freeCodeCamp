@@ -103,3 +103,6 @@ Rewrite the two lines of code below using the new destructuring syntax. Your ans
 
 # Step 18
 Next, add the year and players to your destructuring assignment.
+
+# Step 19
+Now you need to access the coachName value from the myFavoriteFootballTeam.headCoach object using the destructuring syntax.
