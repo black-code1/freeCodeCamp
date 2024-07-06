@@ -31,3 +31,6 @@ Inside the myFavoriteFootballTeam object, add a new property with a key named te
 
 # Step 7
 Below the team property, add a new property with a key named sport and a string value of "Football".
+
+# Step 8
+Below the sport property, add a new property with a key named year and a number value of 1986.
