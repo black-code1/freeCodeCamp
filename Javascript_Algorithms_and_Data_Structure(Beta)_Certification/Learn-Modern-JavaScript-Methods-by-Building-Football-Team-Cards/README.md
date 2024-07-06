@@ -17,3 +17,6 @@ Next, access the id called "sport" from the HTML document and store it in a cons
 
 # Step 3
 Next, access the id called "head-coach" from the HTML document and store it in a const variable called headCoach. Below that variable, assign the id of "player-cards" to a const variable called playerCards.
+
+# Step 4
+Create one more const variable called playersDropdownList and assign it the id of "players" using the getElementById method.
