@@ -796,3 +796,6 @@ After that, create a nextSongExists constant that contains the boolean value tru
 
 # Step 97
 Use an if statement to check if nextSongExists exists, then call the playNextSong() function in the if block. This will automatically play the next song when the current song ends.
+
+# Step 98
+If there is no next song in the playlist, use the else block to reset the currentSong key of userData to null, and its songCurrentTime property to 0.
