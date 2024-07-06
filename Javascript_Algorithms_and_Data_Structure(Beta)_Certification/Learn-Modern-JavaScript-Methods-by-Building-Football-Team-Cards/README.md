@@ -83,3 +83,20 @@ Remember you can use dot notation for this.
 
 # Step 16
 Below the sport variable, access the key called team from the myFavoriteFootballTeam object and assign it to a new const variable called team.
+
+# Step 17
+In the last two steps, you have been accessing properties from the myFavoriteFootballTeam object using dot notation and assigning them to new const variables. But in JavaScript, there is an easier way to accomplish the same goal.
+
+The object destructuring syntax allows you to unpack values from arrays and objects:
+
+Example Code
+```
+const developerObj = {
+name: "Jessica Wilkins",
+isDeveloper: true
+};
+
+// Object destructuring
+const { name, isDeveloper } = developerObj;
+```
+Rewrite the two lines of code below using the new destructuring syntax. Your answer should be one line of code.
