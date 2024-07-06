@@ -2,7 +2,7 @@ const checkBtn = document.querySelector('#check-btn');
 const textInput = document.querySelector('#text-input');
 const result = document.querySelector('#result');
 checkBtn.addEventListener('click', () => {
-    const textInputRegex = textInput.value.replace(/[^A-Za-z0-9]/g, '');
+    const textInputRegex = textInput.value.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
     if (textInput.value === '') {
         alert("Please input a value")
     } else if (textInput.value.length === 1) {
