@@ -14,8 +14,5 @@ dateOptionsSelectElement.addEventListener("change", () => {
     switch (dateOptionsSelectElement.value) {
         case 'yyyy-mm-dd':
             currentDateParagraph.textContent = formattedDate;
-
-            const exampleSentence = "selur pmaCedoCeerf".split("").reverse().join("");
-            console.log(exampleSentence)
     }
 });

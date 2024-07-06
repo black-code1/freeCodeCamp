@@ -180,3 +180,6 @@ Example Code
 Chain the join method to your reverse method. Pass in an empty string as the separator.
 
 Open up the console and see the output.
+
+# Step 22
+Now that you have a better understanding on how to work with the split, reverse, and join methods, you can delete your exampleSentence variable and console statement.
