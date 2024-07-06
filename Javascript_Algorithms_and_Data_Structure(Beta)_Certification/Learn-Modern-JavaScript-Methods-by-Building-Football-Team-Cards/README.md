@@ -167,3 +167,9 @@ Inside the parameter list in the callback function for the map method, unpack al
 Inside the body of the callback function, you will need to add template literals `` which will contain the HTML content for the player cards.
 
 Inside the template literals, add an empty div with a class of "player-card".
+
+# Step 28
+Inside the div, add an h2 element which contains the name parameter. Since you are working with template literals, you will need to use an embedded expression for the name parameter:
+
+Example Code
+`${expression goes here}`
