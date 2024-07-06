@@ -49,3 +49,8 @@ Remember to add 1 to the number returned by .getMonth().
 The .getFullYear() method returns a number which represents the year for the provided date.
 
 Using const, create a variable named year and assign it the year from date with the .getFullYear() method.
+
+# Step 7
+The .getHours() method returns a number between 0 and 23. This represents the hour for the provided date, where 0 is midnight and 23 is 11 p.m.
+
+Create a const variable named hours and assign it the hour from date with the .getHours() method.
