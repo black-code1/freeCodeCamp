@@ -188,3 +188,6 @@ Now that you have a better understanding on how to work with the split, reverse,
 Now it is time to apply what you learned in the previous steps.
 
 Split the formattedDate string into an array of substrings. Use a "-" for the separator.
+
+# Step 24
+Next, reverse the formattedDate array. Make sure to use method chaining.
