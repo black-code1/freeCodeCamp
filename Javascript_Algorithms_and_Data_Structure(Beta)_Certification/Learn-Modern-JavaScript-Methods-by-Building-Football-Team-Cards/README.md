@@ -34,3 +34,6 @@ Below the team property, add a new property with a key named sport and a string 
 
 # Step 8
 Below the sport property, add a new property with a key named year and a number value of 1986.
+
+# Step 9
+Below the year property, add a new property with a key named isWorldCupWinner and a boolean value set to true.
