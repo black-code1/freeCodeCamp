@@ -75,3 +75,8 @@ The rest of the data for the myFavoriteFootballTeam.players array has been fille
 The next step is to ensure that you can't modify this object by adding or removing any properties. We are going to use a method called Object.freeze(obj) which will freeze this object and prevent any changes being made to it.
 
 Use the Object.freeze() method to freeze the myFavoriteFootballTeam object.
+
+# Step 15
+The next step is to access the key called sport from the myFavoriteFootballTeam object and assign it to a new const variable called sport.
+
+Remember you can use dot notation for this.
