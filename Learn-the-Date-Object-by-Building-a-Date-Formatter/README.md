@@ -191,3 +191,8 @@ Split the formattedDate string into an array of substrings. Use a "-" for the se
 
 # Step 24
 Next, reverse the formattedDate array. Make sure to use method chaining.
+
+# Step 25
+Finally, join the results from the array reversal. Use a "-" as the separator. Remember to use method chaining.
+
+Test out your changes by selecting the Year, Month, Day option from the dropdown menu. The date should now be displayed in the format yyyy-mm-dd.
