@@ -183,3 +183,8 @@ Open up the console and see the output.
 
 # Step 22
 Now that you have a better understanding on how to work with the split, reverse, and join methods, you can delete your exampleSentence variable and console statement.
+
+# Step 23
+Now it is time to apply what you learned in the previous steps.
+
+Split the formattedDate string into an array of substrings. Use a "-" for the separator.
