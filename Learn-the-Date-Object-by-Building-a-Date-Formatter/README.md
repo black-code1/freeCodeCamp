@@ -62,3 +62,6 @@ Create a const variable named minutes and assign it the minutes from date with t
 
 # Step 9
 Next, create a const variable named formattedDate and assign it empty template literals.
+
+# Step 10
+Inside the template literal, add an embedded expression that contains the day variable.
