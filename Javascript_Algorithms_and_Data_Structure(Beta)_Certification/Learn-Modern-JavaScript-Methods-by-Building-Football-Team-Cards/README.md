@@ -11,3 +11,6 @@ Start by accessing the id called "team" from the HTML document and storing it in
 Remember, you can use the getElementById method for this.
 
 NOTE: The numbers for the team are organized alphabetically by last name. This differs from conventional numbering where the numbers correspond with what is on the player's jerseys.
+
+# Step 2
+Next, access the id called "sport" from the HTML document and store it in a const variable called typeOfSport. Below that variable, assign the id of "year" to a const variable called worldCupYear.
