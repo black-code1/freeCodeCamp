@@ -231,3 +231,8 @@ Add a switch statement and use e.target.value for the expression.
 If the user selects Nicknames from the dropdown menu you will want to filter out player cards that have a nickname.
 
 Start by adding a case clause for "nickname" inside your switch statement.
+
+# Step 41
+Call the setPlayerCards function with an argument of players.filter().
+
+Inside the filter method, add a callback function with a parameter called player and implicitly return player.nickname is not null.
