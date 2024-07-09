@@ -221,3 +221,8 @@ Remove the console.log statement you created in the previous step.
 The next step would be to reset the content for the playerCards element.
 
 Inside the callback function, access the innerHTML property of the playerCards element and assign it a value of an empty string.
+
+# Step 39
+The next step would be to add a switch statement which will check for the user's selection from the player dropdown menu and filter out cards based on the player's positions.
+
+Add a switch statement and use e.target.value for the expression.
