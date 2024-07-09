@@ -202,3 +202,8 @@ To remove the commas between each player-card so it does not show up on screen, 
 The next step is to create a function that will detect when a user makes a selection from the playersDropdownList.
 
 Use the .addEventListener() method on playersDropdownList. Inside the event listener, pass in a "change" event type and an empty callback function.
+
+# Step 36
+For the callback function, pass in e as a parameter.
+
+e represents an object which contains the information for that event.
