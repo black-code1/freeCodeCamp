@@ -184,3 +184,6 @@ Below the h2 element, add a paragraph element with the text Position: and an emb
 
 # Step 31
 Below the paragraph element, add another paragraph element with the text Number: and an embedded expression that contains the number parameter.
+
+# Step 32
+Below your existing paragraph elements, add another paragraph element with the text Nickname: .
