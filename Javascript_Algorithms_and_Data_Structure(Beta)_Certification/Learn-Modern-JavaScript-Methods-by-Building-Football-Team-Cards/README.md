@@ -253,3 +253,6 @@ Lastly, add a break statement below the setPlayerCards function call.
 
 # Step 44
 Add a new case for "midfielder" that checks if player.position equals "midfielder" following the same pattern from the previous step.
+
+# Step 45
+Add a new case for "defender" that checks if player.position equals "defender" following the same pattern as the previous step.
