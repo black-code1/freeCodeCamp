@@ -190,5 +190,5 @@ const setPlayerCards = (arr = players) => {
                   <p>Nickname: ${nickname ? nickname : 'N/A'}</p>
             </div>
         `
-    })
+    }).join('')
 }

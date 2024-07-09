@@ -192,3 +192,8 @@ Below your existing paragraph elements, add another paragraph element with the t
 Next to the Nickname: text, add an embedded expression that will show the player's nickname if they have one.
 
 Use a ternary operator to check if nickname is not null. If the player has a nickname, display nickname otherwise display "N/A".
+
+# Step 34
+The .map() method will return a new array of player-card items separated by commas.
+
+To remove the commas between each player-card so it does not show up on screen, chain the .join() method to the .map() method. Pass an empty string as the argument for the .join() method.
