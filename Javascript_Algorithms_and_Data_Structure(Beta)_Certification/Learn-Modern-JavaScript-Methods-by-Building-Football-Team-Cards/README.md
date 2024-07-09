@@ -236,3 +236,8 @@ Start by adding a case clause for "nickname" inside your switch statement.
 Call the setPlayerCards function with an argument of players.filter().
 
 Inside the filter method, add a callback function with a parameter called player and implicitly return player.nickname is not null.
+
+# Step 42
+Before you can move onto the next case, you will need to add a break statement.
+
+Below your setPlayerCards call, add a break statement.
