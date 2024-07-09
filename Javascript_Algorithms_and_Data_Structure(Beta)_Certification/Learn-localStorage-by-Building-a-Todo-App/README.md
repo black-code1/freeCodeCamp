@@ -12,3 +12,6 @@ Begin by accessing the task-form, confirm-close-dialog, and open-task-form-btn e
 
 # Step 2
 You need to access more elements with the getElementById() method. This time you need the close-task-form-btn, add-or-update-task-btn, and cancel-btn elements. Save them in the variables closeTaskFormBtn, addOrUpdateTaskBtn, and cancelBtn.
+
+# Step 3
+Next, access the discard-btn, tasks-container, and title-input elements using the getElementById() method. Save them in variables named discardBtn, tasksContainer, and titleInput, respectively.
