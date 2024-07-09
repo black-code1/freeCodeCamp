@@ -250,3 +250,6 @@ Inside that case, call the setPlayerCards function with an argument of players.f
 Inside the filter() method, add a callback function with a parameter of player that will check if player.position equals "forward".
 
 Lastly, add a break statement below the setPlayerCards function call.
+
+# Step 44
+Add a new case for "midfielder" that checks if player.position equals "midfielder" following the same pattern from the previous step.
