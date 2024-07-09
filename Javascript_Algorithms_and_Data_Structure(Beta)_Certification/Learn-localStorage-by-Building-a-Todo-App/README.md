@@ -18,3 +18,8 @@ Next, access the discard-btn, tasks-container, and title-input elements using th
 
 # Step 4
 The last set of elements you need to get from the HTML file are the date-input and description-input elements. Save them in the variables dateInput and descriptionInput respectively.
+
+# Step 5
+Create a taskData constant and set it to an empty array. This array will store all the tasks along with their associated data, including title, due date, and description. This storage will enable you to keep track of tasks, display them on the page, and save them to localStorage.
+
+Use let to create a currentTask variable and set it to an empty object. This variable will be used to track the state when editing and discarding tasks.
