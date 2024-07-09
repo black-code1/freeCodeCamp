@@ -38,3 +38,12 @@ Add an event listener to the openTaskFormBtn element and pass in a click event f
 For the callback function, use the classList.toggle() method to toggle the hidden class on the taskForm element.
 
 Now you can click on the "Add new Task" button and see the form modal.
+
+# Step 7
+The HTML dialog element has a showModal() method that can be used to display a modal dialog box on a web page.
+
+Example Code
+`dialogElement.showModal();`
+Add an event listener to the closeTaskFormBtn variable and pass in a click event for the first argument and a callback function for the second argument.
+
+For the callback function, call the showModal() method on the confirmCloseDialog element. This will display a modal with the Discard and Cancel buttons.
