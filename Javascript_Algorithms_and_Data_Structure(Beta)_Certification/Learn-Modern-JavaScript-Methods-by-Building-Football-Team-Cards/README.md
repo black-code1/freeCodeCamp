@@ -187,3 +187,8 @@ Below the paragraph element, add another paragraph element with the text Number:
 
 # Step 32
 Below your existing paragraph elements, add another paragraph element with the text Nickname: .
+
+# Step 33
+Next to the Nickname: text, add an embedded expression that will show the player's nickname if they have one.
+
+Use a ternary operator to check if nickname is not null. If the player has a nickname, display nickname otherwise display "N/A".
