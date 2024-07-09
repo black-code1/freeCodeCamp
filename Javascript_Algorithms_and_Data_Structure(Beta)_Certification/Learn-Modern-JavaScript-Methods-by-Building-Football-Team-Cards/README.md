@@ -259,3 +259,11 @@ Add a new case for "defender" that checks if player.position equals "defender" f
 
 # Step 46
 Add a new case for "goalkeeper" that checks if player.position equals "goalkeeper" following the same pattern as the previous step.
+
+# Step 47
+The final step is to add a default clause if none of the other case clauses match the user selection.
+
+For the default clause, call the setPlayerCards function without any arguments passed in.
+
+Test out your dropdown menu, and you should see the player cards be filtered out by position or nickname.
+
