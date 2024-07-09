@@ -214,3 +214,10 @@ Inside the callback function, add a console.log with the value of e.target.value
 Open the console, and make a selection from the teammates dropdown menu. You should see the value of that selection in the console.
 
 e.target.value represents the value property from the playersDropdownList element. In future steps, you will use this value to show player cards based on the position they play.
+
+# Step 38
+Remove the console.log statement you created in the previous step.
+
+The next step would be to reset the content for the playerCards element.
+
+Inside the callback function, access the innerHTML property of the playerCards element and assign it a value of an empty string.
