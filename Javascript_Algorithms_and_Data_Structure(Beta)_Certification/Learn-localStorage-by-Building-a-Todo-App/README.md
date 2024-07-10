@@ -56,3 +56,8 @@ Example Code
 Add an event listener to the cancelBtn element and pass in a click event for the first argument and a callback function for the second argument.
 
 For the callback function, call the close() method on the confirmCloseDialog element.
+
+# Step 9
+If the user clicks the Discard button, you want to close the modal showing the Cancel and Discard buttons, then hide the form modal.
+
+Add a click event listener to discardBtn, then use the close() method on the confirmCloseDialog variable. Also, use classList to toggle the class hidden on taskForm so the form modal will close too.
