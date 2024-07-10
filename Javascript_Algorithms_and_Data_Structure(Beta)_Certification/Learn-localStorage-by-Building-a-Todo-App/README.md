@@ -246,3 +246,8 @@ this is a keyword that refers to the current context. In this case, this points 
 
 # Step 42
 Create a deleteTask function using arrow syntax. Pass buttonEl as the parameter and define an empty set of curly braces for the function body.
+
+# Step 43
+You need to find the index of the task you want to delete first.
+
+Create a dataArrIndex variable and set its value using the findIndex() method on the taskData array. Pass item as the parameter for the arrow callback function, and within the callback, check if the id of item is equal to the id of the parentElement of buttonEl.
