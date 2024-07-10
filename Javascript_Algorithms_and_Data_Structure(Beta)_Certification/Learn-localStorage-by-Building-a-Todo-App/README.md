@@ -66,3 +66,21 @@ Add a click event listener to discardBtn, then use the close() method on the con
 Now that you've worked on opening and closing the modal, it's time to get the values from the input fields, save them into the taskData array, and display them on the page.
 
 To start, add a submit event listener to your taskForm element and pass in e as the parameter of your arrow function. Inside the curly braces, use the preventDefault() method to stop the browser from refreshing the page after submitting the form.
+
+# Step 11
+You will need to determine whether the task being added to the taskData array already exists or not. If the task does not exist, you will add it to the array. If it does exist, you will update it. To accomplish this, you can use the findIndex() method.
+
+The findIndex() array method finds and returns the index of the first element in an array that meets the criteria specified by a provided testing function. If no such element is found, the method returns -1.
+
+Here's an example:
+
+Example Code
+```
+const numbers = [3, 1, 5, 6];
+const firstNumLargerThanThree = numbers.findIndex((num) => num > 3);
+
+console.log(firstNumLargerThanThree); // prints index 2
+```
+Use const to declare a variable called dataArrIndex and assign it the value of taskData.findIndex(). For the findIndex() method, pass in an arrow function with item as the parameter.
+
+Within the arrow function, check if the id property of item is strictly equal to the id property of currentTask.
