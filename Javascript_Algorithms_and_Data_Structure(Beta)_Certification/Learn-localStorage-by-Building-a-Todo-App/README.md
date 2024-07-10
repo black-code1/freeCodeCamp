@@ -190,3 +190,6 @@ Create one more p element and interpolate the description you destructured as th
 To allow for task management, you need to include both a delete and an edit button for each task.
 
 Create two button elements with the type attribute set to button and the class attribute set to btn. Set the text of the first button to Edit and the text of the second button to Delete.
+
+# Step 29
+After adding the task to the page, you should close the form modal to view the task. To do this, utilize classList to toggle the hidden class on the taskForm element.
