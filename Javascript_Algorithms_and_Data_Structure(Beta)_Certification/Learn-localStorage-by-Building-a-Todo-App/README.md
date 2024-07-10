@@ -176,3 +176,6 @@ Using arrow syntax complete the forEach callback function. Inside the callback f
 
 # Step 24
 Create a div element with the class of task. Utilize template strings to set the id attribute of the div to the id you destructured from the task data.
+
+# Step 25
+Create a p element and use template strings to set its content to the title you destructured. Right before the content of the p element, create a strong element with the text Title:.
