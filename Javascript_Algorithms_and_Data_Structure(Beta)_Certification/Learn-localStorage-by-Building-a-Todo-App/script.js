@@ -30,5 +30,4 @@ taskForm.addEventListener('submit', (e) => {
         date: dateInput.value,
         description: descriptionInput.value
     }
-    console.log(taskObj)
 });
