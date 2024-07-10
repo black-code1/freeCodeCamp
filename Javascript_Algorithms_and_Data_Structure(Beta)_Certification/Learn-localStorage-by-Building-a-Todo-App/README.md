@@ -173,3 +173,6 @@ Use forEach() on taskData, then destructure id, title, date, description as the 
 
 # Step 23
 Using arrow syntax complete the forEach callback function. Inside the callback function body use an addition assignment to set the innerHTML of tasksContainer to empty backticks.
+
+# Step 24
+Create a div element with the class of task. Utilize template strings to set the id attribute of the div to the id you destructured from the task data.
