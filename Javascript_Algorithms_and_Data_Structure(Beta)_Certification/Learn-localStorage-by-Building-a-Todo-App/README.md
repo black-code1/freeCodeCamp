@@ -119,3 +119,14 @@ To see the new result, click on the "Add New Task" button. Then add a title of W
 Now that your id is an array of words, you can use the join method to turn the result back into a string. For the separator, use a hyphen(-).
 
 To see the new result, click on the "Add New Task" button. Then add a title of WALK DOG and click on the "Add Task" button. Open up the console to see the result of "walk-dog".
+
+# Step 17
+There is one last thing you will need to do to make this id unique.
+
+But first, place the entire value below inside an embedded expression ${}.
+
+Example Code
+`titleInput.value.toLowerCase().split(" ").join("-")`
+Then wrap that value in template strings.
+
+In the next step, you will add a unique number to the end of the id value to make it truly unique.
