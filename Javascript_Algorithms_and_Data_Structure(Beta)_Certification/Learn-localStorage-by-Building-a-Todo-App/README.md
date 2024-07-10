@@ -238,3 +238,8 @@ Now remove the reset() call inside the taskForm submit event listener and call t
 There's a problem. If you add a task, and then add another, the previous task gets duplicated. This means you need to clear out the existing contents of tasksContainer before adding a new task.
 
 Set the innerHTML of tasksContainer back to an empty string.
+
+# Step 41
+To enable editing and deleting for each task, add an onclick attribute to both buttons. Set the value of the onclick attribute to editTask(this) for the Edit button and deleteTask(this) for the Delete button. The editTask(this) function will handle editing, while the deleteTask(this) function will handle deletion.
+
+this is a keyword that refers to the current context. In this case, this points to the element that triggers the event – the buttons.
