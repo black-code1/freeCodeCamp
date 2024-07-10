@@ -182,3 +182,6 @@ Create a p element and use template strings to set its content to the title you 
 
 # Step 26
 Similarly to the previous step, create another p element, and interpolate the date you destructured as the text content. Inside this paragraph, create a strong element with the text Date:.
+
+# Step 27
+Create one more p element and interpolate the description you destructured as the text. Also, create a strong element inside the paragraph with the text Description:.
