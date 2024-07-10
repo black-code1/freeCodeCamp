@@ -170,3 +170,6 @@ console.log(arr);
 Now that you have saved the task in the taskData array, you should display the task on the page by looping through it.
 
 Use forEach() on taskData, then destructure id, title, date, description as the parameters. Don't return anything yet.
+
+# Step 23
+Using arrow syntax complete the forEach callback function. Inside the callback function body use an addition assignment to set the innerHTML of tasksContainer to empty backticks.
