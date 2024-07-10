@@ -39,5 +39,6 @@ taskForm.addEventListener('submit', (e) => {
         `
         <div class="task" id="${id}"></div>
         <p><strong>Title: </strong>${title}</p>
+        <p><strong>Date: </strong> ${date}</p>
 `)
 });

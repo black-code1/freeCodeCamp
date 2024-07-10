@@ -179,3 +179,6 @@ Create a div element with the class of task. Utilize template strings to set the
 
 # Step 25
 Create a p element and use template strings to set its content to the title you destructured. Right before the content of the p element, create a strong element with the text Title:.
+
+# Step 26
+Similarly to the previous step, create another p element, and interpolate the date you destructured as the text content. Inside this paragraph, create a strong element with the text Date:.
