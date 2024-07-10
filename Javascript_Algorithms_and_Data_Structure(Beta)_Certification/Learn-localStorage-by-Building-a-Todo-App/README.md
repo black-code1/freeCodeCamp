@@ -139,3 +139,10 @@ Date.now() returns the number of milliseconds elapsed since January 1, 1970 00:0
 Example Code
 `console.log(Date.now()); // 1628586800000`
 To see the new result, click on the "Add New Task" button. Then add a title of WALK DOG and click on the "Add Task" button. Open up the console to see the result.
+
+# Step 19
+Now it is time to add the remaining properties to the taskObj object.
+
+Retrieve the values from the titleInput, dateInput, and descriptionInput fields, and then save them in the properties title, date, and description of the taskObj object.
+
+Add a new task and open up the console to see the taskObj object with the new properties.
