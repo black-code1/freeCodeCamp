@@ -93,3 +93,8 @@ Create a const variable called taskObj and assign it the value of an empty objec
 Then below that, add a console statement that logs the value of taskObj to the console.
 
 Open up the console to see the empty object.
+
+# Step 13
+Inside your taskObj, add an id property name. For the value use the value of the titleInput.
+
+To see the new result, click on the "Add New Task" button. Then add a title and click on the "Add Task" button. Open up the console to see the result.
