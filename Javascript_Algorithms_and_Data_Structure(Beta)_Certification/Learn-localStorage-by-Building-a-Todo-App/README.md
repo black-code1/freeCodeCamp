@@ -84,3 +84,12 @@ console.log(firstNumLargerThanThree); // prints index 2
 Use const to declare a variable called dataArrIndex and assign it the value of taskData.findIndex(). For the findIndex() method, pass in an arrow function with item as the parameter.
 
 Within the arrow function, check if the id property of item is strictly equal to the id property of currentTask.
+
+# Step 12
+When a user creates a task, it should be saved in an object.
+
+Create a const variable called taskObj and assign it the value of an empty object.
+
+Then below that, add a console statement that logs the value of taskObj to the console.
+
+Open up the console to see the empty object.
