@@ -200,3 +200,8 @@ If you attempt to add another task now, you'll notice that the input fields reta
 Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
 
 Use arrow syntax to create a reset function and set it to a pair of curly braces.
+
+# Step 31
+Inside the reset function, set each value of titleInput, dateInput, descriptionInput to an empty string.
+
+Also, use classList to toggle the class hidden on the taskForm and set currentTask to an empty object. That's because at this point, currentTask will be filled with the task the user might have added.
