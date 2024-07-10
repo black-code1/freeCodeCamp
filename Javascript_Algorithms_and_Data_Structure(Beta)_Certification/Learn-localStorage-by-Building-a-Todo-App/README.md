@@ -211,3 +211,8 @@ Remove the existing code toggling the class of hidden on taskForm and call the r
 
 # Step 33
 Also, remove the existing code toggling the class hidden on taskForm inside the discardBtn event listener and call the reset function instead. That's because when you click the Discard button, everything in the input fields should go away.
+
+# Step 34
+You should display the Cancel and Discard buttons to the user only if there is some text present in the input fields.
+
+To begin, within the closeTaskFormBtn event listener, create a formInputsContainValues variable to check if there is a value in the titleInput field or the dateInput field or the descriptionInput field.
