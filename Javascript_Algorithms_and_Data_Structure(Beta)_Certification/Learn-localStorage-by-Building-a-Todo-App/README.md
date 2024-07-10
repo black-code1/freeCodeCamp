@@ -233,3 +233,8 @@ Inside the addOrUpdateTask function, call the updateTaskContainer and reset func
 
 # Step 39
 Now remove the reset() call inside the taskForm submit event listener and call the addOrUpdateTask function instead.
+
+# Step 40
+There's a problem. If you add a task, and then add another, the previous task gets duplicated. This means you need to clear out the existing contents of tasksContainer before adding a new task.
+
+Set the innerHTML of tasksContainer back to an empty string.
