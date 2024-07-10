@@ -230,3 +230,6 @@ Use arrow syntax to create an updateTaskContainer function. Then move the taskDa
 
 # Step 38
 Inside the addOrUpdateTask function, call the updateTaskContainer and reset functions.
+
+# Step 39
+Now remove the reset() call inside the taskForm submit event listener and call the addOrUpdateTask function instead.
