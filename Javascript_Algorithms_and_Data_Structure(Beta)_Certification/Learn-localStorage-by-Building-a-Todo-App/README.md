@@ -205,3 +205,6 @@ Use arrow syntax to create a reset function and set it to a pair of curly braces
 Inside the reset function, set each value of titleInput, dateInput, descriptionInput to an empty string.
 
 Also, use classList to toggle the class hidden on the taskForm and set currentTask to an empty object. That's because at this point, currentTask will be filled with the task the user might have added.
+
+# Step 32
+Remove the existing code toggling the class of hidden on taskForm and call the reset function instead. This would clear the input fields and also hide the form modal for the user to see the added task.
