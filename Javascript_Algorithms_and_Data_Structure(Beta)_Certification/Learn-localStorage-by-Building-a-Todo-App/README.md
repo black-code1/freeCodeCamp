@@ -227,3 +227,6 @@ Use arrow syntax to create an addOrUpdateTask function. Then move the dataArrInd
 
 # Step 37
 Use arrow syntax to create an updateTaskContainer function. Then move the taskData.forEach() and its content into it.
+
+# Step 38
+Inside the addOrUpdateTask function, call the updateTaskContainer and reset functions.
