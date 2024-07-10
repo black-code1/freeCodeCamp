@@ -216,3 +216,6 @@ Also, remove the existing code toggling the class hidden on taskForm inside the 
 You should display the Cancel and Discard buttons to the user only if there is some text present in the input fields.
 
 To begin, within the closeTaskFormBtn event listener, create a formInputsContainValues variable to check if there is a value in the titleInput field or the dateInput field or the descriptionInput field.
+
+# Step 35
+Create an if statement to check if formInputsContainValues is true. If formInputsContainValues is true, indicating that there are changes, use the showModal() method on confirmCloseDialog. Otherwise, if there are no changes, call the reset() function to clear the input fields and hide the form modal.
