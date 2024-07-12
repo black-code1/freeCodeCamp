@@ -287,3 +287,6 @@ The task to be edited is now in the currentTask object. Stage it for editing ins
 
 # Step 49
 Set the innerText of the addOrUpdateTaskBtn button to Update Task.
+
+# Step 50
+Finally, display the form modal with the values of the input fields by using classList to toggle the hidden class on taskForm.
