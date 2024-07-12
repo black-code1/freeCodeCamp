@@ -353,3 +353,8 @@ Now you should save the task items to local storage when the user adds, updates,
 Inside the addOrUpdateTask function, use setItem() to save the tasks with a key of data, then pass the taskData array as its argument. Ensure that you stringify the taskData.
 
 This would persist data once the user adds or updates tasks.
+
+# Step 62
+You also want a deleted task to be removed from local storage. For this, you don't need the removeItem() or clear() methods. Since you already use splice() to remove the deleted task from taskData, all you need to do now is save taskData to local storage again.
+
+Use setItem() to save the taskData array again. Pass in data as the key and ensure that taskData is stringified before saving.
