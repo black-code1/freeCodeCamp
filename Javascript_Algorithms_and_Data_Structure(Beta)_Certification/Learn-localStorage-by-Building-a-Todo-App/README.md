@@ -380,3 +380,10 @@ if (arr.length) {
 In that example, if arr has a length greater than 0, the code inside the if statement block will run. If arr has a length of 0, the code inside the if statement block will not run.
 
 Check if there's a task inside taskData, then call the updateTaskContainer() inside the if statement block.
+
+# Step 65
+If you try to add a new task, edit that task, and then click on the Add New Task button, you will notice a bug.
+
+The form button will display the incorrect text of "Update Task" instead of "Add Task". To fix this, you will need to assign the string "Add Task" to addOrUpdateTaskBtn.innerText inside your reset function.
+
+With that, you've completed this project.
