@@ -273,3 +273,8 @@ dataArrIndex is the index to start and 1 is the number of items to remove.
 
 # Step 45
 Use arrow syntax to create an editTask function. Pass in buttonEl as the parameter and add empty curly braces for the body.
+
+# Step 46
+As you did in the deleteTask function, you need to find the index of the task to be edited.
+
+Create a dataArrIndex variable. For its value, utilize the findIndex() method on taskData. Pass item as the parameter to its callback function and check if the id of item is equal to the id of the parentElement of buttonEl.
