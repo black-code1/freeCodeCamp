@@ -77,6 +77,10 @@ const reset = () => {
     currentTask = {};
 }
 
+if (taskData.length) {
+    updateTaskContainer()
+}
+
 openTaskFormBtn.addEventListener('click', () => taskForm.classList.toggle('hidden'))
 closeTaskFormBtn.addEventListener('click', () => {
     confirmCloseDialog.showModal();
