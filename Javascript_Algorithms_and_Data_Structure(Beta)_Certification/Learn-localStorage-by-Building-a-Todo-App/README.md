@@ -321,3 +321,8 @@ After that, open your browser console and go to the Applications tab, select Loc
 If you check the "Application" tab of your browser console, you'll notice a series of [object Object]. This is because everything you save in localStorage needs to be in string format.
 
 To resolve the issue, wrap the data you're saving in the JSON.stringify() method. Then, check local storage again to observe the results.
+
+# Step 56
+Now that you have the myTaskArr array saved in localStorage correctly, you can retrieve it with getItem() by specifying the key you used to save the item.
+
+Use the getItem() method to retrieve the myTaskArr array and assign it to the variable getTaskArr. Then, log the getTaskArr variable to the console to see the result.
