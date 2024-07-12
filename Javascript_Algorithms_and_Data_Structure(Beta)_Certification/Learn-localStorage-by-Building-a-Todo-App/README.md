@@ -333,3 +333,8 @@ The item you retrieve is a string, as you saved it with JSON.stringify(). To vie
 Use getItem() to retrieve the myTaskArr array again. This time, wrap it inside JSON.parse(), assign it to the variable getTaskArrObj and log the getTaskArrObj to the console.
 
 Check the console to see the difference between getTaskArr and getTaskObj.
+
+# Step 58
+You can use localStorage.removeItem() to remove a specific item and localStorage.clear() to clear all items in the local storage.
+
+Remove the data item from local storage and open the console to observe the result. You should see null.
