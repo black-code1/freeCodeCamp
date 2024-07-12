@@ -343,3 +343,6 @@ Remove the data item from local storage and open the console to observe the resu
 Using localStorage.clear() won't just delete a single item from local storage but will remove all items.
 
 Remove localStorage.removeItem() and use localStorage.clear() instead. You don't need to pass in anything. You should also see null in the console.
+
+# Step 60
+Remove the myTaskArr array and all of the code for localStorage because you don't need them anymore.
