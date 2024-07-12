@@ -298,3 +298,8 @@ At this point, editing a task won't reflect when you submit the task. To make th
 If the user attempts to edit a task but decides not to make any changes before closing the form, there is no need to display the modal with the Cancel and Discard buttons.
 
 Inside the closeTaskFormBtn event listener, use const to create another variable named formInputValuesUpdated. Check if the user made changes while trying to edit a task by verifying that the titleInput value is not equal to currentTask.title, or the dateInput value is not equal to currentTask.date, or the descriptionInput value is not equal to currentTask.description.
+
+# Step 53
+Now add formInputValuesUpdated as the second mandatory condition in the if statement using the AND operator.
+
+This way, the Cancel and Discard buttons in the modal won't be displayed to the user if they haven't made any changes to the input fields while attempting to edit a task.
