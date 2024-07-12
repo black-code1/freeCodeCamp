@@ -281,3 +281,6 @@ Create a dataArrIndex variable. For its value, utilize the findIndex() method on
 
 # Step 47
 Use square bracket notation to retrieve the task to be edited from the taskData array using the dataArrIndex. Then, assign it to the currentTask object to keep track of it.
+
+# Step 48
+The task to be edited is now in the currentTask object. Stage it for editing inside the input fields by setting the value of titleInput to currentTask.title, dateInput to currentTask.date, and descriptionInput to currentTask.description.
