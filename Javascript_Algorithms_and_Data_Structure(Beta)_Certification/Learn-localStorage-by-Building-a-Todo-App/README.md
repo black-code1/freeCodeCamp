@@ -338,3 +338,8 @@ Check the console to see the difference between getTaskArr and getTaskObj.
 You can use localStorage.removeItem() to remove a specific item and localStorage.clear() to clear all items in the local storage.
 
 Remove the data item from local storage and open the console to observe the result. You should see null.
+
+# Step 59
+Using localStorage.clear() won't just delete a single item from local storage but will remove all items.
+
+Remove localStorage.removeItem() and use localStorage.clear() instead. You don't need to pass in anything. You should also see null in the console.
