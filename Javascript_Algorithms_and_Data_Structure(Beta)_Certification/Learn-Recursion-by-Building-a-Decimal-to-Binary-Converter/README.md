@@ -133,3 +133,8 @@ Create a function called decimalToBinary with input as a parameter. Leave the bo
 
 # Step 16
 Within your checkUserInput function, remove the console.log() statement. Then, call the decimalToBinary function and pass in the value of numberInput as an argument. Also, make sure to use the parseInt() function to convert the input into a number.
+
+# Step 17
+Finally, you should clear the number input by setting its value to an empty string. Then later when you convert several numbers in a row, you won't have to delete the previous number before entering the next one.
+
+Set the value property of numberInput to an empty string.
