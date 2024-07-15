@@ -65,3 +65,17 @@ Now that your Convert button and number input are listening for clicks and Enter
 It would be helpful to alert users if they don't enter a value into the number input, or the number they enter is invalid. While the input type="number" element makes validation easier by only allowing numbers and some special characters, remember that all values you get from HTML elements are actually strings. Also, if the number input is empty, the value property will be an empty string.
 
 Inside your checkUserInput function, use an if statement to check if the value of numberInput is equal to an empty string. Leave the body of the if statement empty for now.
+
+# Step 10
+In an earlier project you learned about truthy and falsy values, which are values that evaluate to true or false. In JavaScript, some common falsy values you'll see are null, undefined, the number 0, and empty strings.
+
+Rather than check if a value is equal to a falsy value, you can use the logical NOT operator (!) to check if the value itself is falsy. For example:
+
+Example Code
+```
+const num = 0;
+
+console.log(num === 0); // true
+console.log(!num); // true
+```
+Update the condition in your if statement to use the logical NOT operator to check if numberInput.value is falsy.
