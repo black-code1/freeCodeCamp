@@ -125,3 +125,8 @@ Note that alert() is a method on the window object in the browser, so you can us
 After alerting the user if the number input is empty or the value is not a number, you can use the return keyword to break out of this function early. This will prevent future code in this function from running.
 
 Add the return keyword after alert().
+
+# Step 15
+Now you'll start building the function to actually do the decimal to binary conversion.
+
+Create a function called decimalToBinary with input as a parameter. Leave the body of the function empty for now.
