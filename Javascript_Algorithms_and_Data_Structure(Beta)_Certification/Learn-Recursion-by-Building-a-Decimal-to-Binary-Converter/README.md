@@ -55,3 +55,6 @@ Since you want to perform an action when the Enter key is pressed, the most help
 Remove the console.log() statement from the callback function and add an if statement that checks if e.key is equal to the string "Enter". Leave the body of your if statement empty for now.
 
 Note: Since the Enter and Return keys have similar functions, they both have the same string value of "Enter".
+
+# Step 8
+Next, within the body of the if statement, call the checkUserInput() function. After this, if you enter numbers into the number input and press the Enter / Return key, you should see numbers logged to the console.
