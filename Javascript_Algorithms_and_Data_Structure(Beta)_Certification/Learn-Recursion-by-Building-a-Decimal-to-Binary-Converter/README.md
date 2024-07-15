@@ -23,3 +23,11 @@ First, create an empty function called checkUserInput.
 A good way to test that everything is working is to log the value attribute of numberInput to the console. As a reminder, you can access the value attribute of an element by using dot or bracket notation.
 
 Within the checkUserInput function, use console.log() to log the value of numberInput to the console.
+
+# Step 4
+
+Now that your checkUserInput() function is set up for testing, you can use an event listener to call the function when users click the Convert button.
+
+Chain the .addEventListener() method to convertBtn. The event listener should listen for click events and take a reference to the checkUserInput function as a callback. Remember that function references are not called with parentheses.
+
+Once that's done, whenever you click the Convert button, the value of the number input should be logged to the console.
