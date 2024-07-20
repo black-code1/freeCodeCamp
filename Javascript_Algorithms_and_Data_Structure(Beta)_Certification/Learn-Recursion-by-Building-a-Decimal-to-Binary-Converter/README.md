@@ -377,3 +377,10 @@ Now that b() has executed, pop it off the call stack. Then, update your mock cal
 Finally, a() returns the concatenated string "freeCodeCamp is awesome!".
 
 Pop a() off the top of the call stack.
+
+# Step 55
+While that's a simple example, it demonstrates how the call stack steps through your code and calls multiple functions.
+
+Now it's time to jump into recursion, and see how the call stack fits into the picture.
+
+Remove your callStack array, the a(), b(), and c() functions, and the console.log() statement.
