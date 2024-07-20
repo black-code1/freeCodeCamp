@@ -618,3 +618,10 @@ Finally, use string interpolation to set the text of the paragraph element to de
 Now it's time to set up for the next phase of the animation where you'll update and remove the paragraphs you append to the DOM during the animation.
 
 Add the property msg to the animation object at the top of the stack, and set its value to an empty string.
+
+# Step 99
+Set the value of the msg property to the following string:
+
+Example Code
+`decimalToBinary(1) returns '1' (base case) and gives that value to the stack below. Then it pops off the stack.`
+Note that, since the string itself contains double quotation marks, you'll need to escape them with a backslash, or use single quotation marks for your string value.
