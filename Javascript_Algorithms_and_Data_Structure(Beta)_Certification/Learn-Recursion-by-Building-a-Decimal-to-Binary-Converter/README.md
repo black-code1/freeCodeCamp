@@ -602,3 +602,8 @@ Within the template literal, add a paragraph element with the id attribute equal
 
 # Step 94
 Next, use string interpolation to set the id attribute to the inputVal property of the current object, obj.
+
+# Step 95
+Now you'll add a top margin to the paragraph element.
+
+Add a style attribute to the paragraph element and use string interpolation to set the value to "margin-top: ${currMarginTop}px;", where currMarginTop is the marginTop property of the current object.
