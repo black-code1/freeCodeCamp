@@ -642,3 +642,8 @@ For the last animation object, add the property msg set to the following string:
 Example Code
 `decimalToBinary(5) returns '10' + 1 (5 % 2). Then it pops off the stack.`
 Also, add the property showMsgDelay set to 15000 and the property removeElDelay set to 20000.
+
+# Step 103
+For the next phase of the animation you'll update the paragraphs with the msg text. Since you have the delays for each step of the animation already, you can add your code to the same .forEach() loop.
+
+Add another setTimeout() function. Pass in an empty callback function as the first argument, and pass in the showMsgDelay property of the current object as the second argument.
