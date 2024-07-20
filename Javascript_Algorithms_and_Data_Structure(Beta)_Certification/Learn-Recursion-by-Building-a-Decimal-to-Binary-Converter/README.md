@@ -286,3 +286,8 @@ First, remove everything in the body of the decimalToBinary function. Then, use 
 
 # Step 37
 Since you'll want to display the result of the conversion, assign the binary variable to the innerText property of result at the end of the function.
+
+# Step 38
+Create a while loop that runs as long as input is greater than 0. Inside the loop, assign 0 to input for now.
+
+Note: Be careful not to trigger the decimalToBinary function before you set input equal to 0 inside the loop. Otherwise, you could cause an infinite loop.
