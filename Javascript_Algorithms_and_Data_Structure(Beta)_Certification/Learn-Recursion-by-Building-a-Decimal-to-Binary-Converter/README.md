@@ -628,3 +628,10 @@ Note that, since the string itself contains double quotation marks, you'll need 
 
 # Step 100
 Next, add the property showMsgDelay with the value 5000 and removeElDelay with the value 10000.
+
+# Step 101
+For the object in the middle of the stack, add the property msg set to the following string:
+
+Example Code
+`decimalToBinary(2) returns '1' + 0 (2 % 2) and gives that value to the stack below. Then it pops off the stack.`
+Also, add the property showMsgDelay set to 10000 and the property removeElDelay set to 15000.
