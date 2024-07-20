@@ -401,3 +401,8 @@ A recursive function is a function that calls itself over and over. But you have
 Since your countdown() function will count down from a given number to zero, the base case is when the number parameter is equal to 0. Then it should return to break out of its recursive loop.
 
 Use an if statement to check if number is equal to 0. If it is, use the return keyword to break out of the function.
+
+# Step 59
+Recursive functions also have a recursive case, which is where the function calls itself.
+
+First, convert your if statement into an if...else statement. Leave the body of your else statement empty for now.
