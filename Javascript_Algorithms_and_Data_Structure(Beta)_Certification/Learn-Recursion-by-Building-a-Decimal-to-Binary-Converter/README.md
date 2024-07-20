@@ -276,3 +276,10 @@ To fix this, add an if statement to check if input is equal to 0. Leave the body
 
 # Step 35
 Within the body of the if statement, set the innerText property of result equal to the string "0". Then, use an early return statement to break out of the function early.
+
+# Step 36
+Now your decimalToBinary function is complete. Feel free to play around with it.
+
+But there are some ways to improve it. For example, it's not necessary to keep track of the inputs and quotients. We can clean things up so the function is more efficient.
+
+First, remove everything in the body of the decimalToBinary function. Then, use let to create a variable named binary and assign it an empty string.
