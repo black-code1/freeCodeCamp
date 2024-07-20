@@ -372,3 +372,8 @@ Update your mock call to b() so it looks like this: "b(): returns 'is ' + 'aweso
 
 # Step 53
 Now that b() has executed, pop it off the call stack. Then, update your mock call to a() to the following: "a(): returns 'freeCodeCamp ' + 'is awesome!'".
+
+# Step 54
+Finally, a() returns the concatenated string "freeCodeCamp is awesome!".
+
+Pop a() off the top of the call stack.
