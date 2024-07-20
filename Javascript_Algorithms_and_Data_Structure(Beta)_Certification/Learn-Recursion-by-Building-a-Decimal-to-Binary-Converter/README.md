@@ -456,3 +456,6 @@ This effectively lowers the input by roughly half each time the decimalToBinary(
 However, remember that the binary number string is built by calculating the remainder of input divided by 2 and concatenating that to the end.
 
 After your call to decimalToBinary(), use the addition operator (+) to concatenate the remainder of input divided by 2 to the end of the string your recursive function returns. Also, wrap the operation in parentheses.
+
+# Step 70
+Finally, in your checkUserInput() function, set the textContent property of result equal to the string returned by your decimalToBinary() function.
