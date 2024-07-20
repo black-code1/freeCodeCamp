@@ -389,3 +389,8 @@ Remove your callStack array, the a(), b(), and c() functions, and the console.lo
 Now you'll create a function that will count down from a given number to zero using recursion.
 
 Create a new function named countdown with number as a parameter. Leave the function body empty for now.
+
+# Step 57
+The first thing you need to do is log the current value of number to the console to act as the countdown.
+
+Use console.log() to log number to the console.
