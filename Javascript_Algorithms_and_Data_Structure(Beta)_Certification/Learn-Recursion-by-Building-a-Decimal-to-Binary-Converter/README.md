@@ -283,3 +283,6 @@ Now your decimalToBinary function is complete. Feel free to play around with it.
 But there are some ways to improve it. For example, it's not necessary to keep track of the inputs and quotients. We can clean things up so the function is more efficient.
 
 First, remove everything in the body of the decimalToBinary function. Then, use let to create a variable named binary and assign it an empty string.
+
+# Step 37
+Since you'll want to display the result of the conversion, assign the binary variable to the innerText property of result at the end of the function.
