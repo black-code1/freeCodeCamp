@@ -473,3 +473,17 @@ This mostly works – if you convert 0 into binary, 0 is displayed on the page. 
 But if you think about it, 0 and 1 in base-10 always convert to 0 and 1 in base-2, respectively. So you can add another base case to handle when input is 1.
 
 Add an else if statement to your function that checks if input is equal to 1. If it is, return the string "1".
+
+# Step 73
+Now everything should work as expected. And since you know that input will either be the numbers 0 or 1 at this point, you can combine your two base cases and just return input as a string.
+
+For a reliable way to convert a value into a string, even falsy values like null and undefined, you can use the String() function. For example:
+
+Example Code
+```
+const num = 5;
+
+console.log(String(num)); // "5"
+console.log(String(null)); // "null"
+````
+Combine your if and else if statements into a single if statement checking if input is equal to 0 or 1. If it is, use the String() function to convert input into a string and return it.
