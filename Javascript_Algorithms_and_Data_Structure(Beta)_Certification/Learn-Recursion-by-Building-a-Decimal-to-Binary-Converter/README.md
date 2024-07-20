@@ -243,3 +243,6 @@ Example Code
 In other words, the dividend, 5, can be divided by the divisor, 2, multiple times. Then you're left with a remainder of 1.
 
 Inside your while loop, create a variable named remainder and use the remainder operator to assign it the remainder of input divided by 2.
+
+# Step 29
+Inside your while loop, use the .push() method to append input to the inputs array. This will help you get a better idea of how the conversion works later when you log the contents of your arrays to the console.
