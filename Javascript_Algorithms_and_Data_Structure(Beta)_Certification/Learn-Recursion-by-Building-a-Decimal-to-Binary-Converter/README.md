@@ -326,3 +326,6 @@ Create a function named a that returns the following: "freeCodeCamp " + b().
 Next, create a function named b that returns the following: "is " + c().
 
 Also, create a function named c that returns the following: "awesome!".
+
+# Step 46
+Finally, call a() from within a console.log() statement to log the output to the console.
