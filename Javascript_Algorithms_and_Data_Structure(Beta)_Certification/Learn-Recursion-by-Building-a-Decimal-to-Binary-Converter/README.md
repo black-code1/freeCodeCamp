@@ -189,3 +189,6 @@ Now that you're familiar with binary numbers, it's time to finish building the f
 First, you need to create some arrays to store the inputs and results of the division you'll do in the following steps. These will make it easier to see how the decimal to binary conversion works.
 
 Remove the return statement from your decimalToBinary function. Then, declare variables named inputs, quotients, and remainders, and assign an empty array to each of them.
+
+# Step 22
+Set input equal to the number 0 for now. We'll change this in the next few steps.
