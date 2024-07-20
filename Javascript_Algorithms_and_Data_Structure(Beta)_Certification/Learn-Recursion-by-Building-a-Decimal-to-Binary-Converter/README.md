@@ -229,3 +229,8 @@ Inside your while loop, create a variable named quotient and assign it the value
 Like you saw in the last step, division can lead to a floating point number, or a number with a decimal point. The best way to handle this is to round down to the nearest whole number.
 
 Use the Math.floor() function to round down the quotient of input divided by 2 before it's assigned to quotient.
+
+# Step 27
+Now that you have an operation that will lower the value of input each time the loop runs, you don't have to worry about the loop running forever.
+
+Update the last line of your while loop and assign quotient to input.
