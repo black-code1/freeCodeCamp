@@ -509,3 +509,6 @@ Now your showAnimation() function is set up. But if you look closely at your che
 A simple way to fix this is to create a new variable to store the converted number. Then you only have to convert the number once and can use it throughout the function.
 
 Create a new variable called inputInt and assign it the number converted from numberInput.value.
+
+# Step 78
+Replace all instances of parseInt(numberInput.value) with inputInt.
