@@ -364,3 +364,8 @@ Your call stack is complete. As you can see, a() is at the bottom or beginning o
 c() executes, returns the string "awesome!", and is popped off or removed from the top of the stack.
 
 Remove your "c(): returns 'awesome!'" string from the top of the callStack array.
+
+# Step 52
+Then the function b() executes and evaluates to "is " + "awesome!".
+
+Update your mock call to b() so it looks like this: "b(): returns 'is ' + 'awesome!'".
