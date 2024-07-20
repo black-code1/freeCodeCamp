@@ -502,3 +502,10 @@ Use an if statement to check if the value attribute of numberInput is equal to t
 
 # Step 76
 If the value of numberInput is equal to 5, call the showAnimation() function, then return early.
+
+# Step 77
+Now your showAnimation() function is set up. But if you look closely at your checkUserInput() function, you'll notice that it's not very DRY – you're calling parseInt() to convert numberInput.value into a number several times.
+
+A simple way to fix this is to create a new variable to store the converted number. Then you only have to convert the number once and can use it throughout the function.
+
+Create a new variable called inputInt and assign it the number converted from numberInput.value.
