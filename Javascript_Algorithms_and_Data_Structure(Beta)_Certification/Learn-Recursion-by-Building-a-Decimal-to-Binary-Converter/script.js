@@ -37,7 +37,9 @@ const showAnimation = () => {
                     id="${obj.inputVal}" 
                     style="margin-top: ${obj.marginTop}px" 
                     class="animation-frame"
-                ></p>
+                >
+                    decimalToBinary(${obj.inputVal})
+                </p>
             `
         }, obj.addElDelay)
     })
