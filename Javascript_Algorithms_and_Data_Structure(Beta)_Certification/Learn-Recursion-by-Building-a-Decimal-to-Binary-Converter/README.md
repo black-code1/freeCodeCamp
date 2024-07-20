@@ -494,3 +494,8 @@ Now your decimalToBinary() function is complete. Feel free to test it out.
 If you're still confused about how it works under the hood, don't worry. Next, you'll create a simple animation to help you understand what's happening each step of the way.
 
 Create a new function called showAnimation. Leave the body of the function empty for now.
+
+# Step 75
+You'll show the animation when users try to convert the decimal number 5 to binary, so you'll need to add a check for that within your checkUserInput() function.
+
+Use an if statement to check if the value attribute of numberInput is equal to the number 5. Remember to use the parseInt() function to convert the string into a number before comparing it to 5. Leave the if statement empty for now.
