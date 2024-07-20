@@ -316,3 +316,8 @@ To clean things up a bit, wrap input % 2 in parentheses. This can sometimes chan
 Finally, you need to handle cases where input is 0. Rather than update the DOM and return early like you did before, you can update the binary string and let the rest of the code in the function run.
 
 Create an if statement that checks if input is equal to 0. If it is, set binary equal to the string "0".
+
+# Step 44
+Awesome. Now you have a more efficient way to convert decimal numbers into binary. After learning a bit about the call stack and recursion, you'll refactor the decimalToBinary function to use recursion instead of a while loop.
+
+Create a function named a that returns the following: "freeCodeCamp " + b().
