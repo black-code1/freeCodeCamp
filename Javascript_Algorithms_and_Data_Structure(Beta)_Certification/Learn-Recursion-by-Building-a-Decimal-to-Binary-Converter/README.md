@@ -596,3 +596,6 @@ Within the body of the .forEach() method's callback function, add a setTimeout()
 
 # Step 92
 Then, use the compound assignment operator (+=) to set the innerHTML property of the animationContainer to an empty template literal string.
+
+# Step 93
+Within the template literal, add a paragraph element with the id attribute equal to an empty string.
