@@ -249,3 +249,8 @@ Inside your while loop, use the .push() method to append input to the inputs arr
 
 # Step 30
 Use .push() to append the quotient variable to the quotients array. Also, append the remainder variable to the remainders array.
+
+# Step 31
+Now's a good time to check your work.
+
+Log the text "Inputs: ", followed by a comma, followed by the inputs array to the console.
