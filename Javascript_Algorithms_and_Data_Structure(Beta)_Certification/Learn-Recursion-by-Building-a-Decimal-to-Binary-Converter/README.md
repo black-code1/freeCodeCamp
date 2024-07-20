@@ -607,3 +607,6 @@ Next, use string interpolation to set the id attribute to the inputVal property 
 Now you'll add a top margin to the paragraph element.
 
 Add a style attribute to the paragraph element and use string interpolation to set the value to "margin-top: ${currMarginTop}px;", where currMarginTop is the marginTop property of the current object.
+
+# Step 96
+Add a class attribute set to "animation-frame".
