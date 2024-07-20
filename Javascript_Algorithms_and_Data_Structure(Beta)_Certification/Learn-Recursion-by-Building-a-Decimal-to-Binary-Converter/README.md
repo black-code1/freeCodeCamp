@@ -564,3 +564,8 @@ Next, you'll create an object to represent the first frame of your animation. Yo
 inputVal will represent the value of the input each time your recursive function runs. marginTop will be the top margin for DOM elements you'll add to the page. And addElDelay will be the delay between adding DOM elements to the page.
 
 Add an object to animationData with an inputVal property set to 5, a marginTop property set to 300, and an addElDelay property set to 1000.
+
+# Step 85
+Recall that the call stack is a LIFO (last in, first out) data structure. This means that, as functions are called, they are added to the top or end of the stack, and as functions return, they are removed from the top of the stack.
+
+Treat your animationData array as a stack and add a new object to it. Your new object should have the properties inputVal, marginTop, and addElDelay set to 2, -200, and 1500, respectively. Remember to add this object to the top of the stack, or in other words, to the end of the animationData array.
