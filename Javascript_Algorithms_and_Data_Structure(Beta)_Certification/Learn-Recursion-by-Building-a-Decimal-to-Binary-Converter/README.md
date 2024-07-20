@@ -224,3 +224,8 @@ Example Code
 In the example above, 5 is the dividend, or the number to be divided, and 2 is the divisor, or the number to divide by. The result, 2.5, is called the quotient.
 
 Inside your while loop, create a variable named quotient and assign it the value of input divided by 2.
+
+# Step 26
+Like you saw in the last step, division can lead to a floating point number, or a number with a decimal point. The best way to handle this is to round down to the nearest whole number.
+
+Use the Math.floor() function to round down the quotient of input divided by 2 before it's assigned to quotient.
