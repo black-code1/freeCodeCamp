@@ -384,3 +384,8 @@ While that's a simple example, it demonstrates how the call stack steps through 
 Now it's time to jump into recursion, and see how the call stack fits into the picture.
 
 Remove your callStack array, the a(), b(), and c() functions, and the console.log() statement.
+
+# Step 56
+Now you'll create a function that will count down from a given number to zero using recursion.
+
+Create a new function named countdown with number as a parameter. Leave the function body empty for now.
