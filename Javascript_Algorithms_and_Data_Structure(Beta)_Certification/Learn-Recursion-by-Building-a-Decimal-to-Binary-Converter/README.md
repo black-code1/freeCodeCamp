@@ -557,3 +557,10 @@ Add a 1500 millisecond delay before the text "Camp" is logged to the console.
 Now you're ready to start on the animation itself. You'll use an array of objects to store data for each frame of the animation.
 
 First, create a new variable called animationData and assign it an empty array.
+
+# Step 84
+Next, you'll create an object to represent the first frame of your animation. Your object should have three properties or keys: inputVal, marginTop, and addElDelay.
+
+inputVal will represent the value of the input each time your recursive function runs. marginTop will be the top margin for DOM elements you'll add to the page. And addElDelay will be the delay between adding DOM elements to the page.
+
+Add an object to animationData with an inputVal property set to 5, a marginTop property set to 300, and an addElDelay property set to 1000.
