@@ -580,3 +580,8 @@ First, use the document.getElementById() method to select the element with the i
 
 # Step 88
 Next, clear out your showAnimation() function by removing all of your setTimeout() calls.
+
+# Step 89
+Now you'll start building the animation itself.
+
+First, set the innerText property of result to "Call Stack Animation".
