@@ -652,3 +652,8 @@ Add another setTimeout() function. Pass in an empty callback function as the fir
 You have set the id attribute for your paragraph elements to the obj.inputVal property.
 
 Now, use getElementById to select the element with that attribute value, again using the obj.inputVal property.
+
+# Step 105
+Now that you've targeted the correct element, you can update its text after the delay you specified earlier.
+
+Using the .getElementById() method, set the textContent property of the targeted element equal to the msg property of the current object.
