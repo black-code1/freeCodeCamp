@@ -613,3 +613,8 @@ Add a class attribute set to "animation-frame".
 
 # Step 97
 Finally, use string interpolation to set the text of the paragraph element to decimalToBinary(${currVal}), where currVal is the inputVal property of the current object. After this, test out your code by entering the number 5 into the number input and clicking the Convert button.
+
+# Step 98
+Now it's time to set up for the next phase of the animation where you'll update and remove the paragraphs you append to the DOM during the animation.
+
+Add the property msg to the animation object at the top of the stack, and set its value to an empty string.
