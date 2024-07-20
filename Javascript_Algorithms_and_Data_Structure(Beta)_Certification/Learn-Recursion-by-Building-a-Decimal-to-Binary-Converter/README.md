@@ -572,3 +572,8 @@ Treat your animationData array as a stack and add a new object to it. Your new o
 
 # Step 86
 Add another object to the animationData array. Your new object should have the properties inputVal, marginTop, and addElDelay set to 1, -200, and 2000, respectively. Remember to treat the animationData array as a stack and add the new object to the top of the stack.
+
+# Step 87
+Now you'll start building the animation itself.
+
+First, use the document.getElementById() method to select the element with the id animation-container and assign it to a variable called animationContainer.
