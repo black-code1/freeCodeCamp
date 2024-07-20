@@ -215,3 +215,12 @@ The tricky part about while loops is that, if you're not careful, they can run f
 To avoid infinite loops, you need to make sure that the condition for the while loop eventually becomes false. In this case, you want to make sure that the input variable eventually becomes 0.
 
 Move the input = 0 statement into the body of the while loop. This will make it so that the loop will only run up to one time.
+
+# Step 25
+To divide numbers in JavaScript, use the division operator (/). For example:
+
+Example Code
+`const quotient = 5 / 2; // 2.5`
+In the example above, 5 is the dividend, or the number to be divided, and 2 is the divisor, or the number to divide by. The result, 2.5, is called the quotient.
+
+Inside your while loop, create a variable named quotient and assign it the value of input divided by 2.
