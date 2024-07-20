@@ -426,3 +426,6 @@ First, rename the countdown() function to countDownAndUp(). Remember to update y
 
 # Step 63
 In your base case, log "Reached base case" to the console.
+
+# Step 64
+Then, log number to the console after your recursive countDownAndUp(number - 1) function call.
