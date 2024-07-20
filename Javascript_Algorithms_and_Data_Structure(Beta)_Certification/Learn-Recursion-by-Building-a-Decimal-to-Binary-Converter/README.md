@@ -436,3 +436,6 @@ Now you should see a countdown from 3 to 0, followed by Reached base case, and a
 Now that you have a better understanding of how the call stack and recursion work, you'll refactor the decimalToBinary() function to use recursion instead of a while loop.
 
 First, remove your countDownAndUp() function and function call.
+
+# Step 66
+Then, remove the contents of your decimalToBinary() function. Leave the body of the function empty for now.
