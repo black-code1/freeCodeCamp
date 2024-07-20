@@ -273,3 +273,6 @@ Use the .reverse() method to reverse the order of the remainders array, and .joi
 Your decimalToBinary function works well, but there is an issue – because of the condition in your while loop, it only works for numbers greater than 0. If you try to convert 0 to binary, nothing will get added to the page.
 
 To fix this, add an if statement to check if input is equal to 0. Leave the body of the if statement empty for now.
+
+# Step 35
+Within the body of the if statement, set the innerText property of result equal to the string "0". Then, use an early return statement to break out of the function early.
