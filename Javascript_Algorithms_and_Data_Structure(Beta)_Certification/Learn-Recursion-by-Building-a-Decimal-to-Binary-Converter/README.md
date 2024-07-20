@@ -599,3 +599,6 @@ Then, use the compound assignment operator (+=) to set the innerHTML property of
 
 # Step 93
 Within the template literal, add a paragraph element with the id attribute equal to an empty string.
+
+# Step 94
+Next, use string interpolation to set the id attribute to the inputVal property of the current object, obj.
