@@ -418,3 +418,8 @@ Inside the else block, call countdown() and pass it number - 1 as an argument.
 
 # Step 61
 It's time to test your function. Call countdown() with an argument of 3 to see if it works.
+
+# Step 62
+To really see the call stack in action, you just need to modify the function slightly.
+
+First, rename the countdown() function to countDownAndUp(). Remember to update your function calls, too.
