@@ -672,3 +672,8 @@ Now your animation is complete. When you enter 5 in the number input and click t
 The last thing you need to do is add the result of converting the number 5 into binary to the page once the animation is complete.
 
 After the .forEach() method, add another setTimeout() function. Pass in an empty callback function as the first argument, and a delay of 20000 milliseconds as the second argument.
+
+# Step 109
+Finally, set the textContent property of result equal to calling decimalToBinary() with 5 as an argument. After this, test out your code by entering the number 5 into the number input and clicking the Convert button.
+
+Congratulations! You just finished your decimal to binary converter with recursion.
