@@ -625,3 +625,6 @@ Set the value of the msg property to the following string:
 Example Code
 `decimalToBinary(1) returns '1' (base case) and gives that value to the stack below. Then it pops off the stack.`
 Note that, since the string itself contains double quotation marks, you'll need to escape them with a backslash, or use single quotation marks for your string value.
+
+# Step 100
+Next, add the property showMsgDelay with the value 5000 and removeElDelay with the value 10000.
