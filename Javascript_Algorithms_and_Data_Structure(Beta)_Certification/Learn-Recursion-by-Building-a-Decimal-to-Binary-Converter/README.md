@@ -657,3 +657,8 @@ Now, use getElementById to select the element with that attribute value, again u
 Now that you've targeted the correct element, you can update its text after the delay you specified earlier.
 
 Using the .getElementById() method, set the textContent property of the targeted element equal to the msg property of the current object.
+
+# Step 106
+Next, you'll remove the paragraph elements from the #show-animation element after the delays you specified earlier.
+
+Add a setTimeout() function to your .forEach() loop. Pass in an empty callback function as the first argument, and pass in the removeElDelay property of the current object as the second argument.
