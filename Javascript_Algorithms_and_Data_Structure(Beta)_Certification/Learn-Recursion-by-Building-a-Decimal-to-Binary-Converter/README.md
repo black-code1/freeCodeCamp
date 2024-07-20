@@ -577,3 +577,6 @@ Add another object to the animationData array. Your new object should have the p
 Now you'll start building the animation itself.
 
 First, use the document.getElementById() method to select the element with the id animation-container and assign it to a variable called animationContainer.
+
+# Step 88
+Next, clear out your showAnimation() function by removing all of your setTimeout() calls.
