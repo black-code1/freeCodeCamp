@@ -588,3 +588,8 @@ First, set the innerText property of result to "Call Stack Animation".
 
 # Step 90
 Next, use the .forEach() method to loop through the animationData array. For the .forEach() method's callback function, pass in obj as a parameter, but leave the body of the callback function empty for now.
+
+# Step 91
+Since you have the timing for each frame of animation stored in addElDelay, you can use that value with setTimeout() to set up the delay to add elements to the DOM.
+
+Within the body of the .forEach() method's callback function, add a setTimeout() function. Pass in an empty callback function as the first argument, and obj.addElDelay as the second argument.
