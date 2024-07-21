@@ -54,3 +54,8 @@ Instead of using the .match() method, you can use the .test() method of a regula
 Update your isSpam() function to use the .test() method of helpRegex to test if msg is a match.
 
 Then, try entering some messages on your page and see the result.
+
+# Step 10
+The alternate sequence | can be used to match either the text on the left or the text on the right of the |. For example, the regular expression /yes|no/ will match either yes or no.
+
+Update your helpRegex to match either please help or assist me.
