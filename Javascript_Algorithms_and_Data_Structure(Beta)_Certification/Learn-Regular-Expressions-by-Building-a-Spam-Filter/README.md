@@ -8,3 +8,8 @@ To begin the project, use the .getElementById() method to retrieve the #message-
 
 # Step 2
 Attach an event listener to your checkMessageButton, listening for the click event. Give it an empty callback function.
+
+# Step 3
+If the messageInput is empty, display an alert to the user with the message Please enter a message..
+
+Then, exit the function execution.
