@@ -5,3 +5,6 @@ In this spam filter project, you'll learn about capture groups, positive lookahe
 
 # Step 1
 To begin the project, use the .getElementById() method to retrieve the #message-input, #result, and #check-message-btn elements from the HTML document, and assign them to the variables messageInput, result, and checkMessageButton, respectively.
+
+# Step 2
+Attach an event listener to your checkMessageButton, listening for the click event. Give it an empty callback function.
