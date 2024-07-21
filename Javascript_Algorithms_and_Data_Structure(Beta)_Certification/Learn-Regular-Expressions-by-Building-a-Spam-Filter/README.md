@@ -59,3 +59,8 @@ Then, try entering some messages on your page and see the result.
 The alternate sequence | can be used to match either the text on the left or the text on the right of the |. For example, the regular expression /yes|no/ will match either yes or no.
 
 Update your helpRegex to match either please help or assist me.
+
+# Step 11
+Before you start creating additional regular expressions, you need to update your application to check more than one regular expression.
+
+Start by declaring a denyList variable. Assign it an array containing your helpRegex.
