@@ -64,3 +64,8 @@ Update your helpRegex to match either please help or assist me.
 Before you start creating additional regular expressions, you need to update your application to check more than one regular expression.
 
 Start by declaring a denyList variable. Assign it an array containing your helpRegex.
+
+# Step 12
+Remember that arrays have a .some() method. Use the .some() method to check if testing your msg on any of your denyList regular expressions returns true.
+
+Use regex as the parameter for the callback function, for clarity.
