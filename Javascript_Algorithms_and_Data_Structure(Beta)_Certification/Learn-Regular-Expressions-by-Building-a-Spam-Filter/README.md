@@ -16,3 +16,14 @@ Then, exit the function execution.
 
 # Step 4
 Create an isSpam function using the const keyword and arrow syntax. The function should take a single parameter msg and implicitly return false for now.
+
+# Step 5
+Back in your event listener, you need to update the text of the result element. You can use a ternary operator to achieve this task.
+
+Here is an example of assigning the result of a ternary operator to an element's text content:
+
+Example Code
+`el.textContent = condition ? "Use this text if the condition is true" : "Use this text if the condition is false";`
+After the if statement, use a ternary operator to check the truthiness of calling isSpam() with messageInput.value as the argument. If true, set the textContent property on the result element to Oh no! This looks like a spam message.. Otherwise, set it to This message does not seem to contain any spam.
+
+Then set the messageInput element's value property to an empty string.
