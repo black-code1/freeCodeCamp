@@ -13,3 +13,6 @@ Attach an event listener to your checkMessageButton, listening for the click eve
 If the messageInput is empty, display an alert to the user with the message Please enter a message..
 
 Then, exit the function execution.
+
+# Step 4
+Create an isSpam function using the const keyword and arrow syntax. The function should take a single parameter msg and implicitly return false for now.
