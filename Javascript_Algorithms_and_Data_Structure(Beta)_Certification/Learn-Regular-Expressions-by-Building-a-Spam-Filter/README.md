@@ -27,3 +27,11 @@ Example Code
 After the if statement, use a ternary operator to check the truthiness of calling isSpam() with messageInput.value as the argument. If true, set the textContent property on the result element to Oh no! This looks like a spam message.. Otherwise, set it to This message does not seem to contain any spam.
 
 Then set the messageInput element's value property to an empty string.
+
+# Step 6
+Your first regular expression will be used to catch help requests. Declare a helpRegex variable, and assign it a regular expression that matches the string please help.
+
+As a refresher, here is a regular expression to match the string hello world:
+
+Example Code
+`const regex = /hello world/;`
