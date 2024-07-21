@@ -74,3 +74,8 @@ Use regex as the parameter for the callback function, for clarity.
 The next regular expression you will work on is one that matches mentions of dollar amounts.
 
 Start by declaring a dollarRegex variable, and assign it a case-insensitive regular expression that matches the text dollars.
+
+# Step 14
+Add your dollarRegex to the denyList array so that you can test the regular expression.
+
+Then try entering a message in your app.
