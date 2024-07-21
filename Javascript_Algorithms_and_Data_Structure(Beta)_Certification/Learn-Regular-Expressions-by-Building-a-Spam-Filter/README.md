@@ -69,3 +69,8 @@ Start by declaring a denyList variable. Assign it an array containing your helpR
 Remember that arrays have a .some() method. Use the .some() method to check if testing your msg on any of your denyList regular expressions returns true.
 
 Use regex as the parameter for the callback function, for clarity.
+
+# Step 13
+The next regular expression you will work on is one that matches mentions of dollar amounts.
+
+Start by declaring a dollarRegex variable, and assign it a case-insensitive regular expression that matches the text dollars.
