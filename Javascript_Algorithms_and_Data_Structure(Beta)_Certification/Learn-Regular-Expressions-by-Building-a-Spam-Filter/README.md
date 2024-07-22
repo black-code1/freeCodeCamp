@@ -91,3 +91,8 @@ Add a character class to match the digits 0 through 9 to your dollarRegex expres
 The dollar value may be more than one digit. To match this, the + quantifier can be used - this matches one or more consecutive occurrences. For example, the regular expression /a+/ matches one or more consecutive a characters.
 
 Update your regular expression to match one or more consecutive digits.
+
+# Step 17
+Between your digits and your dollars text, you want to catch place values.
+
+Use the | token to allow hundred, thousand, million, or billion between your digits and dollars.
