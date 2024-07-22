@@ -101,3 +101,8 @@ Use the | token to allow hundred, thousand, million, or billion between your dig
 A capture group is a way to define a part of the expression that should be captured and saved for later reference. You can define a capture group by wrapping a part of your expression in parentheses. For example, /h(i|ey) camper/ would match either hi camper or hey camper, and would capture i or ey in a group.
 
 Turn your place values into a capture group.
+
+# Step 19
+Now that you have your capture group, you can mark the entire pattern as an optional match. The ? quantifier matches zero or one occurrence of the preceding character or group. For example, the regular expression /colou?r/ matches both color and colour, because the u is optional.
+
+Mark your capture group as optional.
