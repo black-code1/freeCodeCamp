@@ -113,3 +113,6 @@ One last thing with this expression. You don't actually need the match value fro
 To create a non-capturing group in a regular expression, you can add ?: after the opening parenthesis of a group. For instance, (?:a|b) will match either a or b, but it will not capture the result.
 
 Update your regular expression to use a non-capturing group.
+
+# Step 21
+Your next regular expression will look for strings like free money. Start by declaring a freeRegex variable and assigning it a regular expression that will match the string free money. Remember to make it case-insensitive.
