@@ -124,3 +124,6 @@ Add your new regular expression to your denyList array so you can test it.
 Spam messages often use numbers instead of letters to bypass filters. Your regular expression should catch these.
 
 Replace the e characters in your regular expression with character classes that match e and 3.
+
+# Step 24
+Now update your o character to match o and 0 (the digit).
