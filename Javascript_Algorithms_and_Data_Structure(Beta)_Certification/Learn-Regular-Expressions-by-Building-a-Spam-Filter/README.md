@@ -151,3 +151,6 @@ Update your regular expression to match either the end of the string or a space,
 Your next regular expression will match strings like stock alert. Declare a stockRegex variable and assign it a regular expression that will match the string stock alert. Remember to make it case insensitive.
 
 Add it to your denyList array as well.
+
+# Step 29
+Like your freeRegex, update your stockRegex to replace the e and o characters with character classes to match the letter and the corresponding number.
