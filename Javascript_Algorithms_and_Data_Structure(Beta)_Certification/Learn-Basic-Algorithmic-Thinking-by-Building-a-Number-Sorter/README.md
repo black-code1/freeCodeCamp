@@ -13,3 +13,6 @@ To prepare your project's logic, use const and arrow syntax to declare a sortInp
 
 # Step 3
 You will be using this as an event listener for the sortButton. Because buttons associated with a form element submit by default, you need to prevent that behavior. Call event.preventDefault() in your function to do this.
+
+# Step 4
+To test your code as you write it, mount an event listener to your sortButton element. It should listen for the "click" event, and take sortInputArray as the callback.
