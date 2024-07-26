@@ -166,3 +166,6 @@ Using the same syntax, update c to match c, {, [, and (.
 
 # Step 33
 Finally, allow your regex to match whole words (like you did with freeRegex).
+
+# Step 34
+Your final regular expression will look for strings like dear friend. Declare a dearRegex and assign it a regular expression that will match the string dear friend. Remember to make it case insensitive, and add it to your denyList array.
