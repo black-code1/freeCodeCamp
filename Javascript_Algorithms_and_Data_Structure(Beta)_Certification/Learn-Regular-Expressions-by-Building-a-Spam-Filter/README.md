@@ -157,3 +157,6 @@ Like your freeRegex, update your stockRegex to replace the e and o characters wi
 
 # Step 30
 Next update your s and t characters to also match 5 and 7 respectively.
+
+# Step 31
+Character classes can take more than two characters. Replace your a character with a character class that matches a, @, and 4.
