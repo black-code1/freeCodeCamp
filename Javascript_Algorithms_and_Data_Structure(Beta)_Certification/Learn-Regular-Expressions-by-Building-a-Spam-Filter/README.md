@@ -169,3 +169,8 @@ Finally, allow your regex to match whole words (like you did with freeRegex).
 
 # Step 34
 Your final regular expression will look for strings like dear friend. Declare a dearRegex and assign it a regular expression that will match the string dear friend. Remember to make it case insensitive, and add it to your denyList array.
+
+# Step 35
+To put everything you have learned together, update your dearRegex to map the vowels to the corresponding numbers (note that i should match 1, and also match the pipe symbol |), and to match whole words.
+
+With that, your spam filter project is complete.
