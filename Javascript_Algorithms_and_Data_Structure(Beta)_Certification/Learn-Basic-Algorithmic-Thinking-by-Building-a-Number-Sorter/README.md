@@ -7,3 +7,6 @@ This project will help you understand the fundamental concepts behind these algo
 In this project, you will be building a number sorter. The HTML and CSS have been provided for you. Feel free to explore them.
 
 When you are ready, declare a sortButton variable and assign it the value of .getElementById() with the argument "sort".
+
+# Step 2
+To prepare your project's logic, use const and arrow syntax to declare a sortInputArray function. It should take a single event parameter.
