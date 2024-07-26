@@ -163,3 +163,6 @@ Character classes can take more than two characters. Replace your a character wi
 
 # Step 32
 Using the same syntax, update c to match c, {, [, and (.
+
+# Step 33
+Finally, allow your regex to match whole words (like you did with freeRegex).
