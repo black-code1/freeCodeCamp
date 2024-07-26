@@ -154,3 +154,6 @@ Add it to your denyList array as well.
 
 # Step 29
 Like your freeRegex, update your stockRegex to replace the e and o characters with character classes to match the letter and the corresponding number.
+
+# Step 30
+Next update your s and t characters to also match 5 and 7 respectively.
