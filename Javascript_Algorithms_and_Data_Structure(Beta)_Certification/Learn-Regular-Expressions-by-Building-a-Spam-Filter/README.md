@@ -146,3 +146,8 @@ You still aren't matching free money yet, because you need to match the end of t
 Like the ^ anchor, you can use the $ anchor to match the end of the string.
 
 Update your regular expression to match either the end of the string or a space, like you did for the beginning of the string.
+
+# Step 28
+Your next regular expression will match strings like stock alert. Declare a stockRegex variable and assign it a regular expression that will match the string stock alert. Remember to make it case insensitive.
+
+Add it to your denyList array as well.
