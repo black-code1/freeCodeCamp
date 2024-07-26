@@ -139,3 +139,10 @@ If you try entering the message free money, you'll notice it doesn't match your 
 To match the beginning of the text, you can use the ^ anchor. This asserts that your pattern match starts at the beginning of the full string.
 
 Replace your first \s character with a non-capturing group that matches \s or ^.
+
+# Step 27
+You still aren't matching free money yet, because you need to match the end of the string as well.
+
+Like the ^ anchor, you can use the $ anchor to match the end of the string.
+
+Update your regular expression to match either the end of the string or a space, like you did for the beginning of the string.
