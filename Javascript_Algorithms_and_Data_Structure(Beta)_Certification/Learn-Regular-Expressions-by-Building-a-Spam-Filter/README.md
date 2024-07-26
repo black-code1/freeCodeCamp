@@ -160,3 +160,6 @@ Next update your s and t characters to also match 5 and 7 respectively.
 
 # Step 31
 Character classes can take more than two characters. Replace your a character with a character class that matches a, @, and 4.
+
+# Step 32
+Using the same syntax, update c to match c, {, [, and (.
