@@ -119,3 +119,8 @@ Your next regular expression will look for strings like free money. Start by dec
 
 # Step 22
 Add your new regular expression to your denyList array so you can test it.
+
+# Step 23
+Spam messages often use numbers instead of letters to bypass filters. Your regular expression should catch these.
+
+Replace the e characters in your regular expression with character classes that match e and 3.
