@@ -116,3 +116,6 @@ Update your regular expression to use a non-capturing group.
 
 # Step 21
 Your next regular expression will look for strings like free money. Start by declaring a freeRegex variable and assigning it a regular expression that will match the string free money. Remember to make it case-insensitive.
+
+# Step 22
+Add your new regular expression to your denyList array so you can test it.
