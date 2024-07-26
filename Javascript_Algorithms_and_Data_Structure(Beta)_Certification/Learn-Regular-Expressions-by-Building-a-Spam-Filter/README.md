@@ -127,3 +127,8 @@ Replace the e characters in your regular expression with character classes that 
 
 # Step 24
 Now update your o character to match o and 0 (the digit).
+
+# Step 25
+Your regex should match whole words, not partial words. That is, you do not want to match hands-free money management.
+
+To do this, start by checking for spaces before and after your pattern. You can do this by using the meta character \s, which will match spaces, tabs, and line breaks.
