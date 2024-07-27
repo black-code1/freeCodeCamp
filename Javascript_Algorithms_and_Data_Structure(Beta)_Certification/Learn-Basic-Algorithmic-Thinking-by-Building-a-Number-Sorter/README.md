@@ -81,3 +81,6 @@ You should now be able to click the Sort button and see the inputted array in th
 Now you need to actually sort the array. The first sorting algorithm you will implement is the bubble sort, which starts at the beginning of the array and 'bubbles up' unsorted values towards the end, iterating through the array until it is completely sorted.
 
 Begin by declaring a bubbleSort variable and assigning it an arrow function that takes an array parameter.
+
+# Step 17
+You'll need to iterate through the array. For simplicity, use a for loop to do so.
