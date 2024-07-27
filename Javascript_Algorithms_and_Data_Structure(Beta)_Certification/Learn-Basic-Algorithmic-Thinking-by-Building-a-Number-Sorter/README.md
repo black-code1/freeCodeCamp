@@ -87,3 +87,6 @@ You'll need to iterate through the array. For simplicity, use a for loop to do s
 
 # Step 18
 Because you need to compare elements, you'll need to use a nested for loop. This loop should iterate through every element in the array except the last one. Use j as your inner loop's iterator variable.
+
+# Step 19
+For debugging purposes, add a console.log() call in your inner loop. Pass it the arguments array, array[j], and array[j+1].
