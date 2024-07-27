@@ -80,3 +80,14 @@ Create an empty function called getMean. It should take a single parameter array
 The mean is the average value of all numbers in a list. The first step in calculating the mean is to take the sum of all numbers in the list. Arrays have another method, called .reduce(), which is perfect for this situation. The .reduce() method takes an array and applies a callback function to condense the array into a single value.
 
 Declare a sum variable and assign array.reduce() to it.
+
+# Step 11
+Like the other methods, .reduce() takes a callback. This callback, however, takes at least two parameters. The first is the accumulator, and the second is the current element in the array. The return value for the callback becomes the value of the accumulator on the next iteration.
+
+Example Code
+```
+array.reduce((acc, el) => {
+
+});
+```
+For your sum variable, pass a callback to .reduce() that takes the accumulator and the current element as parameters. The callback should return the sum of the accumulator and the current element.
