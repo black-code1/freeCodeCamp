@@ -131,3 +131,8 @@ To resolve this, add return false; after your calculate(); call in the onsubmit 
 Time to start working on the median calculation. The median is the midpoint of a set of numbers.
 
 Begin with an empty function called getMedian, which should take an array parameter.
+
+# Step 20
+The first step in calculating the median is to ensure the list of numbers is sorted from least to greatest. Once again, there is an array method ideal for this – the .sort() method.
+
+Declare a sorted variable and assign array.sort() to it.
