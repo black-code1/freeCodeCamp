@@ -201,3 +201,8 @@ If the number is negative, sort a before b.
 If the number is positive, sort b before a.
 If the number is zero, do not change the order of a and b.
 Keeping in mind that you want the numbers to be sorted in ascending order (smallest to largest), return a single subtraction calculation using a and b that will correctly sort the numbers with the above logic.
+
+# Step 45
+If you press the Sort button again, you should see that 10 is now in the correct position of the Output.
+
+To finish this project, change your option back to a value and text of 1.
