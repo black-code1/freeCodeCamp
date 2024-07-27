@@ -139,3 +139,6 @@ Then write an if statement that checks if the value at array[j] is smaller than 
 After your nested for loop, you've found the smallest value. You need to swap it with your current value.
 
 Like you did in your bubble sort, use a temp variable to extract the value at array[i], then swap the values at array[i] and array[minIndex].
+
+# Step 31
+Finally, after your outer loop has finished, you need to return the array. Once you've done so, you should be able to see the Output change when you click the Sort button again.
