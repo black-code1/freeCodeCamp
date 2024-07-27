@@ -2,7 +2,7 @@ const sortButton = document.getElementById("sort");
 const sortInputArray = (event) => {
     event.preventDefault();
     const inputValues = [...document.getElementsByClassName("values-dropdown")].map((dropdown) => Number(dropdown.value));
-    const sortedValues = selectionSort(inputValues)
+    const sortedValues = insertionSort(inputValues)
     updateUI(sortedValues)
 }
 
