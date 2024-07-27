@@ -68,3 +68,6 @@ Use the forEach() method, and pass it an empty callback which takes num and i as
 
 # Step 13
 Create a variable named outputValueNode and set its value to the result of calling the document.getElementById() method. Use template literal syntax to pass in the output-value-${i} string to .getElementById().
+
+# Step 14
+Set the innerText property of outputValueNode to num.
