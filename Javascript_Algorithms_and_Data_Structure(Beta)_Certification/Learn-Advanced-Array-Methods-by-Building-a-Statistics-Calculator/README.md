@@ -70,3 +70,8 @@ Example Code
 The .map() method is called on the array, and then the .filter() method is called on the result of the .map() method. This is called method chaining.
 
 Following that example, remove your filtered variable, and chain your .filter() call to your .map() call above. Do not remove either of the callback functions.
+
+# Step 9
+That is as far as you can get with the calculate function for now. It is time to write your mean logic.
+
+Create an empty function called getMean. It should take a single parameter array.
