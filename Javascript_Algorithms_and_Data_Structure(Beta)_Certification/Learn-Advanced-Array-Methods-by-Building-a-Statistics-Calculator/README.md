@@ -121,3 +121,8 @@ Now you need to use your new getMean function. In your calculate function, decla
 To display the value of mean, your app has a #mean element ready to go.
 
 Use a .querySelector to find that element, and then set its .textContent to the value of mean.
+
+# Step 18
+If you test your form with a list of numbers, you should see the mean display on the page. However, this only works because freeCodeCamp's iframe has special settings. Normally, when a form is submitted, the event triggers a page refresh.
+
+To resolve this, add return false; after your calculate(); call in the onsubmit attribute.
