@@ -159,3 +159,10 @@ An insertion sort algorithm starts the sort at the beginning of the list, meanin
 
 # Step 36
 Declare a currValue variable and assign it the value at array[i]. Then, declare a j variable and assign it i - 1. Your j variable should be re-assignable.
+
+# Step 37
+For this algorithm, you'll want to use a while loop. This loop needs two conditions:
+
+- First, it should not run beyond the beginning of the array (accessed with j).
+- Second, the loop should not run after it finds a value smaller than the current value.
+To prevent an infinite loop, decrement j inside your loop.
