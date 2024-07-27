@@ -143,3 +143,26 @@ By default, the .sort() method converts the elements of an array into strings, t
 To fix this, you can pass in a callback function to the .sort() method. This function takes two arguments, which represent the two elements being compared. The function should return a value less than 0 if the first element should come before the second element, a value greater than 0 if the first element should come after the second element, and 0 if the two elements should remain in their current positions.
 
 To sort your numbers from smallest to largest, pass a callback function that takes parameters a and b, and returns the result of subtracting b from a.
+
+# Step 22
+In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the getMedian function.
+
+To check if a number is even or odd, you can use the modulus operator %. The modulus operator returns the remainder of the division of two numbers.
+
+Here is an example checking if an array length is even or odd:
+
+Example Code
+```
+// check if array length is even
+arr.length % 2 === 0;
+
+// check if array length is odd
+arr.length % 2 === 1;
+```
+If the remainder is 0, the number is even. If the remainder is 1, the number is odd.
+
+Create a variable called isEven. Then use the modulus operator to check if the length of the testArr2 array is even. Assign that expression to the isEven variable.
+
+Below your isEven variable, log out the isEven variable to the console.
+
+Open up the console to see the result.
