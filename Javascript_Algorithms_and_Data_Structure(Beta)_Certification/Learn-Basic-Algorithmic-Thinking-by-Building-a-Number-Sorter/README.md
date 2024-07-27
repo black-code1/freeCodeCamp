@@ -113,3 +113,8 @@ Finally, after your outer loop has finished executing, return the sorted array.
 Click your Sort button to see your bubble sort algorithm in action! If you open the console, you can watch the steps the algorithm takes.
 
 Now that you have confirmed it works, remove your console.log() call.
+
+# Step 25
+Time to implement another sorting algorithm. This time, you'll be implementing a selection sort. Selection sort works by finding the smallest value in the array, then swapping it with the first value in the array. Then, it finds the next smallest value in the array, and swaps it with the second value in the array. It continues iterating through the array until it is completely sorted.
+
+Start by declaring a selectionSort variable and assigning it an arrow function that takes an array parameter.
