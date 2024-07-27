@@ -91,3 +91,12 @@ array.reduce((acc, el) => {
 });
 ```
 For your sum variable, pass a callback to .reduce() that takes the accumulator and the current element as parameters. The callback should return the sum of the accumulator and the current element.
+
+# Step 12
+The .reduce() method takes a second argument that is used as the initial value of the accumulator. Without a second argument, the .reduce() method uses the first element of the array as the accumulator, which can lead to unexpected results.
+
+To be safe, it's best to set an initial value. Here is an example of setting the initial value to an empty string:
+
+Example Code
+`array.reduce((acc, el) => acc + el.toLowerCase(), "");`
+Set the initial value of the accumulator to 0.
