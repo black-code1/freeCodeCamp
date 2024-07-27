@@ -113,3 +113,6 @@ Finally, you need to return the value of mean.
 You can actually clean this logic up a bit. Using the implicit return of an arrow function, you can directly return the value of the .reduce() method divided by the length of the array, without having to assign any variables.
 
 Update your getMean function as described above.
+
+# Step 16
+Now you need to use your new getMean function. In your calculate function, declare a mean variable and assign it the value of getMean(numbers).
