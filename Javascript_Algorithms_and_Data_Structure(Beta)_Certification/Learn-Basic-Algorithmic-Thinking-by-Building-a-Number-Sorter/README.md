@@ -65,3 +65,6 @@ Example Code
 To perform an action on each element in the array, use the method that is meant for iterating over arrays.
 
 Use the forEach() method, and pass it an empty callback which takes num and i as the parameters.
+
+# Step 13
+Create a variable named outputValueNode and set its value to the result of calling the document.getElementById() method. Use template literal syntax to pass in the output-value-${i} string to .getElementById().
