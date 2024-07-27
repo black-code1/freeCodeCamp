@@ -311,3 +311,8 @@ Now you need to sort the values properly. Chain the .sort() method to your Objec
 For the callback, you'll need to use the counts object to compare the values of each key. You can use the a and b parameters to access the keys. Then, return the value of counts[b] minus the value of counts[a].
 
 Finally, access the first element in the array using bracket notation to complete your highest variable.
+
+# Step 39
+If multiple numbers in a series occur at the same highest frequency, they are all considered the mode. Otherwise, the mode is the number that occurs most often, that single number is the mode.
+
+Thankfully, you can handle both of these cases at once with the .filter() method. Start by declaring a mode variable and assigning it the value of Object.keys(counts).
