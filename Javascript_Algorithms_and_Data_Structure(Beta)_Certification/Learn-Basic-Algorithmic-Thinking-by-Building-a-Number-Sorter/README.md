@@ -129,3 +129,8 @@ Like a bubble sort, a selection sort needs to iterate through the array. Declare
 A selection sort relies on tracking the index of the smallest value in the array. Declare a variable minIndex and set it to i - this ensures that if your current value is the smallest, it will be swapped with itself and not be moved. You will need to be able to reassign the value of minIndex as you iterate through the array.
 
 Then, write another for loop, using j as the iterator. This loop needs to start at the index after i and iterate through the rest of the array.
+
+# Step 29
+Inside your nested for loop, add a console.log() call to check the values of array, array[j], and array[minIndex] at each iteration. You can click the Sort button to see how your algorithm is traversing the array.
+
+Then write an if statement that checks if the value at array[j] is smaller than the value at array[minIndex]. If it is, set minIndex to j.
