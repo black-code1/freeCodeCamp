@@ -31,3 +31,14 @@ Convert the document.getElementsByClassName() call to an array with the spread o
 You need to get the values from your select elements. These values will currently be strings and you will convert them into numbers.
 
 Use the map function to iterate over the array. Pass a callback function to map that takes a dropdown parameter and returns dropdown.value.
+
+# Step 8
+You should use console.log() to print out the result of inputValues. Write the code for this inside the sortInputArray function.
+
+To see the result for the inputValues array, log out the inputValues array to the console. Then click on the sort button and open up the console. You should see an array of strings like this:
+
+Example Code
+`[ '8', '2', '4', '1', '3' ]`
+Before going further, make sure you observe the data type of the printed result in the console.
+
+In the next step, you will convert those strings into numbers.
