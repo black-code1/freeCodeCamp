@@ -108,3 +108,8 @@ To do this, declare a temp variable and assign it the value of array[j]. Then as
 
 # Step 23
 Finally, after your outer loop has finished executing, return the sorted array.
+
+# Step 24
+Click your Sort button to see your bubble sort algorithm in action! If you open the console, you can watch the steps the algorithm takes.
+
+Now that you have confirmed it works, remove your console.log() call.
