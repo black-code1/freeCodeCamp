@@ -261,3 +261,13 @@ For this step, start by declaring an empty counts object. Later on in the projec
 To better understand how the getMode function is going to work, you will need to print out its contents. This will allow you to see what is happening as you build out the function. But first you will need to return the array so it can be tested properly.
 
 Inside your getMode function return your array parameter.
+
+# Step 31
+Inside the calculate function, you have already called the getMean and getMedian functions.
+
+Below those function calls, add a console.log(getMode(numbers)).
+
+To see the result, enter the numbers 4, 4, 2, 5 and click on the "Calculate" button. Open up the console to see the following array:
+
+Example Code
+`[ 2, 4, 4, 5 ]`
