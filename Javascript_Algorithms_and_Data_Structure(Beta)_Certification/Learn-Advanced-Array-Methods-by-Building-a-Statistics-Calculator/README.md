@@ -116,3 +116,8 @@ Update your getMean function as described above.
 
 # Step 16
 Now you need to use your new getMean function. In your calculate function, declare a mean variable and assign it the value of getMean(numbers).
+
+# Step 17
+To display the value of mean, your app has a #mean element ready to go.
+
+Use a .querySelector to find that element, and then set its .textContent to the value of mean.
