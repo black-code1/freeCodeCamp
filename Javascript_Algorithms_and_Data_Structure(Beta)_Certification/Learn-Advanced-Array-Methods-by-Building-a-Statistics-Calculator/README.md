@@ -256,3 +256,8 @@ Resulting object. The keys are the numbers from the array and the values are the
 Example Code
 `{ 1: 3, 2: 3, 3: 3, 4: 3, 5: 2 }`
 For this step, start by declaring an empty counts object. Later on in the project, you will use this object to calculate the mode of the list of numbers.
+
+# Step 30
+To better understand how the getMode function is going to work, you will need to print out its contents. This will allow you to see what is happening as you build out the function. But first you will need to return the array so it can be tested properly.
+
+Inside your getMode function return your array parameter.
