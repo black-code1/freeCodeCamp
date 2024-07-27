@@ -178,3 +178,6 @@ Use the assignment operator to insert your current value into the correct index.
 
 # Step 40
 After your for loop has finished, you need to return the array. You should then be able to see the Output change when you click the Sort button again.
+
+# Step 41
+To sort the elements of an array, you can use the built-in method called .sort(). Therefore, you can update the sortedValues variable by assigning it the result of calling .sort() on the inputValues array.
