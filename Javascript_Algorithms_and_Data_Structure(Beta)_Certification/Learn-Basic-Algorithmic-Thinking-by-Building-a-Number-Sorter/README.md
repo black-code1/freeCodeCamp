@@ -26,3 +26,8 @@ Use document.getElementsByClassName() to get all the elements with this class by
 Remember that .getElementsByClassName() returns an array-like object. You can use the spread operator to convert it into an array.
 
 Convert the document.getElementsByClassName() call to an array with the spread operator and assign it to a variable called inputValues.
+
+# Step 7
+You need to get the values from your select elements. These values will currently be strings and you will convert them into numbers.
+
+Use the map function to iterate over the array. Pass a callback function to map that takes a dropdown parameter and returns dropdown.value.
