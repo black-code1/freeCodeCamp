@@ -156,3 +156,6 @@ As before, update your sortedValues variable to be the result of insertionSort i
 
 # Step 35
 An insertion sort algorithm starts the sort at the beginning of the list, meaning the first element is already sorted. With this in mind, create a for loop that starts at the second element in the array - it should still iterate through the rest of the array.
+
+# Step 36
+Declare a currValue variable and assign it the value at array[i]. Then, declare a j variable and assign it i - 1. Your j variable should be re-assignable.
