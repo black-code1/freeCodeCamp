@@ -95,3 +95,8 @@ For debugging purposes, add a console.log() call in your inner loop. Pass it the
 In your sortInputArray() function, declare a sortedValues variable. Assign it the value of calling bubbleSort with your inputValues array.
 
 Then, update your updateUI call to pass sortedValues as the argument.
+
+# Step 21
+To achieve the "bubble up" result, you need to check if the current element is larger than the next element. You can do this by accessing the array at j and j+1.
+
+Create an if condition that checks if the current element is larger than the next element.
