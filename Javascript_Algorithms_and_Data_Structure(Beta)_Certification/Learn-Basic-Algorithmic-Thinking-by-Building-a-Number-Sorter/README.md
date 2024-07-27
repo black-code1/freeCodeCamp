@@ -76,3 +76,8 @@ Set the innerText property of outputValueNode to num.
 In your sortInputArray() function, call your updateUI() function and pass inputValues as the argument.
 
 You should now be able to click the Sort button and see the inputted array in the Output section.
+
+# Step 16
+Now you need to actually sort the array. The first sorting algorithm you will implement is the bubble sort, which starts at the beginning of the array and 'bubbles up' unsorted values towards the end, iterating through the array until it is completely sorted.
+
+Begin by declaring a bubbleSort variable and assigning it an arrow function that takes an array parameter.
