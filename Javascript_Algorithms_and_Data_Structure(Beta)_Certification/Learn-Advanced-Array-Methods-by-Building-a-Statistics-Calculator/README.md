@@ -75,3 +75,8 @@ Following that example, remove your filtered variable, and chain your .filter() 
 That is as far as you can get with the calculate function for now. It is time to write your mean logic.
 
 Create an empty function called getMean. It should take a single parameter array.
+
+# Step 10
+The mean is the average value of all numbers in a list. The first step in calculating the mean is to take the sum of all numbers in the list. Arrays have another method, called .reduce(), which is perfect for this situation. The .reduce() method takes an array and applies a callback function to condense the array into a single value.
+
+Declare a sum variable and assign array.reduce() to it.
