@@ -324,3 +324,6 @@ Now chain the filter method to your latest Object.keys() call. The callback func
 Time to return your mode variable.
 
 mode is an array, so return it as a string with the .join() method. Separate the elements with a comma followed by a space.
+
+# Step 42
+Add your getMode() function to your calculate logic, and update the respective HTML element.
