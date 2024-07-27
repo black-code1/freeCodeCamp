@@ -71,3 +71,8 @@ Create a variable named outputValueNode and set its value to the result of calli
 
 # Step 14
 Set the innerText property of outputValueNode to num.
+
+# Step 15
+In your sortInputArray() function, call your updateUI() function and pass inputValues as the argument.
+
+You should now be able to click the Sort button and see the inputted array in the Output section.
