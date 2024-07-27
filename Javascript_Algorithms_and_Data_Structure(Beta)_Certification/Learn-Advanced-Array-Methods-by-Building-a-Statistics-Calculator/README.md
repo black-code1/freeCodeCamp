@@ -21,3 +21,8 @@ Now that you have the value of the input, you need to split it into an array of 
 The .split() method takes a string and splits it into an array of strings. You can pass it a string of characters or a RegEx to use as a separator. For example, string.split(",") would split the string at each comma and return an array of strings.
 
 Use the /,\s*/g regex to split the value string by commas. You can tweak it based on the number of spaces separating your values. Store the array in an array variable.
+
+# Step 4
+The value of an input element is always a string, even if the input type is number. You need to convert this array of strings into an array of numbers. To do this, you can use the .map() method.
+
+Create a numbers variable and assign it the value of array.map(). Remember that .map() creates a new array, instead of mutating the original array.
