@@ -13,7 +13,10 @@ const calculate = () => {
     const value = document.querySelector('#numbers').value;
     const array = value.split(/,\s*/g);
     const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
+
     const mean = getMean(numbers);
+    const median = getMedian(numbers);
 
     document.querySelector('#mean').textContent = mean;
+    document.querySelector("#median").textContent = median;
 }

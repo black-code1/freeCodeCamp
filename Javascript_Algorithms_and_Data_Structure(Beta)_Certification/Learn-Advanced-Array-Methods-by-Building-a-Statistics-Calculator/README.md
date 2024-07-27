@@ -225,3 +225,8 @@ Inside your getMedian function, check if the length of array is even. If it is, 
 Make sure to work with the sorted array to find the middle numbers.
 
 Also if you need help, refer back to the previous few steps to see how to find the median for an array.
+
+# Step 27
+Like you did with your getMean function, you need to add your getMedian function to your calculate logic.
+
+Declare a variable median and assign it the value of getMedian(numbers). Then, query the DOM for the #median element and set the textContent to median.
