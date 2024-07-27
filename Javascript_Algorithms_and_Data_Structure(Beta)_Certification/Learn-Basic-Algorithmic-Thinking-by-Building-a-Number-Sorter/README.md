@@ -181,3 +181,8 @@ After your for loop has finished, you need to return the array. You should then 
 
 # Step 41
 To sort the elements of an array, you can use the built-in method called .sort(). Therefore, you can update the sortedValues variable by assigning it the result of calling .sort() on the inputValues array.
+
+# Step 42
+The Sort button may appear to work correctly when clicked, but this is only because all the values in the array are single digits, and the sorting may not work as expected with more complex values.
+
+Change the value and text of the option element that is selected from 1 to 10, and click the Sort button again.
