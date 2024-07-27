@@ -90,3 +90,8 @@ Because you need to compare elements, you'll need to use a nested for loop. This
 
 # Step 19
 For debugging purposes, add a console.log() call in your inner loop. Pass it the arguments array, array[j], and array[j+1].
+
+# Step 20
+In your sortInputArray() function, declare a sortedValues variable. Assign it the value of calling bubbleSort with your inputValues array.
+
+Then, update your updateUI call to pass sortedValues as the argument.
