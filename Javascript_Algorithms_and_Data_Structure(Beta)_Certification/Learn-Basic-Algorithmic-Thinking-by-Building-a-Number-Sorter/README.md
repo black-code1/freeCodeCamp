@@ -47,3 +47,6 @@ In the next step, you will convert those strings into numbers.
 Update your .map() callback to call the Number() function. Pass dropdown.value to that function call.
 
 Open the Console tab to see that your inputValues is an array of numbers now.
+
+# Step 10
+Now that you have confirmed the data type of the inputValues elements, remove your console.log() call.
