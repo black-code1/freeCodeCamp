@@ -134,3 +134,8 @@ Then, write another for loop, using j as the iterator. This loop needs to start 
 Inside your nested for loop, add a console.log() call to check the values of array, array[j], and array[minIndex] at each iteration. You can click the Sort button to see how your algorithm is traversing the array.
 
 Then write an if statement that checks if the value at array[j] is smaller than the value at array[minIndex]. If it is, set minIndex to j.
+
+# Step 30
+After your nested for loop, you've found the smallest value. You need to swap it with your current value.
+
+Like you did in your bubble sort, use a temp variable to extract the value at array[i], then swap the values at array[i] and array[minIndex].
