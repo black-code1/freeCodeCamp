@@ -100,3 +100,8 @@ To be safe, it's best to set an initial value. Here is an example of setting the
 Example Code
 `array.reduce((acc, el) => acc + el.toLowerCase(), "");`
 Set the initial value of the accumulator to 0.
+
+# Step 13
+The next step in calculating the mean is to divide the sum of numbers by the count of numbers in the list.
+
+Declare a mean variable and assign it the value of sum divided by the length of array.
