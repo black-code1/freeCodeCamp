@@ -142,3 +142,6 @@ Like you did in your bubble sort, use a temp variable to extract the value at ar
 
 # Step 31
 Finally, after your outer loop has finished, you need to return the array. Once you've done so, you should be able to see the Output change when you click the Sort button again.
+
+# Step 32
+With your selection sort now functional, remove your console.log() statement.
