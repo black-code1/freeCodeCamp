@@ -319,3 +319,8 @@ Thankfully, you can handle both of these cases at once with the .filter() method
 
 # Step 40
 Now chain the filter method to your latest Object.keys() call. The callback function should return whether the value of counts[el] is equal to your counts[highest].
+
+# Step 41
+Time to return your mode variable.
+
+mode is an array, so return it as a string with the .join() method. Separate the elements with a comma followed by a space.
