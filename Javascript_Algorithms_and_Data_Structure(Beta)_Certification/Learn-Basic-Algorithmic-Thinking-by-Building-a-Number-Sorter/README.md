@@ -193,3 +193,11 @@ Notice how the number 10 is placed at the beginning of the array. This is becaus
 To fix this, you can pass a callback function to the .sort() method. The callback function has two parameters - for yours, use a and b. The parameters of a and b represent the number values in the array that will be sorted.
 
 Leave the function empty for now.
+
+# Step 44
+The callback to .sort() should return a number. That number determines how to sort the elements a and b:
+
+If the number is negative, sort a before b.
+If the number is positive, sort b before a.
+If the number is zero, do not change the order of a and b.
+Keeping in mind that you want the numbers to be sorted in ascending order (smallest to largest), return a single subtraction calculation using a and b that will correctly sort the numbers with the above logic.
