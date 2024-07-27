@@ -121,3 +121,7 @@ Start by declaring a selectionSort variable and assigning it an arrow function t
 
 # Step 26
 Update your sortedValues variable to be the result of calling selectionSort instead of bubbleSort.
+
+# Step 27
+Like a bubble sort, a selection sort needs to iterate through the array. Declare a for loop to do so.
+
