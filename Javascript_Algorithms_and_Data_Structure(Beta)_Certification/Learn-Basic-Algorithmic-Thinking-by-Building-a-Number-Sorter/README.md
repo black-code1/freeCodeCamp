@@ -153,3 +153,6 @@ Start by declaring an insertionSort variable and assigning it an arrow function 
 
 # Step 34
 As before, update your sortedValues variable to be the result of insertionSort instead of selectionSort.
+
+# Step 35
+An insertion sort algorithm starts the sort at the beginning of the list, meaning the first element is already sorted. With this in mind, create a for loop that starts at the second element in the array - it should still iterate through the rest of the array.
