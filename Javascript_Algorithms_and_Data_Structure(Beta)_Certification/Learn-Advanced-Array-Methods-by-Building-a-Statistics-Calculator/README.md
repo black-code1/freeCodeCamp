@@ -61,3 +61,12 @@ The callback function needs to return a Boolean value, which indicates whether t
 However, you cannot check for equality here, because NaN is not equal to itself. Instead, you can use the isNaN() method, which returns true if the argument is NaN.
 
 Add a callback function to your .filter() method that returns true if the element is not NaN.
+
+# Step 8
+Array methods can often be chained together to perform multiple operations at once. As an example:
+
+Example Code
+`array.map().filter();`
+The .map() method is called on the array, and then the .filter() method is called on the result of the .map() method. This is called method chaining.
+
+Following that example, remove your filtered variable, and chain your .filter() call to your .map() call above. Do not remove either of the callback functions.
