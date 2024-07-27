@@ -105,3 +105,6 @@ Set the initial value of the accumulator to 0.
 The next step in calculating the mean is to divide the sum of numbers by the count of numbers in the list.
 
 Declare a mean variable and assign it the value of sum divided by the length of array.
+
+# Step 14
+Finally, you need to return the value of mean.
