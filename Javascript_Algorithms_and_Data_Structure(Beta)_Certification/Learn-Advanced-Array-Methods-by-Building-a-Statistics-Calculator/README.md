@@ -46,3 +46,18 @@ A user could put any text they want into the input box. You want to make sure th
 You need to filter these values out – thankfully, arrays have a method specifically for this. The .filter() method will allow you to filter elements out of an array, creating a new array in the process.
 
 Declare a filtered variable and assign numbers.filter() to it.
+
+# Step 7
+Much like the .map() method, the .filter() method takes a callback function. The callback function takes the current element as its first argument.
+
+Example Code
+```
+array.filter(el => {
+
+})
+```
+The callback function needs to return a Boolean value, which indicates whether the element should be included in the new array. In this case, you want to return true if the element is not NaN (not a number).
+
+However, you cannot check for equality here, because NaN is not equal to itself. Instead, you can use the isNaN() method, which returns true if the argument is NaN.
+
+Add a callback function to your .filter() method that returns true if the element is not NaN.
