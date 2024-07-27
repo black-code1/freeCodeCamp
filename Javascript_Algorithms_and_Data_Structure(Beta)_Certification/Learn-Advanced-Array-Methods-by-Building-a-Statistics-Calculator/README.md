@@ -289,3 +289,6 @@ Example Code
 
 # Step 34
 Now that you have a better understanding of how the getMode function works, you can remove the console.log(getMode(numbers)) statement from the calculate function.
+
+# Step 35
+Returning the counts variable was only for testing purposes. Now that you are done testing, remove the return counts line from the getMode function.
