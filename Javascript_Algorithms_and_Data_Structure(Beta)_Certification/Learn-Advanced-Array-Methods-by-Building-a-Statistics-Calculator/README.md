@@ -213,3 +213,6 @@ getMean([firstMiddleNumber, secondMiddleNumber]);
 Create an evenListMedian variable and assign it the result of finding the median of the testArr2.
 
 Then, log the evenListMedian variable to the console.
+
+# Step 25
+Now that you have a better understanding of how to find the median for odd and even lists of numbers, you can remove all your test code from the previous steps.
