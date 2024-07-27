@@ -9,3 +9,8 @@ Statistics is a way of using math to make sense of data. It helps us understand 
 In this challenge, you will build a statistics calculator that takes a set of numbers and returns the mean, median, mode, standard deviation, and variance.
 
 The HTML and CSS have been provided for you. Feel free to explore the code – you may notice that the calculate function is called when the form is submitted. When you are ready, declare a calculate variable and assign it an empty function in the script.js file.
+
+# Step 2
+To begin, the calculate function needs to find the number that was entered in the #numbers input field. To do this, use a .querySelector to locate the input field and then use the .value property to get the number entered.
+
+Store this in a value variable.
