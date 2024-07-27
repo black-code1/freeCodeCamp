@@ -4,6 +4,8 @@ const sortInputArray = (event) => {
     const inputValues = [...document.getElementsByClassName("values-dropdown")].map((dropdown) => Number(dropdown.value));
 }
 
-const updateUI = (array = []) => {}
+const updateUI = (array = []) => {
+    array.forEach((num, i) => {})
+}
 
 sortButton.addEventListener('click', sortInputArray)
