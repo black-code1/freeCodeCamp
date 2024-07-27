@@ -276,3 +276,19 @@ Example Code
 Inside your getMode function, on the empty line above your return statement, call forEach on array. Your .forEach() method should have an empty callback function that takes an el parameter.
 
 In the next few steps, you will use this loop to count the frequency of occurrences of each number in the array.
+
+# Step 33
+Inside the array.forEach() callback function, check if the current element is inside the counts object. If the element can be found, increment the value of counts[el] by 1. Otherwise, assign the number 1 to counts[el].
+
+Change your return statement to return counts instead of array.
+
+To test this, enter the numbers 4, 4, 2, 5 and click Calculate. You should see the following in the console:
+
+Example Code
+`{ '2': 1, '4': 2, '5': 1 }`
+
+# Step 34
+Now that you have a better understanding of how the getMode function works, you can remove the console.log(getMode(numbers)) statement from the calculate function.
+
+# Step 35
+Returning the counts variable was only for testing purposes. Now that you are done testing, remove the return counts line from the getMode function.
