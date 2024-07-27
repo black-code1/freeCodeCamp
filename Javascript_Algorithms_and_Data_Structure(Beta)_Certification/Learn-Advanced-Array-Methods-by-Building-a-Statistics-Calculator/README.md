@@ -230,3 +230,6 @@ Also if you need help, refer back to the previous few steps to see how to find t
 Like you did with your getMean function, you need to add your getMedian function to your calculate logic.
 
 Declare a variable median and assign it the value of getMedian(numbers). Then, query the DOM for the #median element and set the textContent to median.
+
+# Step 28
+Your next calculation is the mode, which is the number that appears most often in the list. To get started, declare a getMode function that takes the same array parameter you have been using.
