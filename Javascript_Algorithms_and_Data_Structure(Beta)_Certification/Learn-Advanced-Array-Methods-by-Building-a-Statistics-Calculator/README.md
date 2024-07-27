@@ -304,3 +304,10 @@ Start by creating an if statement. In the condition, create a Set with new Set()
 Now you need to find the value that occurs with the highest frequency. You'll use the Object.keys() method for this.
 
 Start by declaring a highest variable, and assigning it the value of the counts object's Object.keys() method.
+
+# Step 38
+Now you need to sort the values properly. Chain the .sort() method to your Object.keys() call.
+
+For the callback, you'll need to use the counts object to compare the values of each key. You can use the a and b parameters to access the keys. Then, return the value of counts[b] minus the value of counts[a].
+
+Finally, access the first element in the array using bracket notation to complete your highest variable.
