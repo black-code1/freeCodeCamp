@@ -21,3 +21,8 @@ To test your code as you write it, mount an event listener to your sortButton el
 Back in your sortInputArray function, you need to get the values from your select elements. Since they all have the class values-dropdown, you can query them all at once.
 
 Use document.getElementsByClassName() to get all the elements with this class by passing in the argument "values-dropdown". Assign that to an inputValues variable with const.
+
+# Step 6
+Remember that .getElementsByClassName() returns an array-like object. You can use the spread operator to convert it into an array.
+
+Convert the document.getElementsByClassName() call to an array with the spread operator and assign it to a variable called inputValues.
