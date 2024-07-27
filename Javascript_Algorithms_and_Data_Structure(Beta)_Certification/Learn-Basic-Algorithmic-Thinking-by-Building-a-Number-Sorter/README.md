@@ -175,3 +175,6 @@ Do so by assigning the value at the j index to the next index.
 After your while loop, you need to insert your current value. Remember that your loop ends when j is either out of the array bounds, or when the value at j is less than your current value.
 
 Use the assignment operator to insert your current value into the correct index.
+
+# Step 40
+After your for loop has finished, you need to return the array. You should then be able to see the Output change when you click the Sort button again.
