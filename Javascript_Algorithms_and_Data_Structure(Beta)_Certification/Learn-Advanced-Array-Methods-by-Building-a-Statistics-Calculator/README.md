@@ -216,3 +216,12 @@ Then, log the evenListMedian variable to the console.
 
 # Step 25
 Now that you have a better understanding of how to find the median for odd and even lists of numbers, you can remove all your test code from the previous steps.
+
+# Step 26
+Now it is time to apply what you have learned to the getMedian function.
+
+Inside your getMedian function, check if the length of array is even. If it is, find the middle two numbers, calculate their mean, and return the result. If the length of array is odd, return the middle number.
+
+Make sure to work with the sorted array to find the middle numbers.
+
+Also if you need help, refer back to the previous few steps to see how to find the median for an array.
