@@ -125,3 +125,7 @@ Update your sortedValues variable to be the result of calling selectionSort inst
 # Step 27
 Like a bubble sort, a selection sort needs to iterate through the array. Declare a for loop to do so.
 
+# Step 28
+A selection sort relies on tracking the index of the smallest value in the array. Declare a variable minIndex and set it to i - this ensures that if your current value is the smallest, it will be swapped with itself and not be moved. You will need to be able to reassign the value of minIndex as you iterate through the array.
+
+Then, write another for loop, using j as the iterator. This loop needs to start at the index after i and iterate through the rest of the array.
