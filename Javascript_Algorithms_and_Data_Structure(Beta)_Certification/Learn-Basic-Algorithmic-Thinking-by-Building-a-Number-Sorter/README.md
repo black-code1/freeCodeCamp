@@ -186,3 +186,10 @@ To sort the elements of an array, you can use the built-in method called .sort()
 The Sort button may appear to work correctly when clicked, but this is only because all the values in the array are single digits, and the sorting may not work as expected with more complex values.
 
 Change the value and text of the option element that is selected from 1 to 10, and click the Sort button again.
+
+# Step 43
+Notice how the number 10 is placed at the beginning of the array. This is because the default behavior of .sort() is to convert the numbers values to strings, and sort them alphabetically. And 10 comes before 2 alphabetically.
+
+To fix this, you can pass a callback function to the .sort() method. The callback function has two parameters - for yours, use a and b. The parameters of a and b represent the number values in the array that will be sorted.
+
+Leave the function empty for now.
