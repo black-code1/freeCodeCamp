@@ -196,3 +196,8 @@ Both of your functions should use implicit returns.
 
 # Step 35
 Your idToText function currently returns an input element. Update it to return the value of that input element.
+
+# Step 36
+You need to be able to match cell ranges in a formula. Cell ranges can look like A1:B12 or A3:A25. You can use a regular expression to match these patterns.
+
+Start by declaring a rangeRegex variable and assign it a regular expression that matches A through J (the range of columns in your spreadsheet). Use a capture group with a character class to achieve this.
