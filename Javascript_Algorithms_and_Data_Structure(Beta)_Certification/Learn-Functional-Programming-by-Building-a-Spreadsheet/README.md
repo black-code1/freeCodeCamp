@@ -311,3 +311,10 @@ Your addCharacters(char1) is also returning a function, which returns another fu
 Example Code
 `myFunc(1)("hi");`
 Immediately invoke the function returned from your addCharacters(char1) call, and pass char2 as the argument.
+
+# Step 60
+Now that your .map() function is receiving the innermost function reference from addCharacters, it will properly iterate over the elements and pass each element as n to that function.
+
+You'll notice that you are not using your match parameter. In JavaScript, it is common convention to prefix an unused parameter with an underscore _. You could also leave the parameter empty like so: (, char1) but it is often clearer to name the parameter for future readability.
+
+Prefix your match parameter with an underscore.
