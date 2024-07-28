@@ -378,3 +378,8 @@ Divide your .reduce() call by the length of the array (in your variance declarat
 
 # Step 52
 Add your new getVariance function to the calculate function, and update the respective HTML element.
+
+# Step 53
+Your final calculation is the standard deviation, which is the square root of the variance.
+
+Begin by declaring a getStandardDeviation function, with the array parameter. In the function body, declare a variance variable and assign it the variance of the array.
