@@ -66,3 +66,8 @@ Declare a charRange function using const and arrow syntax. It should take a star
 Your range function expects numbers, but your start and end values will be strings (specifically, they will be single characters such as A).
 
 Convert your start and end values in your range() call to numbers by using the .charCodeAt() method on them, passing the number 0 as the argument to that method.
+
+# Step 12
+range() will return an array of numbers, which you need to convert back into characters. Chain the .map() method to your range() call.
+
+Pass a callback function that takes code as the parameter and implicitly returns the value of passing code to the String.fromCharCode() method.
