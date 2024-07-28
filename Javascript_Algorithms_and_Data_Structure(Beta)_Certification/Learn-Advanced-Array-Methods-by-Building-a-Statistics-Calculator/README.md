@@ -367,3 +367,6 @@ Declare a sumSquaredDifferences variable, and assign it the value of squaredDiff
 With two .map() calls and a .reduce() call, you're creating extra arrays and iterating more times than needed. You should move all of the logic into the .reduce() call to save time and memory.
 
 Remove the differences, squaredDifferences, and sumSquaredDifferences variables (and their values). Declare a variance variable, and assign it the value of array.reduce(). For the callback, pass in your standard acc and el parameters, but leave the function body empty for now. Don't forget to set the initial value to 0.
+
+# Step 50
+Within your empty .reduce() callback, declare a variable difference and set it to the value of el minus mean. Then declare a squared variable, and set it to the value of difference to the power of 2. Finally, return the value of acc plus squared.
