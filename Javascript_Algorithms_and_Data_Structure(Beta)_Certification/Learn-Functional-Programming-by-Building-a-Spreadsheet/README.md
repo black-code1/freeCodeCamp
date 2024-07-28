@@ -173,3 +173,6 @@ The target property of the change event represents the element that changed. Ass
 Because the change event is triggering on an input element, the element will have a value property that represents the current value of the input.
 
 Assign the value property of element to a new variable called value, and use .replace() to remove all whitespace.
+
+# Step 31
+Now you need to check if the value does not include the id of the element. Create an if condition to do so.
