@@ -206,3 +206,6 @@ Start by declaring a rangeRegex variable and assign it a regular expression that
 After matching a cell letter successfully, your rangeRegex needs to match the cell number. Cell numbers in your sheet range from 1 to 99.
 
 Add a capture group after your letter capture group. Your new capture group should match one or two digits – the first digit should be 1 through 9, and the second digit should be 0 through 9. The second digit should be optional.
+
+# Step 38
+Ranges are separated by a colon. After your two capture groups, your rangeRegex should look for a colon.
