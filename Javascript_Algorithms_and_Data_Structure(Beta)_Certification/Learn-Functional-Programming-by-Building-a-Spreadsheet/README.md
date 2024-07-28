@@ -158,3 +158,8 @@ To keep track of all of your spreadsheet's functions, declare a spreadsheetFunct
 
 # Step 27
 Now you can start using your spreadsheet functions. Begin by declaring an update arrow function. It should take an event parameter.
+
+# Step 28
+In your window.onload function, you need to tell your input elements to call the update function when the value changes. You can do this by directly setting the onchange property.
+
+Set the onchange property to be a reference to your update function.
