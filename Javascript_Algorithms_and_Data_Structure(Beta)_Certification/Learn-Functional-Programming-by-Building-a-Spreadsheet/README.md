@@ -279,3 +279,6 @@ const newArray = array.map(myFunc);
 The .map() method here will call the myFunc function, passing the same arguments that a .map() callback takes. The first argument is the value of the array at the current iteration, so newArray would be [value: 1, value: 2, value: 3].
 
 Pass a reference to your elemValue function as the callback to your .map() method.
+
+# Step 52
+Because elemValue returns a function, your addCharacters function ultimately returns an array of function references. You want the .map() method to run the inner function of your elemValue function, which means you need to call elemValue instead of reference it. Pass num as the argument to your elemValue function.
