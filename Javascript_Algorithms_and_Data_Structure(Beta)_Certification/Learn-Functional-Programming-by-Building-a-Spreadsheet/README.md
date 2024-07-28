@@ -298,3 +298,6 @@ Give your callback function four more parameters to match those capture groups: 
 
 # Step 56
 Have your callback implicitly return the result of calling rangeFromString() with num1 and num2 as the arguments.
+
+# Step 57
+Call the .map() method on your rangeFromString() call, passing a reference to addCharacters as the callback function.
