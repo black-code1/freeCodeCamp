@@ -209,3 +209,8 @@ Add a capture group after your letter capture group. Your new capture group shou
 
 # Step 38
 Ranges are separated by a colon. After your two capture groups, your rangeRegex should look for a colon.
+
+# Step 39
+After your rangeRegex finds the :, it needs to look for the same letter and number pattern as it did before.
+
+Copy your two existing capture groups and paste them after the colon.
