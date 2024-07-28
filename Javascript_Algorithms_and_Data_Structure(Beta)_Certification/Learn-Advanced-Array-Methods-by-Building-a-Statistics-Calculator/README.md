@@ -375,3 +375,6 @@ Within your empty .reduce() callback, declare a variable difference and set it t
 The final step in calculating the variance is to divide the sum of the squared differences by the count of numbers.
 
 Divide your .reduce() call by the length of the array (in your variance declaration). Then, return variance.
+
+# Step 52
+Add your new getVariance function to the calculate function, and update the respective HTML element.
