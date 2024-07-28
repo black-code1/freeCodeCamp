@@ -181,3 +181,8 @@ Now you need to check if the value does not include the id of the element. Creat
 Spreadsheet software typically uses = at the beginning of a cell to indicate a calculation should be used, and spreadsheet functions should be evaluated.
 
 Use the && operator to add a second condition to your if statement that also checks if the first character of value is =.
+
+# Step 33
+In order to run your spreadsheet functions, you need to be able to parse and evaluate the input string. This is a great time to use another function.
+
+Declare an evalFormula arrow function which takes the parameters x and cells.
