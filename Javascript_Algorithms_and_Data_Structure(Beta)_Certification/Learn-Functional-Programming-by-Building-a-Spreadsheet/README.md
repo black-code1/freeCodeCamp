@@ -30,3 +30,6 @@ Declare a nested createLabel function using arrow syntax. It should take a name 
 Remember that the document object has a .createElement() method which allows you to dynamically create new HTML elements.
 
 In your createLabel function, declare a label variable and assign it a new div element.
+
+# Step 4
+Set the className of the label element to label, and set the textContent to the name parameter.
