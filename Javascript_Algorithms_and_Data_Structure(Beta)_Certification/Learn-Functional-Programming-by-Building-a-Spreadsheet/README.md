@@ -376,3 +376,6 @@ In your highPrecedence function, declare a regex variable. Assign it a regular e
 Each number, and the operator, should be in separate capture groups.
 
 Incorporate the regular expression you've defined into your highPrecedence function to test if the provided string str matches the pattern. Use the test() method on your regex variable and return the result.
+
+# Step 75
+You should use console.log() to print the result of calling the highPrecedence function with the string "5*3".
