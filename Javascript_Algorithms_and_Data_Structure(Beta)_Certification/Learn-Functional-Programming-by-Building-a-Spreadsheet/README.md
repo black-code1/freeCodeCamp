@@ -428,3 +428,8 @@ Your apply function is returning the spreadsheet function, but not actually appl
 
 # Step 88
 Now your applyFunction needs to return a result. Return the result of calling the .replace() method on str2. Pass your functionCall regex and an empty callback.
+
+# Step 89
+Update the callback function to take match, fn, and args as parameters. It should implicitly return the result of checking whether spreadsheetFunctions has its own property of fn.
+
+Remember to make fn lower case.
