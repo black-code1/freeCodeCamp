@@ -74,3 +74,8 @@ Pass a callback function that takes code as the parameter and implicitly returns
 
 # Step 13
 Now that your helper functions are complete, back in your onload event handler you should declare a letters variable. Assign it the result of calling charRange() with the letters A and J as arguments.
+
+# Step 14
+Now call the .forEach() method of your letters array, and pass your createLabel function reference as the callback.
+
+You should see some letters appear across the top of your spreadsheet.
