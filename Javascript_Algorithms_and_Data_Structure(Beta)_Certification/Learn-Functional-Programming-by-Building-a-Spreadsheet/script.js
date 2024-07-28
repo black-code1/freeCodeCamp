@@ -49,7 +49,7 @@ const update = (event) => {
     if (!value.includes(element.id) && value[0] === '=') {
         const evalFormula = (x, cells) => {
             const idToText = (id) => cells.find((cell) => cell.id === id).value;
-            const rangeRegex = /([A-J])/
+            const rangeRegex = /([A-J])([1-9][0-9]?)/
         }
     }
 }
