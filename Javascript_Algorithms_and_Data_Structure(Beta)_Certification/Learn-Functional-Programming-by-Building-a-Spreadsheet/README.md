@@ -12,3 +12,16 @@ Your project starts with a basic HTML container and some corresponding CSS. Your
 The global window object represents the browser window (or tab). It has an onload property which allows you to define behavior when the window has loaded the entire page, including stylesheets and scripts.
 
 Start by setting the onload property of window to an arrow function with no parameters. In the function, declare a container variable and assign it the value of getting the element by the id of container.
+
+# Step 2
+Functions are ideal for reusable logic. When a function itself needs to reuse logic, you can declare a nested function to handle that logic. Here is an example of a nested function:
+
+Example Code
+```
+const outer = () => {
+const inner = () => {
+
+};
+};
+```
+Declare a nested createLabel function using arrow syntax. It should take a name parameter.
