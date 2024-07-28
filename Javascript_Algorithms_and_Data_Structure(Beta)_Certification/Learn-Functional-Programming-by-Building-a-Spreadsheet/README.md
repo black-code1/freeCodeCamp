@@ -103,3 +103,8 @@ The property names for hyphenated HTML attribute values, such as aria-label, fol
 Example Code
 `el.ariaLabel = "Aria Label Value";`
 Set the aria-label attribute for the input element to the same value as the id attribute.
+
+# Step 19
+Append the input element to your container element as a child.
+
+You should now be able to see the cells of your spreadsheet.
