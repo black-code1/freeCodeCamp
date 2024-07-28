@@ -260,3 +260,6 @@ Your inner functions can also return a function. Using the same arrow syntax, up
 
 # Step 48
 Now update your innermost function in the addCharacters chain to implicitly return the result of calling charRange() with character1 and character2 as the arguments.
+
+# Step 49
+Use the same syntax as your addCharacters function to update your elemValue function. It should no longer declare inner, but should return the function implicitly.
