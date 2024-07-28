@@ -217,3 +217,8 @@ Copy your two existing capture groups and paste them after the colon.
 
 # Step 40
 Finally, make your rangeRegex global and case-insensitive.
+
+# Step 41
+Declare a rangeFromString arrow function that takes two parameters, num1 and num2. The function should implicitly return the result of calling range with num1 and num2 as arguments.
+
+To be safe, parse num1 and num2 into integers as you pass them into range.
