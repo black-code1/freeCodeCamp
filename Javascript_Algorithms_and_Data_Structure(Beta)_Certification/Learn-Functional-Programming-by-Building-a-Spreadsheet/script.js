@@ -5,5 +5,6 @@ window.onload = () => {
         const label = document.createElement('div');
         label.className = 'label';
         label.textContent = name;
+        container.appendChild(label);
     }
 }

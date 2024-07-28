@@ -33,3 +33,6 @@ In your createLabel function, declare a label variable and assign it a new div e
 
 # Step 4
 Set the className of the label element to label, and set the textContent to the name parameter.
+
+# Step 5
+Finally, use the .appendChild() method to add your label element to the container element.
