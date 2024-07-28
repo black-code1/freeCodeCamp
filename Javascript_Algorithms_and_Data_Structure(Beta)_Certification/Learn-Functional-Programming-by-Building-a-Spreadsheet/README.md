@@ -266,3 +266,16 @@ Use the same syntax as your addCharacters function to update your elemValue func
 
 # Step 50
 Your addCharacters function ultimately returns a range of characters. You want it to return an array of cell ids. Chain the .map() method to your charRange() call. Do not pass a callback function yet.
+
+# Step 51
+You can pass a function reference as a callback parameter. A function reference is a function name without the parentheses. For example:
+
+Example Code
+```
+const myFunc = (val) => `value: ${val}`;
+const array = [1, 2, 3];
+const newArray = array.map(myFunc);
+```
+The .map() method here will call the myFunc function, passing the same arguments that a .map() callback takes. The first argument is the value of the array at the current iteration, so newArray would be [value: 1, value: 2, value: 3].
+
+Pass a reference to your elemValue function as the callback to your .map() method.
