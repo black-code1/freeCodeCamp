@@ -285,3 +285,8 @@ Because elemValue returns a function, your addCharacters function ultimately ret
 
 # Step 53
 Declare a rangeExpanded variable and assign it the result of calling the .replace() method of your x parameter. Pass the rangeRegex variable as the argument.
+
+# Step 54
+The second argument to the .replace() method does not have to be a string. You can instead pass a callback function to run more complex logic on the matched string.
+
+The callback function takes a few parameters. The first is the matched string. Pass an empty callback function to your .replace() call, and give it a match parameter.
