@@ -128,3 +128,6 @@ Your next function will calculate the median value of an array of numbers. Start
 In the function, declare a sorted variable and assign it the value of sorting a copy of the nums array.
 
 You should use the slice() method for creating a shallow copy of the array.
+
+# Step 24
+Now declare a length variable and assign it the length of your sorted array, and a middle variable that has the value of the length divided by 2, subtracted by 1.
