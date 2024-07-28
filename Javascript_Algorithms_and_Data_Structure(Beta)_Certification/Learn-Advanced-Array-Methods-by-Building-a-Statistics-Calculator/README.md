@@ -357,3 +357,8 @@ The next step is to calculate how far each element is from the mean. Declare a d
 The next step is to square each of the differences. To square a value, you can use the ** operator. For example, 3 ** 2 would return 9.
 
 Declare a squaredDifferences variable, and assign it the value of differences.map(). For the callback, return the value of el squared.
+
+# Step 48
+Next, you need to take the sum of the squared differences.
+
+Declare a sumSquaredDifferences variable, and assign it the value of squaredDifferences.reduce(). For the callback, return the sum of acc and el. Remember to set the initial value to 0.
