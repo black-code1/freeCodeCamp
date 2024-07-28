@@ -36,3 +36,8 @@ Set the className of the label element to label, and set the textContent to the 
 
 # Step 5
 Finally, use the .appendChild() method to add your label element to the container element.
+
+# Step 6
+You will need a function to generate a range of numbers.
+
+Declare an empty range function which takes a start and end parameter. Use the Array() constructor and implicitly return an empty array.
