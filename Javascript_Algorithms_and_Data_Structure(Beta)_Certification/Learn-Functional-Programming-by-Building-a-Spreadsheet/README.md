@@ -56,3 +56,8 @@ Chain the .fill() method to your Array() constructor, and pass it the start valu
 Currently your range function returns an array with the correct length, but all of the values are the value of start. To fix this, chain the .map() method to your .fill() method.
 
 Pass the .map() method a callback which takes element and index as parameters and returns the sum of those parameters.
+
+# Step 10
+Now that you have a range function, you can use it to create a range of letters as well.
+
+Declare a charRange function using const and arrow syntax. It should take a start and end parameter. The function should implicitly return the result of calling range() with start and end as the arguments.
