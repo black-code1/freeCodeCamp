@@ -412,3 +412,6 @@ Change your standardDeviation variable to use this method instead of Math.pow().
 
 # Step 56
 Return your standardDeviation variable.
+
+# Step 57
+Now update the calculate function to include the standard deviation logic, like you did with your other functions.
