@@ -414,3 +414,6 @@ This expression will look for function calls like sum(1, 4).
 
 # Step 84
 Declare a toNumberList function that takes an args parameter and implicitly returns the result of splitting the args by commas. Then chain a map method to your split method and pass in parseFloat as the argument to the map method.
+
+# Step 85
+Declare an apply function that takes a fn and args parameter.
