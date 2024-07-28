@@ -406,3 +406,8 @@ Declare an infix variable, and assign it a regular expression that matches a num
 
 # Step 82
 Declare a str2 variable, and assign it the result of calling infixEval() with noHigh and infix as arguments.
+
+# Step 83
+Declare a functionCall variable, and assign it this regular expression: /([a-z0-9]*)\(([0-9., ]*)\)(?!.*\()/i
+
+This expression will look for function calls like sum(1, 4).
