@@ -422,3 +422,6 @@ Declare an apply function that takes a fn and args parameter.
 The fn parameter will be the name of a function, such as SUM. Update apply to implicitly return the function found at the fn property of your spreadsheetFunctions object.
 
 Remember that fn might not be lowercase, so you'll need to convert it to a lowercase string.
+
+# Step 87
+Your apply function is returning the spreadsheet function, but not actually applying it. Update apply to call the function. Pass in the result of calling toNumberList with args as an argument.
