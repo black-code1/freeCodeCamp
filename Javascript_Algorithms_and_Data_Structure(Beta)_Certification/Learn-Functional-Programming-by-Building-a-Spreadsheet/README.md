@@ -113,3 +113,6 @@ You should now be able to see the cells of your spreadsheet.
 Most spreadsheet programs include built-in functions for calculation.
 
 Declare a sum function that takes a nums parameter, which will be an array of numbers. It should return the result of calling reduce on the array to sum all of the numbers.
+
+# Step 21
+Declare an isEven function, which takes a num parameter and returns true if the number is even, and false otherwise. Use the modulo operator % to determine if a number is even or odd.
