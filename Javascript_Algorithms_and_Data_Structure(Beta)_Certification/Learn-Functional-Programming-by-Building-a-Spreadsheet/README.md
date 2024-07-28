@@ -425,3 +425,6 @@ Remember that fn might not be lowercase, so you'll need to convert it to a lower
 
 # Step 87
 Your apply function is returning the spreadsheet function, but not actually applying it. Update apply to call the function. Pass in the result of calling toNumberList with args as an argument.
+
+# Step 88
+Now your applyFunction needs to return a result. Return the result of calling the .replace() method on str2. Pass your functionCall regex and an empty callback.
