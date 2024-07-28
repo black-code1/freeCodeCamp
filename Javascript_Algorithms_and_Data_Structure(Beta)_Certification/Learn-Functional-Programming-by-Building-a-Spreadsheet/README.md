@@ -186,3 +186,10 @@ Use the && operator to add a second condition to your if statement that also che
 In order to run your spreadsheet functions, you need to be able to parse and evaluate the input string. This is a great time to use another function.
 
 Declare an evalFormula arrow function which takes the parameters x and cells.
+
+# Step 34
+In your evalFormula, declare an idToText arrow function which takes an id parameter.
+
+Your idToText function should return the result of calling .find() on the cells array with a callback function that takes an cell parameter and returns cell.id === id.
+
+Both of your functions should use implicit returns.
