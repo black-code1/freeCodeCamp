@@ -295,3 +295,6 @@ The callback function takes a few parameters. The first is the matched string. P
 The callback function then has a parameter for each capture group in the regular expression. In your case, rangeRegex has four capture groups: the first letter, the first numbers, the second letter, and the second numbers.
 
 Give your callback function four more parameters to match those capture groups: char1, num1, char2, and num2. char will be short for character.
+
+# Step 56
+Have your callback implicitly return the result of calling rangeFromString() with num1 and num2 as the arguments.
