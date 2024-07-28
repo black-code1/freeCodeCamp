@@ -25,3 +25,8 @@ const inner = () => {
 };
 ```
 Declare a nested createLabel function using arrow syntax. It should take a name parameter.
+
+# Step 3
+Remember that the document object has a .createElement() method which allows you to dynamically create new HTML elements.
+
+In your createLabel function, declare a label variable and assign it a new div element.
