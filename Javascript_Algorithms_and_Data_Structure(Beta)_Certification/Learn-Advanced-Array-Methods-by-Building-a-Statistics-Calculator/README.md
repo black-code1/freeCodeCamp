@@ -341,3 +341,6 @@ console.log(Math.min(...numbersArr));
 // Expected output: 1
 ```
 Declare a getRange function that takes the same array parameter you have been using. Using Math.min(), Math.max(), and the spread operator, return the difference between the largest and smallest numbers in the list.
+
+# Step 44
+Add the logic for calculating and displaying the range to your calculate function.
