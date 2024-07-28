@@ -176,3 +176,8 @@ Assign the value property of element to a new variable called value, and use .re
 
 # Step 31
 Now you need to check if the value does not include the id of the element. Create an if condition to do so.
+
+# Step 32
+Spreadsheet software typically uses = at the beginning of a cell to indicate a calculation should be used, and spreadsheet functions should be evaluated.
+
+Use the && operator to add a second condition to your if statement that also checks if the first character of value is =.
