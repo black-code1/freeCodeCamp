@@ -344,3 +344,8 @@ Declare a getRange function that takes the same array parameter you have been us
 
 # Step 44
 Add the logic for calculating and displaying the range to your calculate function.
+
+# Step 45
+The variance of a series represents how much the data deviates from the mean, and can be used to determine how spread out the data are. The variance is calculated in a few steps.
+
+Start by declaring a getVariance function that takes an array parameter. Within that function, declare a mean variable and assign it the value of the getMean function, passing array as the argument.
