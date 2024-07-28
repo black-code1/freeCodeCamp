@@ -18,7 +18,8 @@ window.onload = () => {
         letters.forEach(letter => {
             const input = document.createElement('input');
             input.type = 'text';
-            input.id = letter + number
+            input.id = letter + number;
+            input.ariaLabel = letter + number;
         })
     })
 }
