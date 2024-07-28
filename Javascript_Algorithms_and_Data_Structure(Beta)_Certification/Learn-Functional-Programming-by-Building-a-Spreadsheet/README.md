@@ -41,3 +41,8 @@ Finally, use the .appendChild() method to add your label element to the containe
 You will need a function to generate a range of numbers.
 
 Declare an empty range function which takes a start and end parameter. Use the Array() constructor and implicitly return an empty array.
+
+# Step 7
+Your array will need to be the size of the range. You can calculate this by finding the difference between end and start, and adding 1 to the result.
+
+Pass this calculation as the argument for your Array() constructor.
