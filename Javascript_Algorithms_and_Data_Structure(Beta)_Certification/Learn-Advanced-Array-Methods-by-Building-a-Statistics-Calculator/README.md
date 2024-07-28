@@ -383,3 +383,24 @@ Add your new getVariance function to the calculate function, and update the resp
 Your final calculation is the standard deviation, which is the square root of the variance.
 
 Begin by declaring a getStandardDeviation function, with the array parameter. In the function body, declare a variance variable and assign it the variance of the array.
+
+# Step 54
+To calculate a root exponent, such as  x−−√n
+, you can use an inverted exponent  x1/n
+. JavaScript has a built-in Math.pow() function that can be used to calculate exponents.
+
+Here is the basic syntax for the Math.pow() function:
+
+Example Code
+`Math.pow(base, exponent);`
+Here is an example of how to calculate the square root of 4:
+
+Example Code
+```
+const base = 4;
+const exponent = 0.5;
+// returns 2
+Math.pow(base, exponent);
+```
+Declare a standardDeviation variable, and use the Math.pow() function to assign it the value of  variance1/2
+.
