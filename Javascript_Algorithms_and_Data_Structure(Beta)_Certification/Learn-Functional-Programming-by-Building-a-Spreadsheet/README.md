@@ -257,3 +257,6 @@ curry is a function which takes a soup parameter and returns a function which ta
 
 # Step 47
 Your inner functions can also return a function. Using the same arrow syntax, update your addCharacters function to return a third function which takes a num parameter.
+
+# Step 48
+Now update your innermost function in the addCharacters chain to implicitly return the result of calling charRange() with character1 and character2 as the arguments.
