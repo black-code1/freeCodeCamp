@@ -392,3 +392,6 @@ Declare a str2 variable and assign it the result of calling infixEval with str a
 Your infixEval function will only evaluate the first multiplication or division operation, because regex isn't global. This means you'll want to use a recursive approach to evaluate the entire string.
 
 If infixEval does not find any matches, it will return the str value as-is. Using a ternary expression, check if str2 is equal to str. If it is, return str, otherwise return the result of calling highPrecedence() on str2.
+
+# Step 79
+Now you can start applying your function parsing logic to a string. Declare a function called applyFunction, which takes a str parameter.
