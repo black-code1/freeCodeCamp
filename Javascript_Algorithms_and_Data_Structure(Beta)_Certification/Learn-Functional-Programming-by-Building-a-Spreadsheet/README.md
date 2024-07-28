@@ -342,3 +342,6 @@ Because + is not alphanumeric, you'll need to wrap it in quotes for your propert
 
 # Step 66
 Now create a - property that is a function that takes an x and y parameter and implicitly returns the result of subtracting y from x.
+
+# Step 67
+Following the same pattern, add a property for multiplication * and division / with the appropriate functions.
