@@ -395,3 +395,6 @@ If infixEval does not find any matches, it will return the str value as-is. Usin
 
 # Step 79
 Now you can start applying your function parsing logic to a string. Declare a function called applyFunction, which takes a str parameter.
+
+# Step 80
+First you need to handle the higher precedence operators. Declare a noHigh variable, and assign it the result of calling highPrecedence() with str as an argument.
