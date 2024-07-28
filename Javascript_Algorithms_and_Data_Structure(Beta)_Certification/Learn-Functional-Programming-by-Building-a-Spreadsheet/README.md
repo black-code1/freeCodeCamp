@@ -324,3 +324,6 @@ Declare a variable cellRegex to match cell references. It should match a letter 
 
 # Step 62
 Declare a cellExpanded variable and assign it the value of calling .replace() on your rangeExpanded variable. Pass it your cellRegex and an empty callback function. The callback function should take a match parameter.
+
+# Step 63
+Update your callback function to return the result of calling idToText() with match as the argument. Remember that your regular expression is case-insensitive, so you will need to call toUpperCase() on match before passing it to idToText().
