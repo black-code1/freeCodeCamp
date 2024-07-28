@@ -121,3 +121,10 @@ Declare an isEven function, which takes a num parameter and returns true if the 
 Declare an average function which takes an array of numbers as the nums parameter. It should return the average of all the numbers in the array.
 
 The average can be calculated by dividing the sum of all the numbers in the array by the length of the array. Remember that you have a sum function you can use.
+
+# Step 23
+Your next function will calculate the median value of an array of numbers. Start by declaring a median arrow function that takes a nums parameter.
+
+In the function, declare a sorted variable and assign it the value of sorting a copy of the nums array.
+
+You should use the slice() method for creating a shallow copy of the array.
