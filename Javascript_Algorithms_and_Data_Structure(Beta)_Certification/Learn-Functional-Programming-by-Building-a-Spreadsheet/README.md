@@ -433,3 +433,6 @@ Now your applyFunction needs to return a result. Return the result of calling th
 Update the callback function to take match, fn, and args as parameters. It should implicitly return the result of checking whether spreadsheetFunctions has its own property of fn.
 
 Remember to make fn lower case.
+
+# Step 90
+Use the ternary operator to turn your .hasOwnProperty() call into the condition. If the object has the property, return the result of calling apply with fn and args as arguments. Otherwise, return match.
