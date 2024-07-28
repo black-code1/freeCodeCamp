@@ -290,3 +290,8 @@ Declare a rangeExpanded variable and assign it the result of calling the .replac
 The second argument to the .replace() method does not have to be a string. You can instead pass a callback function to run more complex logic on the matched string.
 
 The callback function takes a few parameters. The first is the matched string. Pass an empty callback function to your .replace() call, and give it a match parameter.
+
+# Step 55
+The callback function then has a parameter for each capture group in the regular expression. In your case, rangeRegex has four capture groups: the first letter, the first numbers, the second letter, and the second numbers.
+
+Give your callback function four more parameters to match those capture groups: char1, num1, char2, and num2. char will be short for character.
