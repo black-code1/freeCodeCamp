@@ -282,3 +282,6 @@ Pass a reference to your elemValue function as the callback to your .map() metho
 
 # Step 52
 Because elemValue returns a function, your addCharacters function ultimately returns an array of function references. You want the .map() method to run the inner function of your elemValue function, which means you need to call elemValue instead of reference it. Pass num as the argument to your elemValue function.
+
+# Step 53
+Declare a rangeExpanded variable and assign it the result of calling the .replace() method of your x parameter. Pass the rangeRegex variable as the argument.
