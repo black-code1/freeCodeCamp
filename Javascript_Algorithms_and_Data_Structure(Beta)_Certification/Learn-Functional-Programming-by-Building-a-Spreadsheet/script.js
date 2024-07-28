@@ -48,7 +48,7 @@ const update = (event) => {
     const value = element.value.replace(/\s/g, '');
     if (!value.includes(element.id) && value[0] === '=') {
         const evalFormula = (x, cells) => {
-            const idToText = (id) => cells.find((cell) => cell.id === id);
+            const idToText = (id) => cells.find((cell) => cell.id === id).value;
         }
     }
 }
