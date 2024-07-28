@@ -379,3 +379,6 @@ Incorporate the regular expression you've defined into your highPrecedence funct
 
 # Step 75
 You should use console.log() to print the result of calling the highPrecedence function with the string "5*3".
+
+# Step 76
+Remove both the console.log() with your highPrecedence call, and the return statement from your highPrecedence function.
