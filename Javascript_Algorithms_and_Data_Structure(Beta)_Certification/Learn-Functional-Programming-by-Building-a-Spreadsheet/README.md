@@ -155,3 +155,6 @@ loggedIn,
 console.log(user); // { userId: 1, firstName: 'John', loggedIn: true }
 ```
 To keep track of all of your spreadsheet's functions, declare a spreadsheetFunctions object. Using the shorthand notation syntax, set sum, average, and median as properties on the spreadsheetFunctions object.
+
+# Step 27
+Now you can start using your spreadsheet functions. Begin by declaring an update arrow function. It should take an event parameter.
