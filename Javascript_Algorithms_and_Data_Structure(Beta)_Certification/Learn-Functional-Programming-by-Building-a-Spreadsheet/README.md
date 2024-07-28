@@ -417,3 +417,8 @@ Declare a toNumberList function that takes an args parameter and implicitly retu
 
 # Step 85
 Declare an apply function that takes a fn and args parameter.
+
+# Step 86
+The fn parameter will be the name of a function, such as SUM. Update apply to implicitly return the function found at the fn property of your spreadsheetFunctions object.
+
+Remember that fn might not be lowercase, so you'll need to convert it to a lowercase string.
