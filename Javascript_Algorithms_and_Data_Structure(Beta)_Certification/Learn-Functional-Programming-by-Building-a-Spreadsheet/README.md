@@ -116,3 +116,8 @@ Declare a sum function that takes a nums parameter, which will be an array of nu
 
 # Step 21
 Declare an isEven function, which takes a num parameter and returns true if the number is even, and false otherwise. Use the modulo operator % to determine if a number is even or odd.
+
+# Step 22
+Declare an average function which takes an array of numbers as the nums parameter. It should return the average of all the numbers in the array.
+
+The average can be calculated by dividing the sum of all the numbers in the array by the length of the array. Remember that you have a sum function you can use.
