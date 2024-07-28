@@ -411,3 +411,6 @@ Declare a str2 variable, and assign it the result of calling infixEval() with no
 Declare a functionCall variable, and assign it this regular expression: /([a-z0-9]*)\(([0-9., ]*)\)(?!.*\()/i
 
 This expression will look for function calls like sum(1, 4).
+
+# Step 84
+Declare a toNumberList function that takes an args parameter and implicitly returns the result of splitting the args by commas. Then chain a map method to your split method and pass in parseFloat as the argument to the map method.
