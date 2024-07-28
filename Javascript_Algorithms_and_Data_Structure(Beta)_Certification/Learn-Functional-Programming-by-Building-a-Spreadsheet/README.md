@@ -214,3 +214,6 @@ Ranges are separated by a colon. After your two capture groups, your rangeRegex 
 After your rangeRegex finds the :, it needs to look for the same letter and number pattern as it did before.
 
 Copy your two existing capture groups and paste them after the colon.
+
+# Step 40
+Finally, make your rangeRegex global and case-insensitive.
