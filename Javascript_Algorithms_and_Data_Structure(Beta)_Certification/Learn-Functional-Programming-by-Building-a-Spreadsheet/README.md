@@ -230,3 +230,6 @@ Declare a function elemValue which takes a num parameter. The function should be
 In your elemValue function, declare a function called inner which takes a character parameter.
 
 Then, return your inner function.
+
+# Step 44
+In your inner function, return the result of calling idToText with character + num as the argument.
