@@ -263,3 +263,6 @@ Now update your innermost function in the addCharacters chain to implicitly retu
 
 # Step 49
 Use the same syntax as your addCharacters function to update your elemValue function. It should no longer declare inner, but should return the function implicitly.
+
+# Step 50
+Your addCharacters function ultimately returns a range of characters. You want it to return an array of cell ids. Chain the .map() method to your charRange() call. Do not pass a callback function yet.
