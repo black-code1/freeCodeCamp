@@ -254,3 +254,6 @@ In your elemValue function, you explicitly declared a function called inner and 
 Example Code
 `const curry = soup => veggies => {};`
 curry is a function which takes a soup parameter and returns a function which takes a veggies parameter. Using this syntax, update your addCharacters function to return an empty function which takes a character2 parameter.
+
+# Step 47
+Your inner functions can also return a function. Using the same arrow syntax, update your addCharacters function to return a third function which takes a num parameter.
