@@ -57,6 +57,7 @@ const update = (event) => {
                 }
                 return inner;
             }
+            const addCharacters = (character1) => {}
         }
     }
 }
