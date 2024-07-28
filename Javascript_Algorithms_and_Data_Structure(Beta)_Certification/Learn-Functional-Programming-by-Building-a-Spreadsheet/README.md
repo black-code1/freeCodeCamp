@@ -369,3 +369,10 @@ Wrap each of your infixToFunction[operator] arguments in a parseFloat() call.
 
 # Step 73
 Now that you can evaluate mathematical expressions, you need to account for order of operations. Declare a highPrecedence function that takes a str parameter.
+
+# Step 74
+In your highPrecedence function, declare a regex variable. Assign it a regular expression that matches a number (including decimal numbers) followed by a * or / operator followed by another number.
+
+Each number, and the operator, should be in separate capture groups.
+
+Incorporate the regular expression you've defined into your highPrecedence function to test if the provided string str matches the pattern. Use the test() method on your regex variable and return the result.
