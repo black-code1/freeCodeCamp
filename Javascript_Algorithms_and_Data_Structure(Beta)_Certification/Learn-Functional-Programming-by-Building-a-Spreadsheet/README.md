@@ -225,3 +225,8 @@ To be safe, parse num1 and num2 into integers as you pass them into range.
 
 # Step 42
 Declare a function elemValue which takes a num parameter. The function should be empty.
+
+# Step 43
+In your elemValue function, declare a function called inner which takes a character parameter.
+
+Then, return your inner function.
