@@ -370,3 +370,8 @@ Remove the differences, squaredDifferences, and sumSquaredDifferences variables 
 
 # Step 50
 Within your empty .reduce() callback, declare a variable difference and set it to the value of el minus mean. Then declare a squared variable, and set it to the value of difference to the power of 2. Finally, return the value of acc plus squared.
+
+# Step 51
+The final step in calculating the variance is to divide the sum of the squared differences by the count of numbers.
+
+Divide your .reduce() call by the length of the array (in your variance declaration). Then, return variance.
