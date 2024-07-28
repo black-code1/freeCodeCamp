@@ -366,3 +366,6 @@ infixToFunction[operator] returns a function. Call that function directly, passi
 You have a slight bug. arg1 and arg2 are strings, not numbers. infixToFunction['+']("1", "2") would return 12, which is not mathematically correct.
 
 Wrap each of your infixToFunction[operator] arguments in a parseFloat() call.
+
+# Step 73
+Now that you can evaluate mathematical expressions, you need to account for order of operations. Declare a highPrecedence function that takes a str parameter.
