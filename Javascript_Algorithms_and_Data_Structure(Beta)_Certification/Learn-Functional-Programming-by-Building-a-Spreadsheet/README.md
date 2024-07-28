@@ -61,3 +61,8 @@ Pass the .map() method a callback which takes element and index as parameters an
 Now that you have a range function, you can use it to create a range of letters as well.
 
 Declare a charRange function using const and arrow syntax. It should take a start and end parameter. The function should implicitly return the result of calling range() with start and end as the arguments.
+
+# Step 11
+Your range function expects numbers, but your start and end values will be strings (specifically, they will be single characters such as A).
+
+Convert your start and end values in your range() call to numbers by using the .charCodeAt() method on them, passing the number 0 as the argument to that method.
