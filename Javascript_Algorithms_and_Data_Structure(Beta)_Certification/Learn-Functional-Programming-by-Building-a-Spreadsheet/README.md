@@ -89,3 +89,6 @@ Call range() with 1 and 99 as the arguments, and chain the .forEach() method. Pa
 In your callback, you will need to make two function calls. Start by calling createLabel() and pass number as the argument. You should see some numbers appear in your spreadsheet.
 
 Then call the .forEach() method on your letters array. Pass an empty callback function which takes a letter parameter.
+
+# Step 17
+Now in your nested .forEach() call, declare an input variable. Use the .createElement() method of the document object to create an input element. Set the type attribute to text and the id attribute to letter + number.
