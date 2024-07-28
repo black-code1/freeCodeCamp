@@ -51,3 +51,8 @@ Pass this calculation as the argument for your Array() constructor.
 The Array() constructor has a .fill() method which can be used to fill an array with a value. You can use this to fill your array with the start value.
 
 Chain the .fill() method to your Array() constructor, and pass it the start value.
+
+# Step 9
+Currently your range function returns an array with the correct length, but all of the values are the value of start. To fix this, chain the .map() method to your .fill() method.
+
+Pass the .map() method a callback which takes element and index as parameters and returns the sum of those parameters.
