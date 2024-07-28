@@ -79,3 +79,8 @@ Now that your helper functions are complete, back in your onload event handler y
 Now call the .forEach() method of your letters array, and pass your createLabel function reference as the callback.
 
 You should see some letters appear across the top of your spreadsheet.
+
+# Step 15
+Remember that range() returns an array, so you can chain array methods directly to the function call.
+
+Call range() with 1 and 99 as the arguments, and chain the .forEach() method. Pass the .forEach() method an empty callback which takes number as the parameter.
