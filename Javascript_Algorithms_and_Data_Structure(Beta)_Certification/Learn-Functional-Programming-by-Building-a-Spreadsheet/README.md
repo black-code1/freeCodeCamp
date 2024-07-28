@@ -71,3 +71,6 @@ Convert your start and end values in your range() call to numbers by using the .
 range() will return an array of numbers, which you need to convert back into characters. Chain the .map() method to your range() call.
 
 Pass a callback function that takes code as the parameter and implicitly returns the value of passing code to the String.fromCharCode() method.
+
+# Step 13
+Now that your helper functions are complete, back in your onload event handler you should declare a letters variable. Assign it the result of calling charRange() with the letters A and J as arguments.
