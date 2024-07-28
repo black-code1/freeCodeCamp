@@ -301,3 +301,6 @@ Have your callback implicitly return the result of calling rangeFromString() wit
 
 # Step 57
 Call the .map() method on your rangeFromString() call, passing a reference to addCharacters as the callback function.
+
+# Step 58
+addCharacters returns a function, so you'll want to call it. Pass char1 as the argument.
