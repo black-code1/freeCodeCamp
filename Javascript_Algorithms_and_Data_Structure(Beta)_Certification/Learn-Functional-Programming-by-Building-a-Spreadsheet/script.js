@@ -57,7 +57,7 @@ const update = (event) => {
                 }
                 return inner;
             }
-            const addCharacters = (character1) => {}
+            const addCharacters = (character1) => character2 => {}
         }
     }
 }

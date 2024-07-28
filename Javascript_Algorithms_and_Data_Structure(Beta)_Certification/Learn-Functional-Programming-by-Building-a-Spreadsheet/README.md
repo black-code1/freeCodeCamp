@@ -247,3 +247,10 @@ const final = innerOne("A");
 innerOne would be your inner function, with num set to 1, and final would have the value of the cell with the id of A1. This is possible because functions have access to all variables declared at their creation. This is called closure.
 
 You'll get some more practice with this. Declare a function called addCharacters which takes a character1 parameter.
+
+# Step 46
+In your elemValue function, you explicitly declared a function called inner and returned it. However, because you are using arrow syntax, you can implicitly return a function. For example:
+
+Example Code
+`const curry = soup => veggies => {};`
+curry is a function which takes a soup parameter and returns a function which takes a veggies parameter. Using this syntax, update your addCharacters function to return an empty function which takes a character2 parameter.
