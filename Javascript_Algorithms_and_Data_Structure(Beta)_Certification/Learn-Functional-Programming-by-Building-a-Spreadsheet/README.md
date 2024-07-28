@@ -84,3 +84,8 @@ You should see some letters appear across the top of your spreadsheet.
 Remember that range() returns an array, so you can chain array methods directly to the function call.
 
 Call range() with 1 and 99 as the arguments, and chain the .forEach() method. Pass the .forEach() method an empty callback which takes number as the parameter.
+
+# Step 16
+In your callback, you will need to make two function calls. Start by calling createLabel() and pass number as the argument. You should see some numbers appear in your spreadsheet.
+
+Then call the .forEach() method on your letters array. Pass an empty callback function which takes a letter parameter.
