@@ -327,3 +327,8 @@ Declare a cellExpanded variable and assign it the value of calling .replace() on
 
 # Step 63
 Update your callback function to return the result of calling idToText() with match as the argument. Remember that your regular expression is case-insensitive, so you will need to call toUpperCase() on match before passing it to idToText().
+
+# Step 64
+In mathematics, an infix is a mathematical operator that appears between its two operands. For example, 1 + 2 is an infix expression.
+
+To parse these expressions, you will need to map the symbols to relevant functions. Declare an infixToFunction variable, and assign it an empty object.
