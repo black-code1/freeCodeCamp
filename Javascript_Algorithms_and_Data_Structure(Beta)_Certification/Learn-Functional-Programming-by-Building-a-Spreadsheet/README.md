@@ -382,3 +382,8 @@ You should use console.log() to print the result of calling the highPrecedence f
 
 # Step 76
 Remove both the console.log() with your highPrecedence call, and the return statement from your highPrecedence function.
+
+# Step 77
+Now that you have a regular expression to match multiplication or division, you can evaluate that expression.
+
+Declare a str2 variable and assign it the result of calling infixEval with str and regex as arguments.
