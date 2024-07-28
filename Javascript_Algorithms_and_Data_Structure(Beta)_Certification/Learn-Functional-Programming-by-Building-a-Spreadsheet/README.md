@@ -222,3 +222,6 @@ Finally, make your rangeRegex global and case-insensitive.
 Declare a rangeFromString arrow function that takes two parameters, num1 and num2. The function should implicitly return the result of calling range with num1 and num2 as arguments.
 
 To be safe, parse num1 and num2 into integers as you pass them into range.
+
+# Step 42
+Declare a function elemValue which takes a num parameter. The function should be empty.
