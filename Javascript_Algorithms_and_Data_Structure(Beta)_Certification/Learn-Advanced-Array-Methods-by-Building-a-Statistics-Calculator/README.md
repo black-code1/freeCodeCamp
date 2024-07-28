@@ -415,3 +415,8 @@ Return your standardDeviation variable.
 
 # Step 57
 Now update the calculate function to include the standard deviation logic, like you did with your other functions.
+
+# Step 58
+There is one last thing to fix. The .sort() method mutates the array it's called on. It is generally bad practice to mutate a function parameter, which array is.
+
+To fix this, add an empty .slice() call before your .sort() method. The empty .slice() call will make a shallow copy of the array, which you are free to mutate.
