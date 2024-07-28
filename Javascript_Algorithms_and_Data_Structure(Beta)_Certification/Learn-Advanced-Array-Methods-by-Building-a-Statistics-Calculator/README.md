@@ -409,3 +409,6 @@ Declare a standardDeviation variable, and use the Math.pow() function to assign 
 The Math object has a .sqrt() method specifically for finding the square root of a number.
 
 Change your standardDeviation variable to use this method instead of Math.pow().
+
+# Step 56
+Return your standardDeviation variable.
