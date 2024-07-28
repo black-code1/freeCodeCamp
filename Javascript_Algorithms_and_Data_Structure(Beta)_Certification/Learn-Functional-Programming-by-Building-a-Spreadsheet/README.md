@@ -46,3 +46,8 @@ Declare an empty range function which takes a start and end parameter. Use the A
 Your array will need to be the size of the range. You can calculate this by finding the difference between end and start, and adding 1 to the result.
 
 Pass this calculation as the argument for your Array() constructor.
+
+# Step 8
+The Array() constructor has a .fill() method which can be used to fill an array with a value. You can use this to fill your array with the start value.
+
+Chain the .fill() method to your Array() constructor, and pass it the start value.
