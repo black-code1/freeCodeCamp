@@ -131,3 +131,6 @@ You should use the slice() method for creating a shallow copy of the array.
 
 # Step 24
 Now declare a length variable and assign it the length of your sorted array, and a middle variable that has the value of the length divided by 2, subtracted by 1.
+
+# Step 25
+Using ternary syntax, check if length is even using your isEven function. If it is, return the average of the number at the middle index and the number after that. If it's odd, return the number at the middle index – you'll need to round the middle value up.
