@@ -484,3 +484,6 @@ const arr = ["A", "b", "C"];
 arr.every(letter => letter === letter.toUpperCase());
 ```
 Add an everyeven property to your spreadsheetFunctions - use the .every() method to check whether all array elements are even.
+
+# Step 102
+Create a random property. This property should use the first two numbers from an array to generate a random whole number. The range for this number starts at the smaller positive number (inclusive) among the first two numbers and ends just before the sum of these two numbers. Use the Math.floor() and Math.random() methods for the calculation.
