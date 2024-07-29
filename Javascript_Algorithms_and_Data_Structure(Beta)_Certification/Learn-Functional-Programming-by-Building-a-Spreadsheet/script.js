@@ -29,7 +29,8 @@ const median = (nums) => {
 const spreadsheetFunctions = {
     sum,
     average,
-    median
+    median,
+    even: nums => nums.filter(isEven),
 }
 
 const applyFunction = (str) => {
