@@ -449,3 +449,6 @@ Use a ternary to check if functionExpanded is equal to the original string x. If
 Now your update() function can actually evaluate formulas. Remember that you wrote the if condition to check that a function was called.
 
 Inside your if statement, set the value of the element to be the result of your evalFormula() function. Do not pass any arguments yet.
+
+# Step 94
+The first argument for your evalFormula call needs to be the contents of the cell (which you stored in value). However, the contents start with an = character to trigger the function, so you need to pass the substring of value starting at index 1.
