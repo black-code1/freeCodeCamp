@@ -436,3 +436,67 @@ Remember to make fn lower case.
 
 # Step 90
 Use the ternary operator to turn your .hasOwnProperty() call into the condition. If the object has the property, return the result of calling apply with fn and args as arguments. Otherwise, return match.
+
+# Step 91
+Now you can start applying your function parser to your evalFormula logic. Declare a functionExpanded variable, and assign it the result of calling applyFunction with your cellExpanded string.
+
+# Step 92
+Like you did with your highPrecedence() function, your evalFormula() function needs to ensure it has evaluated and replaced everything.
+
+Use a ternary to check if functionExpanded is equal to the original string x. If it is, return functionExpanded, otherwise return the result of calling evalFormula() again with functionExpanded and cells as arguments.
+
+# Step 93
+Now your update() function can actually evaluate formulas. Remember that you wrote the if condition to check that a function was called.
+
+Inside your if statement, set the value of the element to be the result of your evalFormula() function. Do not pass any arguments yet.
+
+# Step 94
+The first argument for your evalFormula call needs to be the contents of the cell (which you stored in value). However, the contents start with an = character to trigger the function, so you need to pass the substring of value starting at index 1.
+
+# Step 95
+You can quickly get all cells from your page by getting the #container element by its id and accessing the children property of the result. Pass that to your evalFormula() call as the second parameter.
+
+# Step 96
+Unfortunately, that children property is returning a collection of elements, which is array-like but not an array. Wrap your second argument in Array.from() to convert it to an array.
+
+# Step 97
+Your spreadsheet is now functional. However, you don't have support for very many formulas.
+
+Add an even property to your spreadsheetFunctions. It should take a nums parameter, and return the result of filtering the nums array to only include even numbers. Use a reference to your isEven function to help.
+
+# Step 98
+Add a firsttwo property which takes a nums parameter and returns the first two elements of the nums array. Then add a lasttwo property which returns the last two elements of the nums array.
+
+# Step 99
+Add a has2 property which returns whether the nums array has 2 in the values, and an increment property which returns nums with every value incremented by one.
+
+# Step 100
+Add a someeven property to your spreadsheetFunctions - use the .some() method to check if any element in the array is even.
+
+# Step 101
+Arrays have an .every() method. Like the .some() method, .every() accepts a callback function which should take an element of the array as the argument. The .every() method will return true if the callback function returns true for all elements in the array.
+
+Here is an example of a .every() method call to check if all elements in the array are uppercase letters.
+
+Example Code
+```
+const arr = ["A", "b", "C"];
+arr.every(letter => letter === letter.toUpperCase());
+```
+Add an everyeven property to your spreadsheetFunctions - use the .every() method to check whether all array elements are even.
+
+# Step 102
+Create a random property. This property should use the first two numbers from an array to generate a random whole number. The range for this number starts at the smaller positive number (inclusive) among the first two numbers and ends just before the sum of these two numbers. Use the Math.floor() and Math.random() methods for the calculation.
+
+# Step 103
+Add a range property which generates a range from nums. Remember that you have a range function you can reuse here.
+
+# Step 104
+The last function has a few approaches to implement, and you are free to choose whichever approach you would like.
+
+Add a nodupes property which returns nums with all duplicate values removed. For example, [2, 1, 2, 5, 3, 2, 7] should return [2, 1, 5, 3, 7].
+
+# Step 105
+Finally, to handle potential edge cases, add an empty string property (you will need to use quotes) which is a function that takes a single argument and returns that argument.
+
+With that, your spreadsheet project is now complete. You are welcome to experiment with adding support for even more functions.
