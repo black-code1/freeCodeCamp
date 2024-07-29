@@ -439,3 +439,8 @@ Use the ternary operator to turn your .hasOwnProperty() call into the condition.
 
 # Step 91
 Now you can start applying your function parser to your evalFormula logic. Declare a functionExpanded variable, and assign it the result of calling applyFunction with your cellExpanded string.
+
+# Step 92
+Like you did with your highPrecedence() function, your evalFormula() function needs to ensure it has evaluated and replaced everything.
+
+Use a ternary to check if functionExpanded is equal to the original string x. If it is, return functionExpanded, otherwise return the result of calling evalFormula() again with functionExpanded and cells as arguments.
