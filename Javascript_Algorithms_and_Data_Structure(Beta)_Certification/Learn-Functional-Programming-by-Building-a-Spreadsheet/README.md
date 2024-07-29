@@ -472,3 +472,15 @@ Add a has2 property which returns whether the nums array has 2 in the values, an
 
 # Step 100
 Add a someeven property to your spreadsheetFunctions - use the .some() method to check if any element in the array is even.
+
+# Step 101
+Arrays have an .every() method. Like the .some() method, .every() accepts a callback function which should take an element of the array as the argument. The .every() method will return true if the callback function returns true for all elements in the array.
+
+Here is an example of a .every() method call to check if all elements in the array are uppercase letters.
+
+Example Code
+```
+const arr = ["A", "b", "C"];
+arr.every(letter => letter === letter.toUpperCase());
+```
+Add an everyeven property to your spreadsheetFunctions - use the .every() method to check whether all array elements are even.
