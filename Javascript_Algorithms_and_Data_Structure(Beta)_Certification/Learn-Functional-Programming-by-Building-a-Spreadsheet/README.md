@@ -455,3 +455,6 @@ The first argument for your evalFormula call needs to be the contents of the cel
 
 # Step 95
 You can quickly get all cells from your page by getting the #container element by its id and accessing the children property of the result. Pass that to your evalFormula() call as the second parameter.
+
+# Step 96
+Unfortunately, that children property is returning a collection of elements, which is array-like but not an array. Wrap your second argument in Array.from() to convert it to an array.
