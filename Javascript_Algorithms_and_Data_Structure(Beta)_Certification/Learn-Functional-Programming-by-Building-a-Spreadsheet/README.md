@@ -490,3 +490,8 @@ Create a random property. This property should use the first two numbers from an
 
 # Step 103
 Add a range property which generates a range from nums. Remember that you have a range function you can reuse here.
+
+# Step 104
+The last function has a few approaches to implement, and you are free to choose whichever approach you would like.
+
+Add a nodupes property which returns nums with all duplicate values removed. For example, [2, 1, 2, 5, 3, 2, 7] should return [2, 1, 5, 3, 7].
