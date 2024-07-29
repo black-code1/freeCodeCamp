@@ -466,3 +466,6 @@ Add an even property to your spreadsheetFunctions. It should take a nums paramet
 
 # Step 98
 Add a firsttwo property which takes a nums parameter and returns the first two elements of the nums array. Then add a lasttwo property which returns the last two elements of the nums array.
+
+# Step 99
+Add a has2 property which returns whether the nums array has 2 in the values, and an increment property which returns nums with every value incremented by one.
