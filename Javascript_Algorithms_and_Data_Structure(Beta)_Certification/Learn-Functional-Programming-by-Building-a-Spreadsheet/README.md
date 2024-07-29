@@ -469,3 +469,6 @@ Add a firsttwo property which takes a nums parameter and returns the first two e
 
 # Step 99
 Add a has2 property which returns whether the nums array has 2 in the values, and an increment property which returns nums with every value incremented by one.
+
+# Step 100
+Add a someeven property to your spreadsheetFunctions - use the .some() method to check if any element in the array is even.
