@@ -487,3 +487,6 @@ Add an everyeven property to your spreadsheetFunctions - use the .every() method
 
 # Step 102
 Create a random property. This property should use the first two numbers from an array to generate a random whole number. The range for this number starts at the smaller positive number (inclusive) among the first two numbers and ends just before the sum of these two numbers. Use the Math.floor() and Math.random() methods for the calculation.
+
+# Step 103
+Add a range property which generates a range from nums. Remember that you have a range function you can reuse here.
