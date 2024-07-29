@@ -463,3 +463,6 @@ Unfortunately, that children property is returning a collection of elements, whi
 Your spreadsheet is now functional. However, you don't have support for very many formulas.
 
 Add an even property to your spreadsheetFunctions. It should take a nums parameter, and return the result of filtering the nums array to only include even numbers. Use a reference to your isEven function to help.
+
+# Step 98
+Add a firsttwo property which takes a nums parameter and returns the first two elements of the nums array. Then add a lasttwo property which returns the last two elements of the nums array.
