@@ -495,3 +495,8 @@ Add a range property which generates a range from nums. Remember that you have a
 The last function has a few approaches to implement, and you are free to choose whichever approach you would like.
 
 Add a nodupes property which returns nums with all duplicate values removed. For example, [2, 1, 2, 5, 3, 2, 7] should return [2, 1, 5, 3, 7].
+
+# Step 105
+Finally, to handle potential edge cases, add an empty string property (you will need to use quotes) which is a function that takes a single argument and returns that argument.
+
+With that, your spreadsheet project is now complete. You are welcome to experiment with adding support for even more functions.
