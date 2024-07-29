@@ -452,3 +452,6 @@ Inside your if statement, set the value of the element to be the result of your 
 
 # Step 94
 The first argument for your evalFormula call needs to be the contents of the cell (which you stored in value). However, the contents start with an = character to trigger the function, so you need to pass the substring of value starting at index 1.
+
+# Step 95
+You can quickly get all cells from your page by getting the #container element by its id and accessing the children property of the result. Pass that to your evalFormula() call as the second parameter.
